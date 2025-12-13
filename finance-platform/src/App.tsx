@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { loadAllData } from './utils/dataLoader';
 import { OverviewLineChart } from './components/charts/OverviewLineChart';
 import { BreakdownSection } from './components/charts/BreakdownCharts';
+import { Treemap } from './components/charts/Treemap';
 import type { AppData } from './types/budget';
 import { UnitProvider } from './context/UnitContext';
 import { UnitControl } from './components/ui/UnitControl';
@@ -85,6 +86,13 @@ function Dashboard() {
                     data={data?.budgets || []}
                     defaultYear={2025}
                   />
+                </div>
+              </section>
+
+              {/* Deep Dive Treemap */}
+              <section>
+                <div className="border-t border-slate-200 pt-8">
+                  <Treemap data={data?.budgets || []} />
                 </div>
               </section>
 
