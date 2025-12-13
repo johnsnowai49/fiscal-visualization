@@ -1,0 +1,5 @@
+{
+  "name": "FiscalInsight Taiwan",
+  "description": "A high-performance interactive dashboard visualizing 12 years of simulated government fiscal data across three administrative periods using React and ECharts.",
+  "requestFramePermissions": []
+}
