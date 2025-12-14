@@ -1,27 +1,27 @@
 import React, { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
-import { FiscalYearData } from '../types';
+import { OverviewSection, CategoryItem } from '../types';
 
 interface Props {
-  data: FiscalYearData;
+  data: OverviewSection;
+  year: number;
 }
 
-const EarnersPanel: React.FC<Props> = ({ data }) => {
-  const total = data.totalRevenue;
+const EarnersPanel: React.FC<Props> = ({ data, year }) => {
+  const total = data.total;
 
-  const sources = [
-    { key: 'tax', name: 'Tax Revenue', value: data.revenue.tax },
-    { key: 'fees', name: 'Fees & Fines', value: data.revenue.fees },
-    { key: 'debt', name: 'Bond Issuance', value: data.revenue.debt },
-    { key: 'other', name: 'SOE Profits', value: data.revenue.other },
-  ];
+  const sources = Object.values(data.breakdown).map((item: CategoryItem) => ({
+    name: item.abbr || item.name, // Use Abbr if available for charts
+    fullName: item.name,
+    value: item.amount
+  }));
 
   // Sort for Ranking Bar Chart
   const rankedSources = [...sources].sort((a, b) => a.value - b.value);
 
   const donutOption = useMemo(() => ({
     color: ['#0ea5e9', '#8b5cf6', '#f43f5e', '#64748b'],
-    tooltip: { trigger: 'item', formatter: '{b}: <br/>${c}B ({d}%)' },
+    tooltip: { trigger: 'item', formatter: '{b}: <br/>NT${c}B ({d}%)' },
     legend: { bottom: 0, itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 10 } },
     series: [
       {
@@ -42,8 +42,8 @@ const EarnersPanel: React.FC<Props> = ({ data }) => {
     tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
     grid: { top: '5%', left: '3%', right: '15%', bottom: '5%', containLabel: true },
     xAxis: { type: 'value', splitLine: { show: false } },
-    yAxis: { 
-      type: 'category', 
+    yAxis: {
+      type: 'category',
       data: rankedSources.map(s => s.name),
       axisLine: { show: false },
       axisTick: { show: false }
@@ -72,20 +72,23 @@ const EarnersPanel: React.FC<Props> = ({ data }) => {
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
       <div className="mb-4">
         <h2 className="text-lg font-bold text-slate-800">3. Earners</h2>
-        <p className="text-sm text-slate-500">Revenue Sources Breakdown (Year {data.year})</p>
+        <div className="mb-4">
+          <h2 className="text-lg font-bold text-slate-800">3. Earners</h2>
+          <p className="text-sm text-slate-500">Revenue Sources Breakdown (Year {year})</p>
+        </div>
       </div>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Composition */}
         <div className="h-64">
-           <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">Composition</h3>
-           <ReactECharts option={donutOption} style={{ height: '100%', width: '100%' }} />
+          <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">Composition</h3>
+          <ReactECharts option={donutOption} style={{ height: '100%', width: '100%' }} />
         </div>
-        
+
         {/* Ranking */}
         <div className="h-64">
-           <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">Top Earners Ranking</h3>
-           <ReactECharts option={barOption} style={{ height: '100%', width: '100%' }} />
+          <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">Top Earners Ranking</h3>
+          <ReactECharts option={barOption} style={{ height: '100%', width: '100%' }} />
         </div>
       </div>
     </div>

@@ -1,0 +1,6272 @@
+[
+  {
+    "year": 2008,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 822.33,
+        "expense": 817.11
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 635.24,
+        "expense": 635.24
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 443.84,
+        "expense": 488.66
+      },
+      {
+        "name": "中央健康保險局",
+        "income": 426.95,
+        "expense": 426.95
+      },
+      {
+        "name": "臺灣郵政股份有限公司",
+        "income": 371.77,
+        "expense": 362.21
+      },
+      {
+        "name": "中央銀行",
+        "income": 355.77,
+        "expense": 221.5
+      },
+      {
+        "name": "臺灣金融控股股份有限公司(上年度預算係臺銀、土銀及輸銀合計數)",
+        "income": 249.33,
+        "expense": 234.77
+      },
+      {
+        "name": "勞工保險局",
+        "income": 231.48,
+        "expense": 231.48
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 64.46,
+        "expense": 57.86
+      },
+      {
+        "name": "國立大學校院校務基金(54所學校綜計)",
+        "income": 60.53,
+        "expense": 60.49
+      },
+      {
+        "name": "交通作業基金",
+        "income": 60.43,
+        "expense": 37.84
+      },
+      {
+        "name": "行政院金融重建基金",
+        "income": 50.54,
+        "expense": 50.41
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 49.68,
+        "expense": 48.69
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 46.82,
+        "expense": 46.82
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 39.94,
+        "expense": 38.2
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 37.86,
+        "expense": 37.43
+      },
+      {
+        "name": "台灣國際造船股份有限公司",
+        "income": 29.85,
+        "expense": 28.45
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 28.85,
+        "expense": 30.29
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 26.69,
+        "expense": 26.65
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 25.24,
+        "expense": 24.64
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 24.35,
+        "expense": 35.25
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 18.28,
+        "expense": 17.29
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 16.17,
+        "expense": 12.99
+      },
+      {
+        "name": "營建建設基金",
+        "income": 16.1,
+        "expense": 13.67
+      },
+      {
+        "name": "榮民工程股份有限公司",
+        "income": 15.52,
+        "expense": 15.48
+      },
+      {
+        "name": "漢翔航空工業股份有限公司",
+        "income": 13.95,
+        "expense": 13.64
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 12.74,
+        "expense": 15.81
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 12.63,
+        "expense": 0.84
+      },
+      {
+        "name": "就業安定基金",
+        "income": 11.18,
+        "expense": 11.34
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 11.08,
+        "expense": 1.11
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 10.73,
+        "expense": 8.37
+      },
+      {
+        "name": "交通部高雄港務局",
+        "income": 10.09,
+        "expense": 7.07
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 7.42,
+        "expense": 7.41
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 7.42,
+        "expense": 7.58
+      },
+      {
+        "name": "航港建設基金",
+        "income": 6.61,
+        "expense": 10.09
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 6.46,
+        "expense": 6.39
+      },
+      {
+        "name": "交通部基隆港務局",
+        "income": 6.42,
+        "expense": 5.89
+      },
+      {
+        "name": "交通部臺中港務局",
+        "income": 4.78,
+        "expense": 3.52
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 4.76,
+        "expense": 4.6
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 4.39,
+        "expense": 4.39
+      },
+      {
+        "name": "環境保護基金",
+        "income": 4.35,
+        "expense": 4.33
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 3.9,
+        "expense": 4.11
+      },
+      {
+        "name": "離島建設基金",
+        "income": 3.28,
+        "expense": 1.52
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.43,
+        "expense": 2.75
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.82,
+        "expense": 1.54
+      },
+      {
+        "name": "健康照護基金",
+        "income": 1.67,
+        "expense": 2.66
+      },
+      {
+        "name": "國軍老舊營舍改建基金",
+        "income": 1.44,
+        "expense": 5.44
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.26,
+        "expense": 1.25
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.02,
+        "expense": 1.02
+      },
+      {
+        "name": "交通部花蓮港務局",
+        "income": 0.97,
+        "expense": 0.86
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 0.93,
+        "expense": 0.93
+      },
+      {
+        "name": "學產基金",
+        "income": 0.7,
+        "expense": 0.69
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.66,
+        "expense": 0.61
+      },
+      {
+        "name": "法務部監所作業基金",
+        "income": 0.61,
+        "expense": 0.56
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.5,
+        "expense": 0.5
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.45,
+        "expense": 0.01
+      },
+      {
+        "name": "管制藥品管理局製藥工廠作業基金",
+        "income": 0.45,
+        "expense": 0.31
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.33,
+        "expense": 0.31
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.3,
+        "expense": 0.29
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 0.28,
+        "expense": 0.26
+      },
+      {
+        "name": "警察消防海巡空勤人員及協勤民力安全基金",
+        "income": 0.2,
+        "expense": 0.04
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.19,
+        "expense": 0.18
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.16,
+        "expense": 0.11
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.07,
+        "expense": 0.04
+      },
+      {
+        "name": "中華發展基金",
+        "income": 0.04,
+        "expense": 0.07
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 724.68,
+        "expense": 718.07
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 672.51,
+        "expense": 672.5
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 492.75,
+        "expense": 531.0
+      },
+      {
+        "name": "中央健康保險局",
+        "income": 441.16,
+        "expense": 473.18
+      },
+      {
+        "name": "中央銀行",
+        "income": 340.06,
+        "expense": 216.91
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 300.76,
+        "expense": 290.69
+      },
+      {
+        "name": "勞工保險局",
+        "income": 254.21,
+        "expense": 254.21
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 194.63,
+        "expense": 188.8
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 67.57,
+        "expense": 67.57
+      },
+      {
+        "name": "國立大學校院校務基金(52所學校綜計)",
+        "income": 67.07,
+        "expense": 67.01
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 65.08,
+        "expense": 58.53
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 63.23,
+        "expense": 57.43
+      },
+      {
+        "name": "交通作業基金",
+        "income": 54.83,
+        "expense": 36.55
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 46.74,
+        "expense": 45.71
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 39.77,
+        "expense": 39.39
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 39.17,
+        "expense": 35.91
+      },
+      {
+        "name": "行政院金融重建基金",
+        "income": 32.56,
+        "expense": 18.56
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 29.65,
+        "expense": 31.42
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 26.75,
+        "expense": 26.02
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 26.39,
+        "expense": 26.3
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 24.74,
+        "expense": 35.3
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 19.15,
+        "expense": 18.0
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 17.54,
+        "expense": 17.52
+      },
+      {
+        "name": "漢翔航空工業股份有限公司",
+        "income": 16.25,
+        "expense": 15.82
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 14.14,
+        "expense": 19.15
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 12.71,
+        "expense": 1.72
+      },
+      {
+        "name": "營建建設基金",
+        "income": 12.65,
+        "expense": 11.55
+      },
+      {
+        "name": "榮民工程股份有限公司",
+        "income": 12.25,
+        "expense": 12.23
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 11.4,
+        "expense": 8.99
+      },
+      {
+        "name": "就業安定基金",
+        "income": 10.79,
+        "expense": 10.83
+      },
+      {
+        "name": "交通部高雄港務局",
+        "income": 9.24,
+        "expense": 6.08
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 7.23,
+        "expense": 0.88
+      },
+      {
+        "name": "國軍老舊營舍改建基金",
+        "income": 6.83,
+        "expense": 4.81
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 6.79,
+        "expense": 8.36
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 6.61,
+        "expense": 6.52
+      },
+      {
+        "name": "航港建設基金",
+        "income": 6.53,
+        "expense": 11.74
+      },
+      {
+        "name": "交通部基隆港務局",
+        "income": 5.85,
+        "expense": 5.32
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 5.47,
+        "expense": 5.08
+      },
+      {
+        "name": "交通部臺中港務局",
+        "income": 5.07,
+        "expense": 3.61
+      },
+      {
+        "name": "環境保護基金",
+        "income": 4.63,
+        "expense": 5.22
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 4.62,
+        "expense": 4.62
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 4.08,
+        "expense": 4.25
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 3.38,
+        "expense": 2.93
+      },
+      {
+        "name": "離島建設基金",
+        "income": 3.32,
+        "expense": 1.52
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.11,
+        "expense": 2.42
+      },
+      {
+        "name": "健康照護基金",
+        "income": 2.1,
+        "expense": 2.97
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.61,
+        "expense": 1.59
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 1.44,
+        "expense": 11.46
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.31,
+        "expense": 1.29
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 1.0,
+        "expense": 0.97
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 0.98,
+        "expense": 0.98
+      },
+      {
+        "name": "交通部花蓮港務局",
+        "income": 0.96,
+        "expense": 0.84
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 0.92,
+        "expense": 0.75
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.88,
+        "expense": 0.82
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 0.82,
+        "expense": 0.78
+      },
+      {
+        "name": "法務部監所作業基金",
+        "income": 0.66,
+        "expense": 0.62
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.64,
+        "expense": 0.62
+      },
+      {
+        "name": "學產基金",
+        "income": 0.58,
+        "expense": 0.55
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.52,
+        "expense": 0.01
+      },
+      {
+        "name": "管制藥品管理局製藥工廠作業基金",
+        "income": 0.48,
+        "expense": 0.34
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.35,
+        "expense": 0.31
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.3,
+        "expense": 0.29
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.25,
+        "expense": 0.23
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.21,
+        "expense": 0.14
+      },
+      {
+        "name": "警察消防海巡空勤人員及協勤民力安全基金",
+        "income": 0.11,
+        "expense": 0.04
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.07,
+        "expense": 0.06
+      },
+      {
+        "name": "中華發展基金",
+        "income": 0.05,
+        "expense": 0.07
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 0.0,
+        "expense": 0.0
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 896.09,
+        "expense": 883.65
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 718.24,
+        "expense": 718.23
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 505.85,
+        "expense": 532.68
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 453.91,
+        "expense": 486.36
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 404.51,
+        "expense": 397.09
+      },
+      {
+        "name": "中央銀行",
+        "income": 279.97,
+        "expense": 156.84
+      },
+      {
+        "name": "勞工保險局",
+        "income": 257.08,
+        "expense": 257.08
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 229.32,
+        "expense": 222.52
+      },
+      {
+        "name": "國立大學校院校務基金(53所學校綜計)",
+        "income": 95.37,
+        "expense": 97.16
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 66.33,
+        "expense": 66.33
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 65.07,
+        "expense": 57.66
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 56.99,
+        "expense": 51.19
+      },
+      {
+        "name": "交通作業基金",
+        "income": 56.37,
+        "expense": 38.41
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 53.56,
+        "expense": 51.21
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 41.61,
+        "expense": 41.04
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 40.03,
+        "expense": 36.37
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 35.31,
+        "expense": 35.31
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 31.23,
+        "expense": 32.96
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 27.87,
+        "expense": 27.25
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 26.28,
+        "expense": 26.48
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 24.24,
+        "expense": 34.14
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 22.8,
+        "expense": 9.64
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 20.19,
+        "expense": 19.07
+      },
+      {
+        "name": "漢翔航空工業股份有限公司",
+        "income": 18.12,
+        "expense": 17.5
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 13.34,
+        "expense": 21.75
+      },
+      {
+        "name": "就業安定基金",
+        "income": 12.66,
+        "expense": 14.47
+      },
+      {
+        "name": "營建建設基金",
+        "income": 11.98,
+        "expense": 12.29
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 11.41,
+        "expense": 1.81
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 10.51,
+        "expense": 10.51
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 10.35,
+        "expense": 9.1
+      },
+      {
+        "name": "行政院金融重建基金",
+        "income": 10.09,
+        "expense": 0.74
+      },
+      {
+        "name": "交通部高雄港務局",
+        "income": 9.12,
+        "expense": 6.11
+      },
+      {
+        "name": "健康照護基金",
+        "income": 8.78,
+        "expense": 9.04
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 7.22,
+        "expense": 6.87
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 7.06,
+        "expense": 6.13
+      },
+      {
+        "name": "榮民工程股份有限公司",
+        "income": 7.03,
+        "expense": 7.6
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 6.99,
+        "expense": 6.88
+      },
+      {
+        "name": "交通部基隆港務局",
+        "income": 5.39,
+        "expense": 4.91
+      },
+      {
+        "name": "航港建設基金",
+        "income": 5.25,
+        "expense": 11.58
+      },
+      {
+        "name": "交通部臺中港務局",
+        "income": 4.87,
+        "expense": 3.55
+      },
+      {
+        "name": "環境保護基金",
+        "income": 4.4,
+        "expense": 5.34
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 4.12,
+        "expense": 1.46
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 3.68,
+        "expense": 3.24
+      },
+      {
+        "name": "國軍老舊營舍改建基金",
+        "income": 3.47,
+        "expense": 0.8
+      },
+      {
+        "name": "運動發展基金",
+        "income": 3.21,
+        "expense": 1.55
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.59,
+        "expense": 2.79
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 2.04,
+        "expense": 1.65
+      },
+      {
+        "name": "國際機場園區股份有限公司",
+        "income": 1.85,
+        "expense": 1.41
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.81,
+        "expense": 2.11
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.47,
+        "expense": 1.42
+      },
+      {
+        "name": "離島建設基金",
+        "income": 1.3,
+        "expense": 1.2
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 1.0,
+        "expense": 0.98
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 0.93,
+        "expense": 0.9
+      },
+      {
+        "name": "交通部花蓮港務局",
+        "income": 0.89,
+        "expense": 0.81
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 0.89,
+        "expense": 1.01
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 0.88,
+        "expense": 0.81
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.86,
+        "expense": 0.78
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.72,
+        "expense": 0.67
+      },
+      {
+        "name": "學產基金",
+        "income": 0.68,
+        "expense": 0.65
+      },
+      {
+        "name": "法務部監所作業基金",
+        "income": 0.63,
+        "expense": 0.7
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.56,
+        "expense": 0.56
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.48,
+        "expense": 0.32
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.35,
+        "expense": 0.34
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.3,
+        "expense": 0.29
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.25,
+        "expense": 0.07
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.23,
+        "expense": 0.22
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.21,
+        "expense": 0.15
+      },
+      {
+        "name": "警察消防海巡空勤人員及協勤民力安全基金",
+        "income": 0.1,
+        "expense": 0.04
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.07,
+        "expense": 0.06
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.03,
+        "expense": 0.05
+      },
+      {
+        "name": "中華發展基金",
+        "income": 0.03,
+        "expense": 0.06
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 0.0,
+        "expense": 0.0
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 919.14,
+        "expense": 909.0
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 773.18,
+        "expense": 773.18
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 524.87,
+        "expense": 572.46
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 497.42,
+        "expense": 497.29
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 428.07,
+        "expense": 420.09
+      },
+      {
+        "name": "中央銀行",
+        "income": 330.94,
+        "expense": 207.79
+      },
+      {
+        "name": "勞工保險局",
+        "income": 273.14,
+        "expense": 273.14
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 246.61,
+        "expense": 243.06
+      },
+      {
+        "name": "國立大學校院校務基金(53所學校綜計)",
+        "income": 97.2,
+        "expense": 102.17
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 64.83,
+        "expense": 56.94
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 62.57,
+        "expense": 62.57
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 56.87,
+        "expense": 49.96
+      },
+      {
+        "name": "交通作業基金",
+        "income": 50.73,
+        "expense": 33.85
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 48.58,
+        "expense": 46.02
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 43.05,
+        "expense": 42.52
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 41.01,
+        "expense": 36.85
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 34.82,
+        "expense": 38.09
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 31.8,
+        "expense": 38.5
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 28.75,
+        "expense": 28.01
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 26.45,
+        "expense": 26.83
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 22.88,
+        "expense": 32.62
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 22.07,
+        "expense": 20.07
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 20.93,
+        "expense": 25.85
+      },
+      {
+        "name": "漢翔航空工業股份有限公司",
+        "income": 19.53,
+        "expense": 18.61
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 19.42,
+        "expense": 19.42
+      },
+      {
+        "name": "就業安定基金",
+        "income": 12.56,
+        "expense": 16.22
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 11.53,
+        "expense": 10.01
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 11.09,
+        "expense": 10.52
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 11.03,
+        "expense": 1.63
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 9.92,
+        "expense": 0.47
+      },
+      {
+        "name": "營建建設基金",
+        "income": 9.52,
+        "expense": 13.91
+      },
+      {
+        "name": "交通部高雄港務局",
+        "income": 9.1,
+        "expense": 6.09
+      },
+      {
+        "name": "健康照護基金",
+        "income": 8.37,
+        "expense": 8.68
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 7.98,
+        "expense": 7.97
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 7.47,
+        "expense": 7.35
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 7.38,
+        "expense": 8.26
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 6.95,
+        "expense": 6.62
+      },
+      {
+        "name": "環境保護基金",
+        "income": 5.34,
+        "expense": 5.27
+      },
+      {
+        "name": "交通部基隆港務局",
+        "income": 5.11,
+        "expense": 4.59
+      },
+      {
+        "name": "航港建設基金",
+        "income": 4.89,
+        "expense": 9.55
+      },
+      {
+        "name": "交通部臺中港務局",
+        "income": 4.84,
+        "expense": 3.54
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 3.78,
+        "expense": 3.09
+      },
+      {
+        "name": "運動發展基金",
+        "income": 3.63,
+        "expense": 1.84
+      },
+      {
+        "name": "行政院金融重建基金",
+        "income": 3.3,
+        "expense": 2.36
+      },
+      {
+        "name": "國軍老舊營舍改建基金",
+        "income": 3.24,
+        "expense": 5.33
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.53,
+        "expense": 2.93
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 2.39,
+        "expense": 9.4
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 2.04,
+        "expense": 1.65
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 2.01,
+        "expense": 2.36
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.57,
+        "expense": 1.54
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.1,
+        "expense": 1.04
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.97,
+        "expense": 0.94
+      },
+      {
+        "name": "交通部花蓮港務局",
+        "income": 0.96,
+        "expense": 0.87
+      },
+      {
+        "name": "學產基金",
+        "income": 0.94,
+        "expense": 0.9
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 0.88,
+        "expense": 0.81
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.86,
+        "expense": 0.78
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.72,
+        "expense": 0.71
+      },
+      {
+        "name": "法務部監所作業基金",
+        "income": 0.67,
+        "expense": 0.76
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.61,
+        "expense": 0.92
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.47,
+        "expense": 0.35
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.36,
+        "expense": 0.22
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.35,
+        "expense": 0.34
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.31,
+        "expense": 0.3
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.24,
+        "expense": 0.21
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.2,
+        "expense": 0.01
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.1,
+        "expense": 0.03
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.1,
+        "expense": 0.07
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.09,
+        "expense": 1.27
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.03,
+        "expense": 0.09
+      },
+      {
+        "name": "中華發展基金",
+        "income": 0.03,
+        "expense": 0.06
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 0.0,
+        "expense": 0.01
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 994.65,
+        "expense": 983.72
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 848.61,
+        "expense": 848.6
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 559.25,
+        "expense": 619.51
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 522.48,
+        "expense": 510.81
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 484.72,
+        "expense": 475.91
+      },
+      {
+        "name": "中央銀行",
+        "income": 345.11,
+        "expense": 221.94
+      },
+      {
+        "name": "勞工保險局",
+        "income": 300.32,
+        "expense": 300.32
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 254.98,
+        "expense": 248.0
+      },
+      {
+        "name": "國立大學校院校務基金(53所學校綜計)",
+        "income": 106.64,
+        "expense": 111.77
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 79.61,
+        "expense": 71.74
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 61.83,
+        "expense": 61.83
+      },
+      {
+        "name": "交通作業基金",
+        "income": 53.82,
+        "expense": 34.4
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 49.51,
+        "expense": 42.51
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 49.2,
+        "expense": 47.05
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 44.14,
+        "expense": 43.64
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 38.8,
+        "expense": 35.56
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 36.55,
+        "expense": 40.03
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 34.64,
+        "expense": 35.49
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 26.87,
+        "expense": 27.43
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 26.21,
+        "expense": 25.59
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 26.01,
+        "expense": 24.12
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 23.79,
+        "expense": 33.49
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 23.54,
+        "expense": 23.54
+      },
+      {
+        "name": "漢翔航空工業股份有限公司",
+        "income": 20.42,
+        "expense": 19.47
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 15.63,
+        "expense": 11.64
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 14.93,
+        "expense": 11.56
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 13.21,
+        "expense": 18.07
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 12.48,
+        "expense": 10.81
+      },
+      {
+        "name": "就業安定基金",
+        "income": 12.31,
+        "expense": 16.27
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 12.07,
+        "expense": 11.15
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 10.7,
+        "expense": 1.42
+      },
+      {
+        "name": "健康照護基金",
+        "income": 8.66,
+        "expense": 9.78
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 8.44,
+        "expense": 5.47
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 8.38,
+        "expense": 8.58
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 8.11,
+        "expense": 8.01
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 6.95,
+        "expense": 6.36
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 6.66,
+        "expense": 6.48
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 6.56,
+        "expense": 0.59
+      },
+      {
+        "name": "環境保護基金",
+        "income": 6.28,
+        "expense": 5.97
+      },
+      {
+        "name": "航港建設基金",
+        "income": 5.1,
+        "expense": 14.47
+      },
+      {
+        "name": "運動發展基金",
+        "income": 4.22,
+        "expense": 1.64
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 4.0,
+        "expense": 0.51
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 3.92,
+        "expense": 9.17
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.63,
+        "expense": 3.02
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 2.37,
+        "expense": 2.63
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.21,
+        "expense": 1.24
+      },
+      {
+        "name": "營建建設基金",
+        "income": 2.09,
+        "expense": 11.01
+      },
+      {
+        "name": "交通部高雄港務局",
+        "income": 1.97,
+        "expense": 1.29
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.76,
+        "expense": 1.72
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 1.7,
+        "expense": 1.38
+      },
+      {
+        "name": "交通部基隆港務局",
+        "income": 1.05,
+        "expense": 1.2
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 1.01,
+        "expense": 0.91
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.97,
+        "expense": 0.88
+      },
+      {
+        "name": "學產基金",
+        "income": 0.92,
+        "expense": 1.26
+      },
+      {
+        "name": "交通部臺中港務局",
+        "income": 0.91,
+        "expense": 0.94
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 0.82,
+        "expense": 0.75
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.81,
+        "expense": 0.73
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 0.76,
+        "expense": 0.88
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.72,
+        "expense": 0.72
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.47,
+        "expense": 0.34
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.36,
+        "expense": 0.23
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.36,
+        "expense": 0.34
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.31,
+        "expense": 0.27
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.23,
+        "expense": 0.21
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.18,
+        "expense": 0.02
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.17,
+        "expense": 0.64
+      },
+      {
+        "name": "交通部花蓮港務局",
+        "income": 0.16,
+        "expense": 0.26
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.1,
+        "expense": 0.02
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.1,
+        "expense": 0.08
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.09,
+        "expense": 1.1
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.08,
+        "expense": 0.04
+      },
+      {
+        "name": "中華發展基金",
+        "income": 0.04,
+        "expense": 0.06
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 1223.48,
+        "expense": 1205.9
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 886.76,
+        "expense": 886.75
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 668.86,
+        "expense": 691.88
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 537.52,
+        "expense": 536.88
+      },
+      {
+        "name": "勞工保險局",
+        "income": 332.22,
+        "expense": 332.22
+      },
+      {
+        "name": "中央銀行",
+        "income": 330.52,
+        "expense": 207.35
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 294.33,
+        "expense": 285.39
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 283.15,
+        "expense": 275.97
+      },
+      {
+        "name": "國立大學校院校務基金(52所學校綜計)",
+        "income": 107.97,
+        "expense": 113.76
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 78.48,
+        "expense": 70.55
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 71.3,
+        "expense": 71.3
+      },
+      {
+        "name": "交通作業基金",
+        "income": 55.08,
+        "expense": 38.49
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 47.46,
+        "expense": 45.8
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 46.84,
+        "expense": 39.73
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 45.28,
+        "expense": 45.03
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 41.7,
+        "expense": 39.19
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 35.97,
+        "expense": 36.87
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 33.27,
+        "expense": 37.22
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 27.26,
+        "expense": 25.08
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 27.03,
+        "expense": 26.41
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 26.99,
+        "expense": 27.69
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 24.18,
+        "expense": 24.18
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 22.63,
+        "expense": 29.01
+      },
+      {
+        "name": "漢翔航空工業股份有限公司",
+        "income": 21.07,
+        "expense": 19.98
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 18.9,
+        "expense": 13.86
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 15.55,
+        "expense": 23.71
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 13.04,
+        "expense": 11.62
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 12.99,
+        "expense": 10.65
+      },
+      {
+        "name": "就業安定基金",
+        "income": 12.84,
+        "expense": 16.33
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 10.9,
+        "expense": 1.05
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.64,
+        "expense": 7.45
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 8.61,
+        "expense": 8.39
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 8.51,
+        "expense": 8.4
+      },
+      {
+        "name": "健康照護基金",
+        "income": 8.31,
+        "expense": 11.34
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 8.0,
+        "expense": 7.61
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 6.77,
+        "expense": 0.55
+      },
+      {
+        "name": "環境保護基金",
+        "income": 6.52,
+        "expense": 6.72
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 5.98,
+        "expense": 6.64
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 5.97,
+        "expense": 6.72
+      },
+      {
+        "name": "營建建設基金",
+        "income": 5.8,
+        "expense": 12.26
+      },
+      {
+        "name": "運動發展基金",
+        "income": 4.52,
+        "expense": 2.19
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.57,
+        "expense": 2.98
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 2.5,
+        "expense": 2.51
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.11,
+        "expense": 1.19
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.8,
+        "expense": 1.75
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 1.74,
+        "expense": 1.43
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.57,
+        "expense": 2.03
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 1.2,
+        "expense": 1.08
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 1.01,
+        "expense": 0.94
+      },
+      {
+        "name": "學產基金",
+        "income": 0.9,
+        "expense": 1.32
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 0.84,
+        "expense": 0.95
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.8,
+        "expense": 0.79
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 0.73,
+        "expense": 0.71
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.66,
+        "expense": 0.66
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.58,
+        "expense": 0.54
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.54,
+        "expense": 0.37
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.51,
+        "expense": 0.36
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.37,
+        "expense": 0.35
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.28,
+        "expense": 0.41
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 0.24,
+        "expense": 9.68
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.23,
+        "expense": 0.2
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.19,
+        "expense": 0.02
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.16,
+        "expense": 0.12
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.15,
+        "expense": 0.59
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.1,
+        "expense": 0.02
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.08,
+        "expense": 0.04
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.08,
+        "expense": 1.1
+      },
+      {
+        "name": "中華發展基金",
+        "income": 0.02,
+        "expense": 0.05
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 0.0,
+        "expense": 0.59
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 1285.08,
+        "expense": 1267.84
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 959.75,
+        "expense": 959.74
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 666.59,
+        "expense": 665.0
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 555.62,
+        "expense": 555.62
+      },
+      {
+        "name": "勞工保險局",
+        "income": 354.4,
+        "expense": 354.4
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 347.39,
+        "expense": 338.19
+      },
+      {
+        "name": "中央銀行",
+        "income": 321.1,
+        "expense": 197.93
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 290.09,
+        "expense": 283.56
+      },
+      {
+        "name": "國立大學校院校務基金(52所學校綜計)",
+        "income": 103.16,
+        "expense": 109.13
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 82.61,
+        "expense": 74.41
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 78.8,
+        "expense": 78.8
+      },
+      {
+        "name": "交通作業基金",
+        "income": 53.86,
+        "expense": 39.84
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 53.39,
+        "expense": 45.79
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 46.45,
+        "expense": 46.03
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 46.0,
+        "expense": 44.32
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 40.17,
+        "expense": 37.77
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 34.36,
+        "expense": 36.91
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 33.28,
+        "expense": 37.46
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 28.36,
+        "expense": 26.26
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 27.62,
+        "expense": 26.94
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 27.49,
+        "expense": 28.17
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 25.13,
+        "expense": 0.58
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 24.43,
+        "expense": 24.43
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 23.29,
+        "expense": 29.5
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 20.04,
+        "expense": 15.03
+      },
+      {
+        "name": "就業安定基金",
+        "income": 14.26,
+        "expense": 16.49
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 14.08,
+        "expense": 11.04
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 13.14,
+        "expense": 11.7
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 10.37,
+        "expense": 1.18
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 8.93,
+        "expense": 8.82
+      },
+      {
+        "name": "健康照護基金",
+        "income": 8.92,
+        "expense": 15.09
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 8.67,
+        "expense": 8.28
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 8.62,
+        "expense": 8.21
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 8.5,
+        "expense": 14.14
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.01,
+        "expense": 8.08
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 7.25,
+        "expense": 8.82
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 6.78,
+        "expense": 7.46
+      },
+      {
+        "name": "環境保護基金",
+        "income": 6.61,
+        "expense": 7.3
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 4.2,
+        "expense": 3.95
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 3.16,
+        "expense": 3.11
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.53,
+        "expense": 3.12
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.49,
+        "expense": 1.33
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 2.3,
+        "expense": 3.07
+      },
+      {
+        "name": "營建建設基金",
+        "income": 2.18,
+        "expense": 8.57
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 1.9,
+        "expense": 1.85
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 1.75,
+        "expense": 1.37
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 1.72,
+        "expense": 1.46
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.54,
+        "expense": 1.91
+      },
+      {
+        "name": "運動發展基金",
+        "income": 1.42,
+        "expense": 2.23
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 1.01,
+        "expense": 0.93
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 0.93,
+        "expense": 0.99
+      },
+      {
+        "name": "學產基金",
+        "income": 0.89,
+        "expense": 1.33
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 0.83,
+        "expense": 0.8
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 0.77,
+        "expense": 1.02
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.72,
+        "expense": 0.71
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.68,
+        "expense": 0.67
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.62,
+        "expense": 0.44
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.51,
+        "expense": 0.35
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.5,
+        "expense": 0.46
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.37,
+        "expense": 0.71
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.34,
+        "expense": 0.45
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.24,
+        "expense": 0.21
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.16,
+        "expense": 0.12
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.15,
+        "expense": 0.02
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.11,
+        "expense": 0.02
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.08,
+        "expense": 0.03
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.07,
+        "expense": 1.1
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.01,
+        "expense": 0.45
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "items": [
+      {
+        "name": "中央政府債務基金",
+        "income": 911.65,
+        "expense": 911.64
+      },
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 862.55,
+        "expense": 849.45
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 623.36,
+        "expense": 608.95
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 571.51,
+        "expense": 571.54
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 369.34,
+        "expense": 369.34
+      },
+      {
+        "name": "中央銀行",
+        "income": 347.38,
+        "expense": 197.06
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 289.41,
+        "expense": 285.09
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 282.62,
+        "expense": 274.41
+      },
+      {
+        "name": "國立大學校院校務基金(51所學校綜計)",
+        "income": 108.11,
+        "expense": 114.27
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 86.97,
+        "expense": 86.97
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 82.76,
+        "expense": 73.99
+      },
+      {
+        "name": "交通作業基金",
+        "income": 54.73,
+        "expense": 39.03
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 52.26,
+        "expense": 45.63
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 48.28,
+        "expense": 47.87
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 39.89,
+        "expense": 37.1
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 39.08,
+        "expense": 42.87
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 34.24,
+        "expense": 38.25
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 32.23,
+        "expense": 1.04
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 29.74,
+        "expense": 28.02
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 28.49,
+        "expense": 29.21
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 28.42,
+        "expense": 27.66
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 28.39,
+        "expense": 27.27
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 25.35,
+        "expense": 24.91
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 25.17,
+        "expense": 30.2
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 20.91,
+        "expense": 15.52
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 19.31,
+        "expense": 4.12
+      },
+      {
+        "name": "就業安定基金",
+        "income": 16.26,
+        "expense": 16.58
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 14.93,
+        "expense": 11.73
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 13.8,
+        "expense": 11.27
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 11.13,
+        "expense": 15.3
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 10.81,
+        "expense": 3.24
+      },
+      {
+        "name": "健康照護基金",
+        "income": 10.13,
+        "expense": 16.27
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 9.77,
+        "expense": 9.66
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 8.63,
+        "expense": 8.39
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 8.6,
+        "expense": 8.6
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.18,
+        "expense": 8.87
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 7.68,
+        "expense": 7.63
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 7.28,
+        "expense": 7.94
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 7.28,
+        "expense": 8.5
+      },
+      {
+        "name": "環境保護基金",
+        "income": 6.49,
+        "expense": 7.27
+      },
+      {
+        "name": "營建建設基金",
+        "income": 3.6,
+        "expense": 9.29
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.69,
+        "expense": 3.2
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 2.02,
+        "expense": 1.98
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.0,
+        "expense": 1.24
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 1.83,
+        "expense": 1.46
+      },
+      {
+        "name": "研發替代役基金",
+        "income": 1.59,
+        "expense": 1.53
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.56,
+        "expense": 1.89
+      },
+      {
+        "name": "運動發展基金",
+        "income": 1.49,
+        "expense": 1.96
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 1.01,
+        "expense": 0.92
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 0.99,
+        "expense": 1.04
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 0.88,
+        "expense": 0.79
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.84,
+        "expense": 0.82
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.81,
+        "expense": 0.43
+      },
+      {
+        "name": "學產基金",
+        "income": 0.78,
+        "expense": 1.52
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.71,
+        "expense": 0.71
+      },
+      {
+        "name": "中央都市更新基金",
+        "income": 0.69,
+        "expense": 0.95
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.5,
+        "expense": 0.35
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.46,
+        "expense": 0.4
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.37,
+        "expense": 0.63
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 0.28,
+        "expense": 1.02
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.24,
+        "expense": 0.22
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.16,
+        "expense": 0.12
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.15,
+        "expense": 0.01
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.1,
+        "expense": 0.02
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.08,
+        "expense": 0.03
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.06,
+        "expense": 1.1
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.01,
+        "expense": 0.31
+      },
+      {
+        "name": "外籍配偶照顧輔導基金",
+        "income": 0.0,
+        "expense": 0.28
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "items": [
+      {
+        "name": "中央政府債務基金",
+        "income": 880.01,
+        "expense": 880.01
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 600.03,
+        "expense": 600.05
+      },
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 582.39,
+        "expense": 576.27
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 564.33,
+        "expense": 543.0
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 384.12,
+        "expense": 384.12
+      },
+      {
+        "name": "中央銀行",
+        "income": 362.31,
+        "expense": 211.96
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 321.55,
+        "expense": 312.99
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 275.82,
+        "expense": 269.93
+      },
+      {
+        "name": "國立大學校院校務基金(51所學校綜計)",
+        "income": 109.56,
+        "expense": 115.81
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 92.94,
+        "expense": 92.94
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 81.98,
+        "expense": 73.08
+      },
+      {
+        "name": "交通作業基金",
+        "income": 59.51,
+        "expense": 40.64
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 53.61,
+        "expense": 45.99
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 50.38,
+        "expense": 49.72
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 38.3,
+        "expense": 35.12
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 37.22,
+        "expense": 38.37
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 35.13,
+        "expense": 39.01
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 32.04,
+        "expense": 30.28
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 29.38,
+        "expense": 29.77
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 29.16,
+        "expense": 28.33
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 28.76,
+        "expense": 27.73
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 26.86,
+        "expense": 26.18
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 26.31,
+        "expense": 31.08
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 21.28,
+        "expense": 15.73
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 20.22,
+        "expense": 1.11
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 18.17,
+        "expense": 13.33
+      },
+      {
+        "name": "就業安定基金",
+        "income": 15.26,
+        "expense": 16.36
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 14.75,
+        "expense": 11.7
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 11.69,
+        "expense": 4.84
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 10.85,
+        "expense": 2.96
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 10.62,
+        "expense": 10.49
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 9.92,
+        "expense": 9.28
+      },
+      {
+        "name": "健康照護基金",
+        "income": 9.82,
+        "expense": 13.91
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 9.1,
+        "expense": 9.1
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.61,
+        "expense": 11.83
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 7.66,
+        "expense": 8.47
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 7.38,
+        "expense": 8.22
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 7.3,
+        "expense": 7.77
+      },
+      {
+        "name": "環境保護基金",
+        "income": 6.85,
+        "expense": 7.82
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 6.04,
+        "expense": 6.97
+      },
+      {
+        "name": "社會福利基金",
+        "income": 2.99,
+        "expense": 3.17
+      },
+      {
+        "name": "營建建設基金",
+        "income": 2.76,
+        "expense": 8.85
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.28,
+        "expense": 1.27
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 2.14,
+        "expense": 2.11
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 2.02,
+        "expense": 1.6
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 1.82,
+        "expense": 1.66
+      },
+      {
+        "name": "運動發展基金",
+        "income": 1.81,
+        "expense": 2.39
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.71,
+        "expense": 2.15
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.57,
+        "expense": 2.12
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 1.21,
+        "expense": 2.02
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 1.19,
+        "expense": 1.15
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 1.18,
+        "expense": 0.62
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.06,
+        "expense": 1.08
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.99,
+        "expense": 0.9
+      },
+      {
+        "name": "學產基金",
+        "income": 0.8,
+        "expense": 1.43
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.66,
+        "expense": 0.65
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.6,
+        "expense": 0.43
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.59,
+        "expense": 0.11
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.46,
+        "expense": 0.39
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.43,
+        "expense": 0.39
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.36,
+        "expense": 0.39
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.3,
+        "expense": 0.28
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.25,
+        "expense": 0.4
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.15,
+        "expense": 0.01
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.1,
+        "expense": 0.02
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.08,
+        "expense": 0.03
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.05,
+        "expense": 0.8
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.01,
+        "expense": 0.01
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "items": [
+      {
+        "name": "中央政府債務基金",
+        "income": 810.26,
+        "expense": 810.26
+      },
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 747.04,
+        "expense": 738.79
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 610.81,
+        "expense": 610.81
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 566.61,
+        "expense": 545.02
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 418.53,
+        "expense": 418.53
+      },
+      {
+        "name": "中央銀行",
+        "income": 362.78,
+        "expense": 212.43
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 308.91,
+        "expense": 303.04
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 286.58,
+        "expense": 277.47
+      },
+      {
+        "name": "國立大學校院校務基金(51所學校綜計)",
+        "income": 110.7,
+        "expense": 116.85
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 99.16,
+        "expense": 99.16
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 78.82,
+        "expense": 69.95
+      },
+      {
+        "name": "交通作業基金",
+        "income": 66.22,
+        "expense": 41.59
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 53.56,
+        "expense": 52.42
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 53.09,
+        "expense": 45.12
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 42.28,
+        "expense": 45.18
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 37.01,
+        "expense": 33.67
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 33.86,
+        "expense": 31.81
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 30.41,
+        "expense": 34.0
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 30.34,
+        "expense": 29.43
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 29.31,
+        "expense": 29.71
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 28.35,
+        "expense": 26.77
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 26.82,
+        "expense": 30.22
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 25.81,
+        "expense": 25.0
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 21.24,
+        "expense": 15.59
+      },
+      {
+        "name": "就業安定基金",
+        "income": 20.03,
+        "expense": 16.46
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 19.88,
+        "expense": 14.15
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 15.39,
+        "expense": 11.94
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 14.4,
+        "expense": 14.64
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 12.42,
+        "expense": 1.07
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 11.65,
+        "expense": 11.52
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 10.13,
+        "expense": 2.18
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 9.38,
+        "expense": 9.38
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.64,
+        "expense": 9.67
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 8.24,
+        "expense": 8.49
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 7.92,
+        "expense": 4.83
+      },
+      {
+        "name": "環境保護基金",
+        "income": 7.19,
+        "expense": 10.19
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 7.09,
+        "expense": 8.21
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 5.04,
+        "expense": 5.08
+      },
+      {
+        "name": "營建建設基金",
+        "income": 3.84,
+        "expense": 8.48
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 2.96,
+        "expense": 4.79
+      },
+      {
+        "name": "運動發展基金",
+        "income": 2.88,
+        "expense": 2.68
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 2.84,
+        "expense": 2.84
+      },
+      {
+        "name": "大專校院轉型及退場基金",
+        "income": 2.5,
+        "expense": 0.2
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.23,
+        "expense": 1.36
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 2.11,
+        "expense": 1.64
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.85,
+        "expense": 2.28
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.85,
+        "expense": 2.98
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 1.65,
+        "expense": 1.51
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 1.24,
+        "expense": 1.21
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 1.18,
+        "expense": 0.67
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 1.15,
+        "expense": 1.55
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.07,
+        "expense": 1.11
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.96,
+        "expense": 0.87
+      },
+      {
+        "name": "學產基金",
+        "income": 0.75,
+        "expense": 1.17
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.63,
+        "expense": 0.46
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.62,
+        "expense": 0.61
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.45,
+        "expense": 0.39
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.4,
+        "expense": 0.36
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.37,
+        "expense": 0.35
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.3,
+        "expense": 0.32
+      },
+      {
+        "name": "地方產業發展基金",
+        "income": 0.18,
+        "expense": 0.29
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.17,
+        "expense": 0.12
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.14,
+        "expense": 0.01
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 0.13,
+        "expense": 0.13
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.1,
+        "expense": 0.05
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.06,
+        "expense": 0.02
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.03,
+        "expense": 0.8
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 847.43,
+        "expense": 833.83
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 775.52,
+        "expense": 775.52
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 642.92,
+        "expense": 642.92
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 604.78,
+        "expense": 594.89
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 428.74,
+        "expense": 428.74
+      },
+      {
+        "name": "中央銀行",
+        "income": 364.18,
+        "expense": 213.81
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 314.66,
+        "expense": 308.65
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 286.5,
+        "expense": 277.71
+      },
+      {
+        "name": "國立大學校院校務基金(50所學校綜計)",
+        "income": 115.13,
+        "expense": 121.19
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 102.29,
+        "expense": 102.29
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 81.87,
+        "expense": 74.98
+      },
+      {
+        "name": "交通作業基金",
+        "income": 69.55,
+        "expense": 39.19
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 56.66,
+        "expense": 55.03
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 52.71,
+        "expense": 44.5
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 36.14,
+        "expense": 33.64
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 35.92,
+        "expense": 33.27
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 34.46,
+        "expense": 40.63
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 31.79,
+        "expense": 30.76
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 29.84,
+        "expense": 30.18
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 29.41,
+        "expense": 32.92
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 28.78,
+        "expense": 26.62
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 28.36,
+        "expense": 31.21
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 24.63,
+        "expense": 23.74
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 21.1,
+        "expense": 15.32
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 21.0,
+        "expense": 14.86
+      },
+      {
+        "name": "就業安定基金",
+        "income": 20.7,
+        "expense": 15.88
+      },
+      {
+        "name": "科學工業園區管理局作業基金",
+        "income": 15.83,
+        "expense": 12.24
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 14.42,
+        "expense": 1.0
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 12.34,
+        "expense": 12.74
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 12.1,
+        "expense": 11.99
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 11.63,
+        "expense": 6.6
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 9.7,
+        "expense": 9.7
+      },
+      {
+        "name": "環境保護基金",
+        "income": 9.47,
+        "expense": 14.36
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 9.02,
+        "expense": 2.24
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.59,
+        "expense": 7.99
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 8.01,
+        "expense": 8.49
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 7.89,
+        "expense": 8.52
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.6,
+        "expense": 4.74
+      },
+      {
+        "name": "營建建設基金",
+        "income": 3.77,
+        "expense": 11.23
+      },
+      {
+        "name": "運動發展基金",
+        "income": 3.37,
+        "expense": 4.25
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 2.87,
+        "expense": 2.86
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 2.43,
+        "expense": 1.88
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.27,
+        "expense": 1.54
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.98,
+        "expense": 2.31
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 1.78,
+        "expense": 2.15
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.74,
+        "expense": 2.84
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 1.33,
+        "expense": 1.22
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 1.13,
+        "expense": 1.11
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.08,
+        "expense": 1.11
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 1.04,
+        "expense": 1.01
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.95,
+        "expense": 0.86
+      },
+      {
+        "name": "大專校院轉型及退場基金",
+        "income": 0.82,
+        "expense": 0.11
+      },
+      {
+        "name": "學產基金",
+        "income": 0.79,
+        "expense": 1.27
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.77,
+        "expense": 0.57
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.75,
+        "expense": 0.57
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.64,
+        "expense": 0.63
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.47,
+        "expense": 0.42
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.46,
+        "expense": 0.42
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.37,
+        "expense": 0.35
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.3,
+        "expense": 0.31
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 0.12,
+        "expense": 0.12
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.12
+      },
+      {
+        "name": "國有財產開發基金",
+        "income": 0.1,
+        "expense": 0.02
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.09,
+        "expense": 0.01
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.02
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.03,
+        "expense": 0.8
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 845.88,
+        "expense": 829.71
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 807.72,
+        "expense": 807.72
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 669.59,
+        "expense": 669.59
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 626.37,
+        "expense": 623.33
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 499.88,
+        "expense": 499.88
+      },
+      {
+        "name": "中央銀行",
+        "income": 375.14,
+        "expense": 224.74
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 340.82,
+        "expense": 334.37
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 282.26,
+        "expense": 273.17
+      },
+      {
+        "name": "國立大學校院校務基金(48所學校綜計)",
+        "income": 121.22,
+        "expense": 126.92
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 107.13,
+        "expense": 107.13
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 78.77,
+        "expense": 72.11
+      },
+      {
+        "name": "交通作業基金",
+        "income": 63.43,
+        "expense": 38.59
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 60.27,
+        "expense": 58.43
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 53.55,
+        "expense": 45.69
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 37.35,
+        "expense": 34.63
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 36.66,
+        "expense": 40.52
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 35.34,
+        "expense": 32.6
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 33.6,
+        "expense": 32.49
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 31.41,
+        "expense": 30.3
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 30.98,
+        "expense": 31.05
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 30.23,
+        "expense": 32.35
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 29.72,
+        "expense": 33.34
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 25.0,
+        "expense": 2.99
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 24.88,
+        "expense": 24.01
+      },
+      {
+        "name": "就業安定基金",
+        "income": 22.26,
+        "expense": 16.97
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 21.74,
+        "expense": 15.81
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 21.06,
+        "expense": 15.51
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 16.79,
+        "expense": 14.33
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 16.38,
+        "expense": 0.86
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 14.57,
+        "expense": 14.95
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 13.05,
+        "expense": 12.94
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 10.14,
+        "expense": 10.14
+      },
+      {
+        "name": "環境保護基金",
+        "income": 8.92,
+        "expense": 14.56
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.73,
+        "expense": 8.18
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 8.36,
+        "expense": 8.78
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 8.28,
+        "expense": 9.44
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 5.66,
+        "expense": 7.16
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.04,
+        "expense": 4.14
+      },
+      {
+        "name": "運動發展基金",
+        "income": 3.46,
+        "expense": 4.94
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 3.01,
+        "expense": 3.0
+      },
+      {
+        "name": "營建建設基金",
+        "income": 2.73,
+        "expense": 12.51
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 2.51,
+        "expense": 1.91
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.32,
+        "expense": 1.79
+      },
+      {
+        "name": "國立社教機構作業基金",
+        "income": 1.98,
+        "expense": 2.5
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.79,
+        "expense": 3.16
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 1.43,
+        "expense": 1.84
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.09,
+        "expense": 1.1
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 1.0,
+        "expense": 1.51
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.92,
+        "expense": 0.83
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.85,
+        "expense": 0.64
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.84,
+        "expense": 0.65
+      },
+      {
+        "name": "學產基金",
+        "income": 0.8,
+        "expense": 1.03
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.77,
+        "expense": 0.74
+      },
+      {
+        "name": "大專校院轉型及退場基金",
+        "income": 0.76,
+        "expense": 0.11
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.71,
+        "expense": 0.68
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.62,
+        "expense": 0.6
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.47,
+        "expense": 0.43
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.41,
+        "expense": 0.49
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.36,
+        "expense": 0.36
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.36,
+        "expense": 0.3
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.11
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 0.1,
+        "expense": 0.1
+      },
+      {
+        "name": "地方建設基金",
+        "income": 0.07,
+        "expense": 0.01
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.02
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.01,
+        "expense": 0.9
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.0,
+        "expense": 0.32
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "items": [
+      {
+        "name": "中央政府債務基金",
+        "income": 777.45,
+        "expense": 777.44
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 699.0,
+        "expense": 699.0
+      },
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 650.54,
+        "expense": 639.18
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 646.71,
+        "expense": 644.64
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 524.65,
+        "expense": 524.65
+      },
+      {
+        "name": "中央銀行",
+        "income": 389.26,
+        "expense": 238.85
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 334.74,
+        "expense": 328.36
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 275.12,
+        "expense": 266.18
+      },
+      {
+        "name": "國立大學校院校務基金(48所學校綜計)",
+        "income": 126.67,
+        "expense": 131.31
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 109.84,
+        "expense": 109.84
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 74.34,
+        "expense": 67.96
+      },
+      {
+        "name": "交通作業基金",
+        "income": 64.63,
+        "expense": 38.37
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 64.11,
+        "expense": 62.14
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 56.42,
+        "expense": 48.58
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 39.68,
+        "expense": 36.94
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 37.04,
+        "expense": 42.3
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 35.74,
+        "expense": 34.51
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 35.43,
+        "expense": 34.24
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 33.51,
+        "expense": 30.67
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 31.37,
+        "expense": 31.64
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 30.04,
+        "expense": 32.79
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 29.98,
+        "expense": 33.77
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 26.54,
+        "expense": 3.51
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 26.34,
+        "expense": 25.48
+      },
+      {
+        "name": "就業安定基金",
+        "income": 23.49,
+        "expense": 17.57
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 22.86,
+        "expense": 16.6
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 21.01,
+        "expense": 15.44
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 17.63,
+        "expense": 14.53
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 17.16,
+        "expense": 9.22
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 16.5,
+        "expense": 1.82
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 13.57,
+        "expense": 13.48
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 10.57,
+        "expense": 10.57
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 8.95,
+        "expense": 10.06
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.84,
+        "expense": 8.2
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 8.78,
+        "expense": 9.1
+      },
+      {
+        "name": "環境保護基金",
+        "income": 8.74,
+        "expense": 10.96
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 7.68,
+        "expense": 9.05
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.1,
+        "expense": 4.31
+      },
+      {
+        "name": "運動發展基金",
+        "income": 3.96,
+        "expense": 6.17
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 3.13,
+        "expense": 2.49
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 3.09,
+        "expense": 3.09
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.49,
+        "expense": 1.57
+      },
+      {
+        "name": "教育部所屬機構作業基金",
+        "income": 1.99,
+        "expense": 2.48
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.8,
+        "expense": 3.15
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 1.69,
+        "expense": 9.73
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.03,
+        "expense": 1.06
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 0.94,
+        "expense": 1.26
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.87,
+        "expense": 0.7
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.83,
+        "expense": 0.77
+      },
+      {
+        "name": "學產基金",
+        "income": 0.82,
+        "expense": 1.07
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.77,
+        "expense": 0.61
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.73,
+        "expense": 0.72
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.64,
+        "expense": 0.62
+      },
+      {
+        "name": "營建建設基金",
+        "income": 0.63,
+        "expense": 9.11
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.62,
+        "expense": 0.6
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.5,
+        "expense": 0.35
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.48,
+        "expense": 0.48
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.47,
+        "expense": 0.47
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.46,
+        "expense": 0.57
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.36,
+        "expense": 0.35
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.1
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 0.09,
+        "expense": 0.14
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.05
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.01,
+        "expense": 0.9
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      },
+      {
+        "name": "大專校院轉型及退場基金",
+        "income": 0.0,
+        "expense": 0.09
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 817.78,
+        "expense": 808.46
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 743.58,
+        "expense": 743.58
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 737.53,
+        "expense": 737.53
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 631.36,
+        "expense": 626.95
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 533.96,
+        "expense": 533.96
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 332.94,
+        "expense": 325.85
+      },
+      {
+        "name": "中央銀行",
+        "income": 309.24,
+        "expense": 168.11
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 272.05,
+        "expense": 262.96
+      },
+      {
+        "name": "國立大學校院校務基金(48所學校綜計)",
+        "income": 130.66,
+        "expense": 134.92
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 114.71,
+        "expense": 114.71
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 71.5,
+        "expense": 65.86
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 66.78,
+        "expense": 64.46
+      },
+      {
+        "name": "交通作業基金",
+        "income": 63.02,
+        "expense": 37.76
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 59.7,
+        "expense": 51.58
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 56.46,
+        "expense": 13.29
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 42.74,
+        "expense": 39.88
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 39.3,
+        "expense": 38.1
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 37.73,
+        "expense": 36.44
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 37.01,
+        "expense": 38.54
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 34.45,
+        "expense": 30.0
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 31.68,
+        "expense": 32.11
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 30.44,
+        "expense": 34.38
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 30.17,
+        "expense": 33.59
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 27.32,
+        "expense": 26.29
+      },
+      {
+        "name": "就業安定基金",
+        "income": 26.72,
+        "expense": 31.91
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 26.4,
+        "expense": 4.34
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 25.59,
+        "expense": 2.74
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 21.11,
+        "expense": 15.42
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 20.07,
+        "expense": 2.48
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 18.11,
+        "expense": 14.86
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 16.1,
+        "expense": 14.98
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 14.1,
+        "expense": 14.0
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 11.0,
+        "expense": 11.0
+      },
+      {
+        "name": "農田水利事業作業基金",
+        "income": 10.41,
+        "expense": 15.35
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 10.24,
+        "expense": 11.69
+      },
+      {
+        "name": "環境保護基金",
+        "income": 9.27,
+        "expense": 10.23
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 8.99,
+        "expense": 8.76
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 8.92,
+        "expense": 10.12
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.82,
+        "expense": 8.18
+      },
+      {
+        "name": "營建建設基金",
+        "income": 5.27,
+        "expense": 10.88
+      },
+      {
+        "name": "運動發展基金",
+        "income": 3.86,
+        "expense": 6.69
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 3.73,
+        "expense": 3.74
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 3.33,
+        "expense": 2.69
+      },
+      {
+        "name": "國立陽明大學附設醫院作業基金",
+        "income": 3.16,
+        "expense": 3.16
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.71,
+        "expense": 1.78
+      },
+      {
+        "name": "教育部所屬機構作業基金",
+        "income": 1.91,
+        "expense": 2.49
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.78,
+        "expense": 3.1
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 1.53,
+        "expense": 6.12
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.09,
+        "expense": 1.18
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.91,
+        "expense": 0.72
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.82,
+        "expense": 0.77
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.81,
+        "expense": 0.8
+      },
+      {
+        "name": "學產基金",
+        "income": 0.81,
+        "expense": 0.97
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.61,
+        "expense": 0.59
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.5,
+        "expense": 0.36
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.49,
+        "expense": 0.48
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.45,
+        "expense": 0.55
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.43,
+        "expense": 0.33
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.42,
+        "expense": 0.52
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.34,
+        "expense": 0.34
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.33,
+        "expense": 0.53
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.1
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 0.09,
+        "expense": 0.2
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.05
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.01,
+        "expense": 0.9
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      },
+      {
+        "name": "大專校院轉型及退場基金",
+        "income": 0.0,
+        "expense": 0.07
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 808.76,
+        "expense": 800.55
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 772.86,
+        "expense": 772.86
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 760.34,
+        "expense": 760.24
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 661.55,
+        "expense": 654.7
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 570.25,
+        "expense": 570.25
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 295.16,
+        "expense": 287.18
+      },
+      {
+        "name": "中央銀行",
+        "income": 293.94,
+        "expense": 140.52
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 212.91,
+        "expense": 204.3
+      },
+      {
+        "name": "國立大學校院校務基金(47所學校綜計)",
+        "income": 131.67,
+        "expense": 135.52
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 120.76,
+        "expense": 120.76
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 69.1,
+        "expense": 66.58
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 68.03,
+        "expense": 62.18
+      },
+      {
+        "name": "交通作業基金",
+        "income": 65.08,
+        "expense": 38.41
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 54.74,
+        "expense": 46.55
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 47.53,
+        "expense": 44.88
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 42.4,
+        "expense": 42.36
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 39.1,
+        "expense": 37.84
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 38.37,
+        "expense": 37.1
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 33.75,
+        "expense": 29.1
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 32.8,
+        "expense": 32.97
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 32.29,
+        "expense": 36.34
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 30.58,
+        "expense": 34.17
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 27.7,
+        "expense": 26.56
+      },
+      {
+        "name": "就業安定基金",
+        "income": 27.21,
+        "expense": 31.7
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 26.27,
+        "expense": 4.6
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 22.71,
+        "expense": 3.78
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 22.1,
+        "expense": 16.37
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 19.39,
+        "expense": 14.64
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 17.98,
+        "expense": 18.81
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 14.14,
+        "expense": 14.05
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 11.89,
+        "expense": 10.97
+      },
+      {
+        "name": "環境保護基金",
+        "income": 11.33,
+        "expense": 12.63
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 11.25,
+        "expense": 11.25
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 9.48,
+        "expense": 0.29
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 9.23,
+        "expense": 10.75
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 9.14,
+        "expense": 8.52
+      },
+      {
+        "name": "航港建設基金",
+        "income": 8.96,
+        "expense": 8.76
+      },
+      {
+        "name": "農田水利事業作業基金",
+        "income": 8.95,
+        "expense": 12.86
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 8.46,
+        "expense": 14.71
+      },
+      {
+        "name": "營建建設基金",
+        "income": 5.34,
+        "expense": 11.32
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.14,
+        "expense": 4.17
+      },
+      {
+        "name": "運動發展基金",
+        "income": 4.03,
+        "expense": 6.89
+      },
+      {
+        "name": "國立陽明交通大學附設醫院作業基金",
+        "income": 3.3,
+        "expense": 3.29
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 3.14,
+        "expense": 2.45
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.75,
+        "expense": 1.95
+      },
+      {
+        "name": "教育部所屬機構作業基金",
+        "income": 2.06,
+        "expense": 2.63
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.86,
+        "expense": 3.17
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 1.41,
+        "expense": 2.32
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.25,
+        "expense": 1.32
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.96,
+        "expense": 0.69
+      },
+      {
+        "name": "促進轉型正義基金",
+        "income": 0.95,
+        "expense": 0.01
+      },
+      {
+        "name": "學產基金",
+        "income": 0.8,
+        "expense": 0.83
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.79,
+        "expense": 0.75
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.79,
+        "expense": 0.81
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.59,
+        "expense": 0.58
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.5,
+        "expense": 0.37
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.47,
+        "expense": 0.58
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.42,
+        "expense": 0.41
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.42,
+        "expense": 0.61
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.37,
+        "expense": 0.31
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.31,
+        "expense": 0.3
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.22,
+        "expense": 0.53
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.1
+      },
+      {
+        "name": "實施平均地權基金",
+        "income": 0.05,
+        "expense": 0.01
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.05
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.01,
+        "expense": 0.9
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 0.01,
+        "expense": 2.45
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      },
+      {
+        "name": "大專校院轉型及退場基金",
+        "income": 0.0,
+        "expense": 0.06
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 1231.38,
+        "expense": 1231.21
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 872.88,
+        "expense": 872.88
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 782.17,
+        "expense": 782.17
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 752.73,
+        "expense": 1031.18
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 594.65,
+        "expense": 594.65
+      },
+      {
+        "name": "中央銀行",
+        "income": 354.73,
+        "expense": 194.17
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 309.94,
+        "expense": 300.78
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 224.29,
+        "expense": 215.36
+      },
+      {
+        "name": "國立大學校院校務基金(47所學校綜計)",
+        "income": 135.87,
+        "expense": 140.02
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 122.77,
+        "expense": 122.77
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 73.0,
+        "expense": 70.66
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 68.16,
+        "expense": 62.62
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 55.87,
+        "expense": 46.9
+      },
+      {
+        "name": "交通作業基金",
+        "income": 54.28,
+        "expense": 38.17
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 50.2,
+        "expense": 47.75
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 40.77,
+        "expense": 40.76
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 40.61,
+        "expense": 39.16
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 40.37,
+        "expense": 38.95
+      },
+      {
+        "name": "營建建設基金",
+        "income": 36.14,
+        "expense": 36.88
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 34.63,
+        "expense": 29.44
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 33.34,
+        "expense": 34.07
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 32.77,
+        "expense": 36.88
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 32.62,
+        "expense": 5.02
+      },
+      {
+        "name": "交通部臺灣鐵路管理局",
+        "income": 30.64,
+        "expense": 35.32
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 29.22,
+        "expense": 28.14
+      },
+      {
+        "name": "就業安定基金",
+        "income": 27.53,
+        "expense": 35.27
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 26.32,
+        "expense": 6.7
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 26.2,
+        "expense": 17.41
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 21.72,
+        "expense": 23.35
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 20.77,
+        "expense": 16.22
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 15.25,
+        "expense": 15.14
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 12.19,
+        "expense": 12.19
+      },
+      {
+        "name": "環境保護基金",
+        "income": 11.93,
+        "expense": 11.26
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 10.03,
+        "expense": 0.52
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 9.93,
+        "expense": 15.41
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 9.87,
+        "expense": 9.42
+      },
+      {
+        "name": "航港建設基金",
+        "income": 9.78,
+        "expense": 10.09
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 9.52,
+        "expense": 10.68
+      },
+      {
+        "name": "農田水利事業作業基金",
+        "income": 9.34,
+        "expense": 12.95
+      },
+      {
+        "name": "行政院公營事業民營化基金",
+        "income": 9.13,
+        "expense": 9.26
+      },
+      {
+        "name": "運動發展基金",
+        "income": 4.55,
+        "expense": 6.82
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.33,
+        "expense": 4.29
+      },
+      {
+        "name": "國立陽明交通大學附設醫院作業基金",
+        "income": 3.5,
+        "expense": 3.5
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 3.17,
+        "expense": 2.4
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 3.04,
+        "expense": 1.96
+      },
+      {
+        "name": "教育部所屬機構作業基金",
+        "income": 2.14,
+        "expense": 2.67
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 1.79,
+        "expense": 3.11
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.18,
+        "expense": 1.27
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.9,
+        "expense": 0.65
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.85,
+        "expense": 0.9
+      },
+      {
+        "name": "學產基金",
+        "income": 0.82,
+        "expense": 0.78
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.81,
+        "expense": 0.95
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.76,
+        "expense": 0.71
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 0.68,
+        "expense": 0.48
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.64,
+        "expense": 0.57
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.57,
+        "expense": 0.71
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.52,
+        "expense": 0.62
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.42,
+        "expense": 0.41
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.41,
+        "expense": 0.48
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.4,
+        "expense": 0.42
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.35,
+        "expense": 0.29
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.3,
+        "expense": 0.29
+      },
+      {
+        "name": "文化發展基金",
+        "income": 0.25,
+        "expense": 0.23
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.09
+      },
+      {
+        "name": "促進轉型正義基金",
+        "income": 0.06,
+        "expense": 0.1
+      },
+      {
+        "name": "實施平均地權基金",
+        "income": 0.05,
+        "expense": 0.02
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.08
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 0.01,
+        "expense": 2.81
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      },
+      {
+        "name": "私立高級中等以上學校退場基金",
+        "income": 0.0,
+        "expense": 0.08
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 1225.46,
+        "expense": 1222.4
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 892.97,
+        "expense": 892.97
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 818.6,
+        "expense": 982.08
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 817.11,
+        "expense": 817.11
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 699.23,
+        "expense": 699.23
+      },
+      {
+        "name": "中央銀行",
+        "income": 412.51,
+        "expense": 236.91
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 323.7,
+        "expense": 313.52
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 235.3,
+        "expense": 225.77
+      },
+      {
+        "name": "國立大學校院校務基金(47所學校綜計)",
+        "income": 142.99,
+        "expense": 147.55
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 122.85,
+        "expense": 122.85
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 79.38,
+        "expense": 76.09
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 74.25,
+        "expense": 64.52
+      },
+      {
+        "name": "交通作業基金",
+        "income": 64.3,
+        "expense": 44.1
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 64.25,
+        "expense": 59.44
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 52.78,
+        "expense": 50.92
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 44.49,
+        "expense": 47.49
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 43.61,
+        "expense": 42.07
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 39.26,
+        "expense": 37.97
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 35.4,
+        "expense": 30.45
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 35.28,
+        "expense": 39.42
+      },
+      {
+        "name": "國營臺灣鐵路股份有限公司",
+        "income": 34.47,
+        "expense": 41.94
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 33.43,
+        "expense": 35.69
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 30.41,
+        "expense": 29.25
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 28.97,
+        "expense": 4.97
+      },
+      {
+        "name": "就業安定基金",
+        "income": 28.49,
+        "expense": 28.17
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 26.77,
+        "expense": 6.43
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 25.37,
+        "expense": 17.69
+      },
+      {
+        "name": "營建建設基金",
+        "income": 25.0,
+        "expense": 40.55
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 23.55,
+        "expense": 18.44
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 18.26,
+        "expense": 15.65
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 18.02,
+        "expense": 32.62
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 16.31,
+        "expense": 16.21
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 12.9,
+        "expense": 12.9
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 10.15,
+        "expense": 0.67
+      },
+      {
+        "name": "農田水利事業作業基金",
+        "income": 10.03,
+        "expense": 12.5
+      },
+      {
+        "name": "環境保護基金",
+        "income": 9.79,
+        "expense": 9.54
+      },
+      {
+        "name": "航港建設基金",
+        "income": 9.71,
+        "expense": 9.69
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 9.13,
+        "expense": 11.0
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 8.33,
+        "expense": 7.66
+      },
+      {
+        "name": "運動發展基金",
+        "income": 5.92,
+        "expense": 7.03
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 4.27,
+        "expense": 3.42
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.18,
+        "expense": 4.15
+      },
+      {
+        "name": "國立陽明交通大學附設醫院作業基金",
+        "income": 3.88,
+        "expense": 3.87
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 3.28,
+        "expense": 2.02
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 2.85,
+        "expense": 3.09
+      },
+      {
+        "name": "教育部所屬機構作業基金",
+        "income": 2.19,
+        "expense": 2.7
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.19,
+        "expense": 1.29
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.92,
+        "expense": 0.67
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.87,
+        "expense": 0.9
+      },
+      {
+        "name": "學產基金",
+        "income": 0.86,
+        "expense": 0.75
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.84,
+        "expense": 0.96
+      },
+      {
+        "name": "國防醫學院軍事教育基金",
+        "income": 0.71,
+        "expense": 0.74
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.7,
+        "expense": 0.67
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.66,
+        "expense": 0.68
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 0.65,
+        "expense": 0.56
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.63,
+        "expense": 0.58
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.54,
+        "expense": 0.64
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.44,
+        "expense": 0.51
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.42,
+        "expense": 0.43
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.4,
+        "expense": 0.42
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.38,
+        "expense": 0.34
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.29,
+        "expense": 0.28
+      },
+      {
+        "name": "私立高級中等以上學校退場基金",
+        "income": 0.19,
+        "expense": 0.1
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.1
+      },
+      {
+        "name": "文化發展基金",
+        "income": 0.08,
+        "expense": 0.05
+      },
+      {
+        "name": "促進轉型正義基金",
+        "income": 0.07,
+        "expense": 0.08
+      },
+      {
+        "name": "實施平均地權基金",
+        "income": 0.05,
+        "expense": 0.01
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.09
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 0.01,
+        "expense": 2.71
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.0,
+        "expense": 0.02
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "items": [
+      {
+        "name": "台灣中油股份有限公司",
+        "income": 1212.11,
+        "expense": 1205.77
+      },
+      {
+        "name": "台灣電力股份有限公司",
+        "income": 1004.79,
+        "expense": 997.05
+      },
+      {
+        "name": "中央政府債務基金",
+        "income": 912.97,
+        "expense": 912.97
+      },
+      {
+        "name": "全民健康保險基金",
+        "income": 871.11,
+        "expense": 871.11
+      },
+      {
+        "name": "勞工保險局作業基金",
+        "income": 743.57,
+        "expense": 743.57
+      },
+      {
+        "name": "中央銀行",
+        "income": 426.18,
+        "expense": 250.86
+      },
+      {
+        "name": "臺灣金融控股股份有限公司",
+        "income": 344.71,
+        "expense": 333.22
+      },
+      {
+        "name": "中華郵政股份有限公司",
+        "income": 247.47,
+        "expense": 243.95
+      },
+      {
+        "name": "國立大學校院校務基金(47所學校綜計)",
+        "income": 151.35,
+        "expense": 155.35
+      },
+      {
+        "name": "國民年金保險基金",
+        "income": 131.77,
+        "expense": 131.77
+      },
+      {
+        "name": "榮民醫療作業基金",
+        "income": 84.79,
+        "expense": 81.55
+      },
+      {
+        "name": "臺灣土地銀行股份有限公司",
+        "income": 79.89,
+        "expense": 69.38
+      },
+      {
+        "name": "交通作業基金",
+        "income": 75.9,
+        "expense": 46.04
+      },
+      {
+        "name": "營建建設基金",
+        "income": 70.93,
+        "expense": 67.81
+      },
+      {
+        "name": "臺灣菸酒股份有限公司",
+        "income": 60.32,
+        "expense": 55.54
+      },
+      {
+        "name": "國立臺灣大學附設醫院作業基金",
+        "income": 57.74,
+        "expense": 56.32
+      },
+      {
+        "name": "行政院國家科學技術發展基金",
+        "income": 49.51,
+        "expense": 49.51
+      },
+      {
+        "name": "醫療藥品基金",
+        "income": 47.17,
+        "expense": 45.24
+      },
+      {
+        "name": "核能發電後端營運基金",
+        "income": 42.38,
+        "expense": 7.99
+      },
+      {
+        "name": "國軍生產及服務作業基金",
+        "income": 41.39,
+        "expense": 40.0
+      },
+      {
+        "name": "國立高級中等學校校務基金",
+        "income": 36.88,
+        "expense": 40.89
+      },
+      {
+        "name": "台灣糖業股份有限公司",
+        "income": 36.44,
+        "expense": 30.8
+      },
+      {
+        "name": "國營臺灣鐵路股份有限公司",
+        "income": 36.19,
+        "expense": 44.88
+      },
+      {
+        "name": "台灣自來水股份有限公司",
+        "income": 32.9,
+        "expense": 38.83
+      },
+      {
+        "name": "行政院國家發展基金",
+        "income": 30.47,
+        "expense": 5.88
+      },
+      {
+        "name": "就業安定基金",
+        "income": 29.8,
+        "expense": 27.34
+      },
+      {
+        "name": "臺灣港務股份有限公司",
+        "income": 25.44,
+        "expense": 18.09
+      },
+      {
+        "name": "科學園區管理局作業基金",
+        "income": 24.62,
+        "expense": 19.76
+      },
+      {
+        "name": "桃園國際機場股份有限公司",
+        "income": 24.21,
+        "expense": 18.2
+      },
+      {
+        "name": "國立成功大學附設醫院作業基金",
+        "income": 16.95,
+        "expense": 16.83
+      },
+      {
+        "name": "國軍營舍及設施改建基金",
+        "income": 14.75,
+        "expense": 39.3
+      },
+      {
+        "name": "中央存款保險股份有限公司",
+        "income": 13.57,
+        "expense": 13.57
+      },
+      {
+        "name": "農田水利事業作業基金",
+        "income": 10.83,
+        "expense": 12.87
+      },
+      {
+        "name": "國土永續發展基金",
+        "income": 10.15,
+        "expense": 0.92
+      },
+      {
+        "name": "水資源作業基金",
+        "income": 9.59,
+        "expense": 11.43
+      },
+      {
+        "name": "航港建設基金",
+        "income": 9.59,
+        "expense": 10.81
+      },
+      {
+        "name": "環境保護基金",
+        "income": 9.26,
+        "expense": 8.39
+      },
+      {
+        "name": "經濟作業基金",
+        "income": 8.7,
+        "expense": 7.65
+      },
+      {
+        "name": "運動發展基金",
+        "income": 6.92,
+        "expense": 8.38
+      },
+      {
+        "name": "中國輸出入銀行",
+        "income": 5.87,
+        "expense": 4.76
+      },
+      {
+        "name": "中央研究院科學研究基金",
+        "income": 4.33,
+        "expense": 4.32
+      },
+      {
+        "name": "國立陽明交通大學附設醫院作業基金",
+        "income": 4.12,
+        "expense": 4.07
+      },
+      {
+        "name": "金融監督管理基金",
+        "income": 3.97,
+        "expense": 2.89
+      },
+      {
+        "name": "原住民族綜合發展基金",
+        "income": 3.63,
+        "expense": 3.85
+      },
+      {
+        "name": "國軍退除役官兵安置基金",
+        "income": 2.94,
+        "expense": 2.09
+      },
+      {
+        "name": "教育部所屬機構作業基金",
+        "income": 2.33,
+        "expense": 2.84
+      },
+      {
+        "name": "法務部矯正機關作業基金",
+        "income": 1.15,
+        "expense": 1.26
+      },
+      {
+        "name": "管制藥品製藥工廠作業基金",
+        "income": 0.97,
+        "expense": 0.72
+      },
+      {
+        "name": "國立文化機構作業基金",
+        "income": 0.95,
+        "expense": 1.08
+      },
+      {
+        "name": "離島建設基金",
+        "income": 0.9,
+        "expense": 0.9
+      },
+      {
+        "name": "學產基金",
+        "income": 0.88,
+        "expense": 0.78
+      },
+      {
+        "name": "國防醫學院軍事教育基金",
+        "income": 0.78,
+        "expense": 0.86
+      },
+      {
+        "name": "財政部印刷廠",
+        "income": 0.69,
+        "expense": 0.67
+      },
+      {
+        "name": "毒品防制基金",
+        "income": 0.66,
+        "expense": 0.68
+      },
+      {
+        "name": "國軍老舊眷村改建基金",
+        "income": 0.64,
+        "expense": 0.47
+      },
+      {
+        "name": "考選業務基金",
+        "income": 0.6,
+        "expense": 0.59
+      },
+      {
+        "name": "農業作業基金",
+        "income": 0.55,
+        "expense": 0.67
+      },
+      {
+        "name": "故宮文物藝術發展基金",
+        "income": 0.46,
+        "expense": 0.41
+      },
+      {
+        "name": "通訊傳播監督管理基金",
+        "income": 0.44,
+        "expense": 0.51
+      },
+      {
+        "name": "新住民發展基金",
+        "income": 0.4,
+        "expense": 0.39
+      },
+      {
+        "name": "私立高級中等以上學校退場基金",
+        "income": 0.35,
+        "expense": 0.06
+      },
+      {
+        "name": "海洋污染防治基金",
+        "income": 0.34,
+        "expense": 0.24
+      },
+      {
+        "name": "研發及產業訓儲替代役基金",
+        "income": 0.32,
+        "expense": 0.37
+      },
+      {
+        "name": "文化發展基金",
+        "income": 0.31,
+        "expense": 0.15
+      },
+      {
+        "name": "有線廣播電視事業發展基金",
+        "income": 0.28,
+        "expense": 0.27
+      },
+      {
+        "name": "核子事故緊急應變基金",
+        "income": 0.12,
+        "expense": 0.1
+      },
+      {
+        "name": "促進轉型正義基金",
+        "income": 0.07,
+        "expense": 0.15
+      },
+      {
+        "name": "實施平均地權基金",
+        "income": 0.05,
+        "expense": 0.01
+      },
+      {
+        "name": "反托拉斯基金",
+        "income": 0.05,
+        "expense": 0.07
+      },
+      {
+        "name": "花東地區永續發展基金",
+        "income": 0.01,
+        "expense": 2.88
+      },
+      {
+        "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+        "income": 0.01,
+        "expense": 0.01
+      }
+    ]
+  }
+]

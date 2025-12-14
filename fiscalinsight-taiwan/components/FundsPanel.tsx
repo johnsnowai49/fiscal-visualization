@@ -1,13 +1,18 @@
 import React, { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
-import { FiscalYearData } from '../types';
+import { FundYearData } from '../types';
 
 interface Props {
-  data: FiscalYearData;
+  data: FundYearData;
 }
 
 const FundsPanel: React.FC<Props> = ({ data }) => {
   const option = useMemo(() => {
+    // Sort by Income descending and take top 10
+    const topFunds = [...data.items]
+      .sort((a, b) => b.income - a.income)
+      .slice(0, 10);
+
     return {
       tooltip: {
         trigger: 'axis',
@@ -25,26 +30,26 @@ const FundsPanel: React.FC<Props> = ({ data }) => {
       },
       xAxis: {
         type: 'category',
-        data: data.funds.map(f => f.name),
+        data: topFunds.map(f => f.name),
         axisTick: { alignWithLabel: true }
       },
       yAxis: {
         type: 'value',
-        name: 'Amount (Billions)',
+        name: 'NT$ (Billions)',
         splitLine: { lineStyle: { type: 'dashed' } }
       },
       series: [
         {
           name: 'Income',
           type: 'bar',
-          data: data.funds.map(f => f.income),
+          data: topFunds.map(f => f.income),
           itemStyle: { color: '#10b981' }, // Green
           barGap: 0
         },
         {
           name: 'Expense',
           type: 'bar',
-          data: data.funds.map(f => f.expense),
+          data: topFunds.map(f => f.expense),
           itemStyle: { color: '#ef4444' } // Red
         }
       ]

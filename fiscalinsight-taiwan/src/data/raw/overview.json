@@ -1,0 +1,1496 @@
+[
+  {
+    "year": 2008,
+    "revenue": {
+      "total": 1594436316,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1203400000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 244195329
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 80742407
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 46073186
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 20025394
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1685856453,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 179012480
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 333042710
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 316252791
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 200175284
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 296837537
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 13434661
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 136037966
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 134496164
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 76566860
+        }
+      }
+    }
+  },
+  {
+    "year": 2009,
+    "revenue": {
+      "total": 1673231316,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1267135000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 251285983
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 81614885
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 51507583
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 21687865
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1809667004,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 178269819
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 308234009
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 341723379
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 261332033
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 324786004
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 22620407
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 136840571
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 128472571
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 107388211
+        }
+      }
+    }
+  },
+  {
+    "year": 2010,
+    "revenue": {
+      "total": 1547986445,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1126357000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 251663070
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 84442284
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 66436461
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 19087630
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1714937403,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 179359612
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 286341600
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 348221552
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 200510272
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 325128001
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 9641788
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 136823051
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 126051624
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 102859903
+        }
+      }
+    }
+  },
+  {
+    "year": 2011,
+    "revenue": {
+      "total": 1627246853,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1155070000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 258240058
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 84771633
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 79276293
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 49888869
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1769844184,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 184160041
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 284634734
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 353850511
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 219287122
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 346292491
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 7165722
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 133952656
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 130104965
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 110395942
+        }
+      }
+    }
+  },
+  {
+    "year": 2012,
+    "revenue": {
+      "total": 1729431644,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1250100000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 260988317
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 113845908
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 93447235
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 11050184
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1938637325,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 184330862
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 309440879
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 363775137
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 268166114
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 422003438
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 18186352
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 138505695
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 130104000
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 104124848
+        }
+      }
+    }
+  },
+  {
+    "year": 2013,
+    "revenue": {
+      "total": 1733259058,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1280286000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 253311094
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 115649074
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 73607096
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 10405794
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1907567387,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 178865883
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 305451147
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 359954380
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 260661740
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 438040439
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 16379037
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 133163295
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 129232207
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 85819259
+        }
+      }
+    }
+  },
+  {
+    "year": 2014,
+    "revenue": {
+      "total": 1707156731,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1271304000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 258911621
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 81020541
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 85885098
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 10035471
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1916227714,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 178596832
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 304316974
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 369044520
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 269622508
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 423638561
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 16800956
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 138052369
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 127537620
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 88617374
+        }
+      }
+    }
+  },
+  {
+    "year": 2015,
+    "revenue": {
+      "total": 1776702733,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1319405000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 255005120
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 105673839
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 86768374
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 9850400
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1934636035,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 179407969
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 305969096
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 382857340
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 259787381
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 441199250
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 16517012
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 141607313
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 126753380
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 80537294
+        }
+      }
+    }
+  },
+  {
+    "year": 2016,
+    "revenue": {
+      "total": 1822377773,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1440009000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 238245009
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 79065974
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 51880533
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 13177257
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1975866301,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 186984533
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 309804883
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 387850906
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 267254254
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 460609627
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 17975720
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 147210351
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 123311322
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 74864705
+        }
+      }
+    }
+  },
+  {
+    "year": 2017,
+    "revenue": {
+      "total": 1841451404,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1469310000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 224406799
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 98978836
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 37340385
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 11415384
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1973995947,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 180128272
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 307871518
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 408867011
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 259638943
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 476533146
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 17156817
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 139839129
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 112155738
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 71805373
+        }
+      }
+    }
+  },
+  {
+    "year": 2018,
+    "revenue": {
+      "total": 1919376256,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1577495000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 224808487
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 80749100
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 25978559
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 10345110
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1966862309,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 188370601
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 315921458
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 395391062
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 235203666
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 490681452
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 18346122
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 140437968
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 115111817
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 67398163
+        }
+      }
+    }
+  },
+  {
+    "year": 2019,
+    "revenue": {
+      "total": 1992562681,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1647107000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 229021861
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 79843633
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 25878408
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 10711779
+        }
+      }
+    },
+    "expenditure": {
+      "total": 1997977761,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 189033892
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 324673432
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 415679078
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 242045956
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 491970830
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 18941747
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 138073838
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 111513995
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 66044993
+        }
+      }
+    }
+  },
+  {
+    "year": 2020,
+    "revenue": {
+      "total": 2107027829,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1679592000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 244253149
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 123209133
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 48017875
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 11955672
+        }
+      }
+    },
+    "expenditure": {
+      "total": 2077568744,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 197777803
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 337504654
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 420180813
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 246924200
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 523490751
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 23182519
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 146389059
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 108001400
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 74117545
+        }
+      }
+    }
+  },
+  {
+    "year": 2021,
+    "revenue": {
+      "total": 2053518101,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1678542000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 241745475
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 79002866
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 32159855
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 22067905
+        }
+      }
+    },
+    "expenditure": {
+      "total": 2135896877,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 202632117
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 347883861
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 419185163
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 247831392
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 558783446
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 21118800
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 147058701
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 107973319
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 83430078
+        }
+      }
+    }
+  },
+  {
+    "year": 2022,
+    "revenue": {
+      "total": 2267025455,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 1903767300
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 249224599
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 76442853
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 24853881
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 12736822
+        }
+      }
+    },
+    "expenditure": {
+      "total": 2251064897,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 211392426
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 357175406
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 448110697
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 255433838
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 600385096
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 26534574
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 147485157
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 107808344
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 96739359
+        }
+      }
+    }
+  },
+  {
+    "year": 2023,
+    "revenue": {
+      "total": 2579588822,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 2194910000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 264659364
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 79355052
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 25276310
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 15388096
+        }
+      }
+    },
+    "expenditure": {
+      "total": 2689097857,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 235764303
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 392516828
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 486347542
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 474899778
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 712969785
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 28619455
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 148246501
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 107582940
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 102150725
+        }
+      }
+    }
+  },
+  {
+    "year": 2024,
+    "revenue": {
+      "total": 2725453566,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 2314020000
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 287180735
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 80319401
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 31492603
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 12440827
+        }
+      }
+    },
+    "expenditure": {
+      "total": 2851855874,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 248627160
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 426373146
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 548921128
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 427704619
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 789721971
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 28640137
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 173502099
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 107313876
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 101051738
+        }
+      }
+    }
+  },
+  {
+    "year": 2025,
+    "revenue": {
+      "total": 3164804347,
+      "breakdown": {
+        "REV_TAX": {
+          "name": "Tax Revenue",
+          "abbr": "Tax",
+          "amount": 2784492288
+        },
+        "REV_BIZ": {
+          "name": "Business Income",
+          "abbr": "Business",
+          "amount": 256106997
+        },
+        "REV_FEE": {
+          "name": "Fees & Fines",
+          "abbr": "Fees",
+          "amount": 81876645
+        },
+        "REV_PROP": {
+          "name": "Property Income",
+          "abbr": "Property",
+          "amount": 29839219
+        },
+        "REV_OTHER": {
+          "name": "Other Revenue",
+          "abbr": "Other",
+          "amount": 12489198
+        }
+      }
+    },
+    "expenditure": {
+      "total": 2924966563,
+      "breakdown": {
+        "EXP_ADMIN": {
+          "name": "General Administration",
+          "abbr": "Admin",
+          "amount": 265002380
+        },
+        "EXP_DEF": {
+          "name": "National Defense",
+          "abbr": "Defense",
+          "amount": 459075411
+        },
+        "EXP_EDU": {
+          "name": "Edu, Sci & Culture",
+          "abbr": "Education",
+          "amount": 582881778
+        },
+        "EXP_ECO": {
+          "name": "Economic Development",
+          "abbr": "Economy",
+          "amount": 416925051
+        },
+        "EXP_SOC": {
+          "name": "Social Welfare",
+          "abbr": "Welfare",
+          "amount": 815475871
+        },
+        "EXP_COM": {
+          "name": "Community & Env.",
+          "abbr": "Community",
+          "amount": 29366043
+        },
+        "EXP_PEN": {
+          "name": "Pension & Survivor",
+          "abbr": "Pension",
+          "amount": 181138442
+        },
+        "EXP_DEBT": {
+          "name": "Debt Servicing",
+          "abbr": "Debt",
+          "amount": 106307862
+        },
+        "EXP_SUB": {
+          "name": "Subsidies & Others",
+          "abbr": "Subsidy",
+          "amount": 68793725
+        }
+      }
+    }
+  }
+]

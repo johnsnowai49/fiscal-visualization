@@ -1,16 +1,18 @@
 import React, { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
-import { FISCAL_DATA } from '../data';
+import { OVERVIEW_DATA } from '../data';
 
 const OverviewChart: React.FC = () => {
   const chartData = useMemo(() => {
-    return FISCAL_DATA.map((d, i) => {
-      const prev = FISCAL_DATA[i - 1];
-      const revGrowth = prev ? ((d.totalRevenue - prev.totalRevenue) / prev.totalRevenue) * 100 : 0;
-      const expGrowth = prev ? ((d.totalExpenditure - prev.totalExpenditure) / prev.totalExpenditure) * 100 : 0;
-      
+    return OVERVIEW_DATA.map((d, i) => {
+      const prev = OVERVIEW_DATA[i - 1];
+      const revGrowth = prev ? ((d.revenue.total - prev.revenue.total) / prev.revenue.total) * 100 : 0;
+      const expGrowth = prev ? ((d.expenditure.total - prev.expenditure.total) / prev.expenditure.total) * 100 : 0;
+
       return {
         ...d,
+        totalRevenue: d.revenue.total,
+        totalExpenditure: d.expenditure.total,
         revGrowth: revGrowth.toFixed(1),
         expGrowth: expGrowth.toFixed(1)
       };
@@ -28,20 +30,20 @@ const OverviewChart: React.FC = () => {
           const index = params[0].dataIndex;
           const item = chartData[index];
           let html = `<div class="font-bold mb-2 text-slate-700">Fiscal Year ${item.year}</div>`;
-          
+
           params.forEach((p: any) => {
-             const growth = p.seriesName === 'Total Revenue' ? item.revGrowth : item.expGrowth;
-             const colorClass = parseFloat(growth) >= 0 ? 'text-green-600' : 'text-red-600';
-             const sign = parseFloat(growth) >= 0 ? '+' : '';
-             
-             html += `
+            const growth = p.seriesName === 'Total Revenue' ? item.revGrowth : item.expGrowth;
+            const colorClass = parseFloat(growth) >= 0 ? 'text-green-600' : 'text-red-600';
+            const sign = parseFloat(growth) >= 0 ? '+' : '';
+
+            html += `
               <div class="flex justify-between items-center gap-4 mb-1 text-sm">
                 <div class="flex items-center gap-2">
                   <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background-color:${p.color}"></span>
                   <span>${p.seriesName}</span>
                 </div>
                 <div class="text-right">
-                  <span class="font-semibold block">$${p.value}B</span>
+                  <span class="font-semibold block">NT${p.value}B</span>
                   <span class="text-xs ${colorClass}">(${sign}${growth}%)</span>
                 </div>
               </div>
@@ -65,7 +67,7 @@ const OverviewChart: React.FC = () => {
       xAxis: {
         type: 'category',
         boundaryGap: false,
-        data: chartData.map((d) => `Y${d.year}`),
+        data: chartData.map((d) => `${d.year}`),
         axisLine: { lineStyle: { color: '#94a3b8' } },
       },
       yAxis: {
@@ -101,7 +103,7 @@ const OverviewChart: React.FC = () => {
           data: chartData.map((d) => d.totalExpenditure),
           itemStyle: { color: '#f43f5e' }, // Rose
           lineStyle: { width: 3 },
-           areaStyle: {
+          areaStyle: {
             color: {
               type: 'linear',
               x: 0, y: 0, x2: 0, y2: 1,

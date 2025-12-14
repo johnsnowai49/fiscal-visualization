@@ -1,22 +1,20 @@
-export enum Period {
-  P1 = 'Period 1 (Y1-Y4)',
-  P2 = 'Period 2 (Y5-Y8)',
-  P3 = 'Period 3 (Y9-Y12)',
+export type Period = string;
+
+export interface CategoryItem {
+  name: string;
+  abbr: string;
+  amount: number; // Can be raw int or billion float
 }
 
-export interface RevenueBreakdown {
-  tax: number;
-  fees: number;
-  debt: number;
-  other: number;
+export interface OverviewSection {
+  total: number; // Can be raw int or billion float
+  breakdown: Record<string, CategoryItem>;
 }
 
-export interface ExpenditureBreakdown {
-  education: number;
-  defense: number;
-  socialWelfare: number;
-  infrastructure: number;
-  administration: number;
+export interface OverviewData {
+  year: number;
+  revenue: OverviewSection;
+  expenditure: OverviewSection;
 }
 
 export interface FundItem {
@@ -25,12 +23,18 @@ export interface FundItem {
   expense: number;
 }
 
-export interface FiscalYearData {
+export interface FundYearData {
   year: number;
-  period: Period;
-  totalRevenue: number;
-  totalExpenditure: number;
-  revenue: RevenueBreakdown;
-  expenditure: ExpenditureBreakdown;
-  funds: FundItem[];
+  items: FundItem[];
+}
+
+export interface BudgetDetailNode {
+  name: string;
+  value: number;
+  children?: BudgetDetailNode[];
+}
+
+export interface BudgetDetailData {
+  year: number;
+  children: BudgetDetailNode[];
 }
