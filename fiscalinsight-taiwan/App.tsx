@@ -5,9 +5,11 @@ import SpendersPanel from './components/SpendersPanel';
 import EarnersPanel from './components/EarnersPanel';
 import FundsPanel from './components/FundsPanel';
 import { OVERVIEW_DATA, FUNDS_DATA } from './data';
+import BudgetDetailDashboard from './components/BudgetDetailDashboard'; // Lazy loaded internally
 
 const App: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState<number>(2025);
+  const [view, setView] = useState<'overview' | 'detail'>('overview');
 
   const currentOverview = useMemo(() => {
     return OVERVIEW_DATA.find(d => d.year === selectedYear) || OVERVIEW_DATA[OVERVIEW_DATA.length - 1];
@@ -25,10 +27,15 @@ const App: React.FC = () => {
         {/* Global Controls */}
         <div className="sticky top-0 z-10 bg-slate-50/95 backdrop-blur py-4 mb-6 border-b border-slate-200">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div>
-              <h2 className="text-lg font-semibold text-slate-700">Fiscal Analysis Dashboard</h2>
-              <p className="text-xs text-slate-400">Select a year to update Sections 2-4</p>
+            <div className={`flex items-center gap-4 ${view === 'detail' ? 'opacity-50 pointer-events-none' : ''}`}>
+              <button
+                onClick={() => setView('detail')}
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors shadow-sm"
+              >
+                Explorer &rarr;
+              </button>
             </div>
+
             <div className="flex items-center bg-white border border-slate-200 rounded-lg p-2 shadow-sm">
               <span className="text-xs font-bold text-slate-400 px-2">{OVERVIEW_DATA[0].year}</span>
               <input
@@ -47,28 +54,30 @@ const App: React.FC = () => {
           </div>
         </div>
 
+      </div>
+
+      {view === 'overview' ? (
         <div className="flex flex-col gap-6">
-          {/* Section 1: Overview (Time Series - Unaffected by Year Selector visually, but contextually relevant) */}
           <section>
             <OverviewChart />
           </section>
 
-          {/* Section 2 & 3: Spenders & Earners */}
           <section className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <SpendersPanel data={currentOverview.expenditure} year={selectedYear} />
             <EarnersPanel data={currentOverview.revenue} year={selectedYear} />
           </section>
 
-          {/* Section 4: Funds */}
           <section>
             {currentFunds && <FundsPanel data={currentFunds} />}
           </section>
         </div>
+      ) : (
+        <BudgetDetailDashboard year={selectedYear} onBack={() => setView('overview')} />
+      )}
 
-        <footer className="mt-12 text-center text-slate-400 text-sm py-4 border-t border-slate-200">
-          <p>© 2025 FiscalInsight Taiwan (Real Data Edition)</p>
-        </footer>
-      </div>
+      <footer className="mt-12 text-center text-slate-400 text-sm py-4 border-t border-slate-200">
+        <p>© 2025 FiscalInsight Taiwan (Real Data Edition)</p>
+      </footer>
     </div>
   );
 };

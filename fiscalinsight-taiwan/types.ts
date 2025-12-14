@@ -36,5 +36,6 @@ export interface BudgetDetailNode {
 
 export interface BudgetDetailData {
   year: number;
-  children: BudgetDetailNode[];
+  revenue: BudgetDetailNode[];
+  expenditure: BudgetDetailNode[];
 }

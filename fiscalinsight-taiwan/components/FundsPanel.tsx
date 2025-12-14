@@ -25,13 +25,20 @@ const FundsPanel: React.FC<Props> = ({ data }) => {
       grid: {
         left: '3%',
         right: '4%',
-        bottom: '10%',
+        bottom: '25%', // Increased space for rotated labels
         containLabel: true
       },
       xAxis: {
         type: 'category',
         data: topFunds.map(f => f.name),
-        axisTick: { alignWithLabel: true }
+        axisTick: { alignWithLabel: true },
+        axisLabel: {
+          interval: 0,
+          rotate: 30,
+          formatter: (value: string) => {
+            return value.length > 10 ? value.substring(0, 10) + '...' : value;
+          }
+        }
       },
       yAxis: {
         type: 'value',

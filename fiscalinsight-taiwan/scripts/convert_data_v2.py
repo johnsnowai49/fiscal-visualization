@@ -130,13 +130,20 @@ def generate_budget_split(budget_rows):
     raw_list = []
     billion_list = []
 
+    # Process both Revenue and Expenditure
     for year in years:
-        rows = [r for r in budget_rows if int(r['year']) == year and r['type'] == 'Expenditure']
+        year_rows = [r for r in budget_rows if int(r['year']) == year]
         
-        agencies_raw = {}
-        agencies_bil = {}
+        # Containers
+        rev_raw = {}
+        exp_raw = {}
+        rev_bil = {}
+        exp_bil = {}
         
-        for r in rows:
+        for r in year_rows:
+            row_type = r['type'] # Revenue or Expenditure
+            if row_type not in ['Revenue', 'Expenditure']: continue
+            
             agency = r['category_1'] or "Unknown"
             sub_agency = r['category_2'] or "General" 
             program = r['item_name'] or "General"
@@ -144,42 +151,59 @@ def generate_budget_split(budget_rows):
             amt_raw = parse_int(r['amount'])
             if amt_raw == 0: continue
             
-            # Raw Tree Not built - Aggregating for performance safety in JSON?
-            # User wants detail.
+            # Filtering Artifacts (User Feedback)
+            if "名稱及編號" in agency or "名稱及編號" in sub_agency or "名稱及編號" in program:
+                continue
+            if program in ["General", "合計", "總計"]:
+                continue
+                
+            # Select Target Dicts
+            target_raw = rev_raw if row_type == 'Revenue' else exp_raw
+            target_bil = rev_bil if row_type == 'Revenue' else exp_bil
             
-            if agency not in agencies_raw:
-                agencies_raw[agency] = {"name": agency, "value": 0, "children": {}}
-                agencies_bil[agency] = {"name": agency, "value": 0.0, "children": {}}
+            if agency not in target_raw:
+                target_raw[agency] = {"name": agency, "value": 0, "children": {}}
+                target_bil[agency] = {"name": agency, "value": 0.0, "children": {}}
             
-            agencies_raw[agency]["value"] += amt_raw
-            # For billion tree, we sum floats.
+            target_raw[agency]["value"] += amt_raw
+            # We will recalculate billion values from raw to ensure consistency or just accumulate?
+            # Accumulating floats is fine for display.
             
-            # Recursion for children...
-            curr_raw = agencies_raw[agency]
+            curr_raw = target_raw[agency]
             if program not in curr_raw["children"]:
                  curr_raw["children"][program] = {"name": program, "value": 0}
             curr_raw["children"][program]["value"] += amt_raw
 
-        # Build Billion Tree from Raw Tree to avoid float accumulation errors
-        for agency_name, agency_node in agencies_raw.items():
-            bil_node = agencies_bil[agency_name]
-            bil_node['value'] = scale_billions(agency_node['value'])
-            
-            for child_name, child_node in agency_node['children'].items():
-                bil_node['children'][child_name] = {
-                    "name": child_name,
-                    "value": scale_billions(child_node['value'])
-                }
-
-        def transform_tree(agencies_dict):
+        # Transform Trees
+        def transform(agencies_dict):
              l = []
              for k, v in agencies_dict.items():
                  children_list = [{"name": ck, "value": cv["value"]} for ck, cv in v["children"].items()]
                  l.append({ "name": v["name"], "value": v["value"], "children": children_list })
              return l
 
-        raw_list.append({ "year": year, "children": transform_tree(agencies_raw) })
-        billion_list.append({ "year": year, "children": transform_tree(agencies_bil) })
+        # Build Billion Tree from Raw Tree (Consistency)
+        for target_raw, target_bil in [(rev_raw, rev_bil), (exp_raw, exp_bil)]:
+            for agency_name, agency_node in target_raw.items():
+                bil_node = target_bil[agency_name]
+                bil_node['value'] = scale_billions(agency_node['value'])
+                
+                for child_name, child_node in agency_node['children'].items():
+                    bil_node['children'][child_name] = {
+                        "name": child_name,
+                        "value": scale_billions(child_node['value'])
+                    }
+
+        raw_list.append({ 
+            "year": year, 
+            "revenue": transform(rev_raw), 
+            "expenditure": transform(exp_raw) 
+        })
+        billion_list.append({ 
+            "year": year, 
+            "revenue": transform(rev_bil), 
+            "expenditure": transform(exp_bil) 
+        })
         
     return raw_list, billion_list
 

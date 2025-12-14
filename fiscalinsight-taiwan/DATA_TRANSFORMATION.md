@@ -2,11 +2,6 @@
 
 This document describes the ETL (Extract, Transform, Load) process used to convert raw government budget CSV files into the `fiscal_data.json` consumed by the React frontend.
 
-## Overview
-
-The `fiscalinsight-taiwan` app avoids parsing large CSV files in the browser for performance reasons. Instead, we use a Python script (`scripts/convert_data.py`) to pre-process the data into a lightweight, typed JSON structure.
-
-**Data Flow:**
 **Data Flow:**
 `Raw CSVs (data/unified/*.csv)` -> `Python Script (v2)` -> `JSON (src/data/raw/*.json, src/data/billion/*.json)` -> `React App`
 
@@ -77,6 +72,13 @@ Storing values in Billions in the JSON was a performance optimization to reduce 
     - `amount_billions`: (Float) The pre-calculated value for quick high-level visualization.
 - **Verification:** We will use `amount_raw` to run continuous integration tests against the original CSV totals to ensure 0% deviation.
 
+### why store jsondata in `fiscalinsight-taiwan/src/data` instead of `fiscalinsight-taiwan/data`?
+The processed JSON files are stored in `src/data` to function as **application logic/assets** rather than external data sources.
+- **Import vs Fetch:** By ensuring they are under `src`, we can simply `import` them in TypeScript. This bundles them directly into the compiled JavaScript, ensuring they load instantly with the app.
+- **Hot Reloading:** Changing these files triggers an automatic browser refresh during development.
+- **Type Safety:** TypeScript can verify the imports exist at compile time.
+If we laid them in `root/data`, they would be treated as static public files which the browser would have to `fetch()` asynchronously, adding loading states and complexity to the app startup.
+
 ## 5. Advanced Data Strategy (Responses to Feedback)
 
 ### 1. Handling Hierarchical Data (`budget_all.csv`)
@@ -121,4 +123,46 @@ The Python script will load this Validator Map to assign categories, ensuring st
 2.  **Display Logic**: The frontend will format these large integers into Billions/Trillions only at the *last mile* (rendering).
 3.  **Fallback**: We will only resort to pre-scaled values if we encounter significant frame drops when aggregating 20+ years of raw integers on mobile devices (unlikely for <1MB of data, but we will test).
 4.  **Transparency**: A "View Raw Data" toggle can be added to the UI to let users inspect the exact government figures.
+
+## 6. Plan for Detailed Budget Integration (`budget_detail.json`)
+
+**Observations:**
+-   **File Size**: `src/data/billion/budget_detail.json` is approximately **2.5MB**.
+-   **Performance Risk**: Loading this monolithically with the main bundle (`App.tsx`) will slow down the initial Load Time (FCP/LCP) significantly for mobile users.
+
+### Strategy
+
+#### 1. Visualization: "Detailed Budget Dashboard"
+Instead of a complex Treemap, we will implement a Drill-down Dashboard that mimics the styling of the main Overview page.
+**UI Layout:**
+-   **Breadcrumb Navigation**: `Total > [Agency Name] > [Program Name]`
+-   **Year Selector**: Consistent with the main app.
+-   **Charts**:
+    -   **History Trend (Line Chart)**: Shows the historical trend of the *currently selected level* (e.g., "Ministry of Finance" spending from 2008-2025).
+    -   **Composition (Donut Chart)**: Shows the breakdown of immediate children (e.g., Sub-agencies or Programs).
+    -   **Ranking (Bar Chart)**: Items sorted by amount descending.
+
+**Interaction:**
+-   User clicks a slice/bar (e.g., "Ministry of Education").
+-   View updates to show details for that specific Agency.
+-   "History Trend" updates to show that Agency's historical spending.
+
+#### 2. Performance: Lazy Loading (Dynamic Imports)
+We will **NOT** import `budget_detail.json` statically in `data.ts`.
+Instead, we will use React's `lazy` and dynamic `import()` to load the data *only when required*.
+
+**Implementation Sketch:**
+```typescript
+// In App.tsx or a specific container
+const loadDetailData = async () => {
+  setIsLoading(true);
+  try {
+    const module = await import('./data/billion/budget_detail.json');
+    setDetailData(module.default);
+  } finally {
+    setIsLoading(false);
+  }
+};
+```
+**Trigger**: The data will only fetch when the user explicitly clicks a "Explore Detailed Budget" button or Navigator tab.
 

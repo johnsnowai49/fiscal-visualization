@@ -72,10 +72,7 @@ const EarnersPanel: React.FC<Props> = ({ data, year }) => {
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
       <div className="mb-4">
         <h2 className="text-lg font-bold text-slate-800">3. Earners</h2>
-        <div className="mb-4">
-          <h2 className="text-lg font-bold text-slate-800">3. Earners</h2>
-          <p className="text-sm text-slate-500">Revenue Sources Breakdown (Year {year})</p>
-        </div>
+        <p className="text-sm text-slate-500">Revenue Sources Breakdown (Year {year})</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
