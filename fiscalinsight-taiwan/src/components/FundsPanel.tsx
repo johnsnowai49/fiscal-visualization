@@ -11,6 +11,8 @@ interface Props {
 const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
   const [metric, setMetric] = React.useState<'income' | 'expense'>('income');
 
+  const fmtCompact = (n: number) => new Intl.NumberFormat('en-US', { notation: "compact", maximumFractionDigits: 1 }).format(n);
+
   // 1. Ranking Chart (Horizontal Bar) - Top 10 Special Funds
   const barOption = useMemo(() => {
     // Sort by selected metric descending and take top 10
@@ -22,7 +24,11 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
     return {
       tooltip: {
         trigger: 'axis',
-        axisPointer: { type: 'shadow' }
+        axisPointer: { type: 'shadow' },
+        formatter: (params: any) => {
+          const p = params[0];
+          return `${p.name}: <br/>${fmtCompact(p.value)} (NT$)`;
+        }
       },
       grid: {
         left: '3%',
@@ -32,8 +38,9 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
       },
       xAxis: {
         type: 'value',
-        name: 'NT$ (Billions)',
-        splitLine: { lineStyle: { type: 'dashed' } }
+        name: 'NT$',
+        splitLine: { lineStyle: { type: 'dashed' } },
+        axisLabel: { formatter: fmtCompact }
       },
       yAxis: {
         type: 'category',
@@ -50,10 +57,10 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
         {
           name: metric === 'income' ? 'Income' : 'Expense',
           type: 'bar',
-          data: topFunds.map(f => metric === 'income' ? f.revenue : f.expenditure),
+          data: topFunds.map(f => (metric === 'income' ? f.revenue : f.expenditure) * 1000),
           itemStyle: { color: metric === 'income' ? '#8b5cf6' : '#f59e0b' },
           barGap: 0,
-          label: { show: true, position: 'right', formatter: '{@score}' }
+          label: { show: true, position: 'right', formatter: (p: any) => fmtCompact(p.value) }
         }
       ]
     };
@@ -72,7 +79,15 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
     });
 
     return {
-      tooltip: { trigger: 'axis' },
+      tooltip: {
+        trigger: 'axis', formatter: (params: any) => {
+          let html = `<div class="font-bold mb-1">${params[0].axisValue}</div>`;
+          params.forEach((p: any) => {
+            html += `<div>${p.marker} ${p.seriesName}: ${fmtCompact(p.value)}</div>`;
+          });
+          return html;
+        }
+      },
       legend: { top: 0, data: ['Total Revenue', 'Total Expenditure'] },
       grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
       xAxis: {
@@ -80,13 +95,13 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
         boundaryGap: false,
         data: chartData.map(d => d.year)
       },
-      yAxis: { type: 'value', name: 'NT$ (Billions)' },
+      yAxis: { type: 'value', name: 'NT$', axisLabel: { formatter: fmtCompact } },
       series: [
         {
           name: 'Total Revenue',
           type: 'line',
           smooth: true,
-          data: chartData.map(d => d.revenue),
+          data: chartData.map(d => d.revenue * 1000),
           itemStyle: { color: '#3b82f6' },
           areaStyle: { opacity: 0.1 },
           markLine: {
@@ -101,7 +116,7 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
           name: 'Total Expenditure',
           type: 'line',
           smooth: true,
-          data: chartData.map(d => d.expenditure),
+          data: chartData.map(d => d.expenditure * 1000),
           itemStyle: { color: '#f97316' },
           areaStyle: { opacity: 0.1 }
         }

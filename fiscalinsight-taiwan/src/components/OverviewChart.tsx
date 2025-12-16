@@ -47,7 +47,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
                   <span>${p.seriesName}</span>
                 </div>
                 <div class="text-right">
-                  <span class="font-semibold block">NT${p.value}B</span>
+                  <span class="font-semibold block">${new Intl.NumberFormat('en-US', { style: 'currency', currency: 'TWD', notation: 'compact', maximumFractionDigits: 1 }).format(p.value)}</span>
                   <span class="text-xs ${colorClass}">(${sign}${growth}%)</span>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
       yAxis: {
         type: 'value',
         splitLine: { lineStyle: { type: 'dashed', color: '#e2e8f0' } },
-        axisLabel: { color: '#64748b' }
+        axisLabel: { color: '#64748b', formatter: (val: number) => new Intl.NumberFormat('en-US', { notation: 'compact' }).format(val) }
       },
       series: [
         {
@@ -85,7 +85,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
           type: 'line',
           smooth: true,
           showSymbol: false,
-          data: chartData.map((d) => d.totalRevenue),
+          data: chartData.map((d) => d.totalRevenue * 1000),
           itemStyle: { color: '#10b981' }, // Emerald
           lineStyle: { width: 3 },
           areaStyle: {
@@ -111,7 +111,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
           type: 'line',
           smooth: true,
           showSymbol: false,
-          data: chartData.map((d) => d.totalExpenditure),
+          data: chartData.map((d) => d.totalExpenditure * 1000),
           itemStyle: { color: '#f43f5e' }, // Rose
           lineStyle: { width: 3 },
           areaStyle: {

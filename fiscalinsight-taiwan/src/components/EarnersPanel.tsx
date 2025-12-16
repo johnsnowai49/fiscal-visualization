@@ -29,7 +29,13 @@ const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
 
     const donutOption = useMemo(() => ({
         color: ['#0ea5e9', '#8b5cf6', '#f43f5e', '#64748b', '#f59e0b', '#cbd5e1'],
-        tooltip: { trigger: 'item', formatter: '{b}: <br/>NT${c}B ({d}%)' },
+        tooltip: {
+            trigger: 'item',
+            formatter: (params: any) => {
+                const val = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'TWD', notation: "compact", maximumFractionDigits: 1 }).format(params.value);
+                return `${params.name}: <br/>${val} (${params.percent}%)`;
+            }
+        },
         legend: { bottom: 0, itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 10 } },
         series: [
             {
@@ -41,7 +47,7 @@ const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
                 itemStyle: { borderRadius: 5, borderColor: '#fff', borderWidth: 2 },
                 label: { show: false },
                 labelLine: { show: false },
-                data: donutData.map(s => ({ value: s.value, name: s.name }))
+                data: donutData.map(s => ({ value: s.value * 1000, name: s.name }))
             }
         ]
     }), [donutData]);
@@ -49,7 +55,7 @@ const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
     const barOption = useMemo(() => ({
         tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
         grid: { top: '5%', left: '3%', right: '20%', bottom: '5%', containLabel: true },
-        xAxis: { type: 'value', splitLine: { show: false } },
+        xAxis: { show: false },
         yAxis: {
             type: 'category',
             data: rankedSources.map(s => s.name),
@@ -59,14 +65,14 @@ const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
         series: [
             {
                 type: 'bar',
-                data: rankedSources.map(s => s.value),
+                data: rankedSources.map(s => s.value * 1000),
                 itemStyle: { color: '#0ea5e9', borderRadius: [0, 4, 4, 0] },
                 barWidth: '50%',
                 label: {
                     show: true,
                     position: 'right',
                     formatter: (params: any) => {
-                        const percent = ((params.value / total) * 100).toFixed(1);
+                        const percent = ((params.value / (total * 1000)) * 100).toFixed(1);
                         return `${percent}%`;
                     },
                     fontWeight: 'bold',

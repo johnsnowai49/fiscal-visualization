@@ -143,8 +143,9 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
     }, [activeData, path]);
 
     // Formatting
-    const fmt = (n: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'TWD', maximumFractionDigits: 0 }).format(n);
-    const fmtCompact = (n: number) => new Intl.NumberFormat('en-US', { notation: "compact", maximumFractionDigits: 1 }).format(n);
+    // Formatting
+    const fmt = (n: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'TWD', maximumFractionDigits: 0 }).format(n * 1000);
+    const fmtCompact = (n: number) => new Intl.NumberFormat('en-US', { notation: "compact", maximumFractionDigits: 1 }).format(n * 1000);
 
     // Filter & Sort Children
     const childrenNodes = currentViewNode?.children || [];

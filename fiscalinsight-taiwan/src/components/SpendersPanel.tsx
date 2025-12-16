@@ -30,7 +30,13 @@ const SpendersPanel: React.FC<Props> = ({ data, total, year }) => {
 
   const donutOption = useMemo(() => ({
     color: ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#cbd5e1'],
-    tooltip: { trigger: 'item', formatter: '{b}: <br/>NT${c}B ({d}%)' },
+    tooltip: {
+      trigger: 'item',
+      formatter: (params: any) => {
+        const val = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'TWD', notation: "compact", maximumFractionDigits: 1 }).format(params.value);
+        return `${params.name}: <br/>${val} (${params.percent}%)`;
+      }
+    },
     legend: { bottom: 0, itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 10 } },
     series: [
       {
@@ -42,7 +48,7 @@ const SpendersPanel: React.FC<Props> = ({ data, total, year }) => {
         itemStyle: { borderRadius: 5, borderColor: '#fff', borderWidth: 2 },
         label: { show: false },
         labelLine: { show: false },
-        data: donutData.map(a => ({ value: a.value, name: a.name }))
+        data: donutData.map(a => ({ value: a.value * 1000, name: a.name }))
       }
     ]
   }), [donutData]);
@@ -50,7 +56,7 @@ const SpendersPanel: React.FC<Props> = ({ data, total, year }) => {
   const barOption = useMemo(() => ({
     tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
     grid: { top: '5%', left: '3%', right: '20%', bottom: '5%', containLabel: true },
-    xAxis: { type: 'value', splitLine: { show: false } },
+    xAxis: { show: false },
     yAxis: {
       type: 'category',
       data: rankedAgencies.map(a => a.name),
@@ -60,14 +66,14 @@ const SpendersPanel: React.FC<Props> = ({ data, total, year }) => {
     series: [
       {
         type: 'bar',
-        data: rankedAgencies.map(a => a.value),
+        data: rankedAgencies.map(a => a.value * 1000),
         itemStyle: { color: '#6366f1', borderRadius: [0, 4, 4, 0] },
         barWidth: '60%',
         label: {
           show: true,
           position: 'right',
           formatter: (params: any) => {
-            const percent = ((params.value / total) * 100).toFixed(1);
+            const percent = ((params.value / (total * 1000)) * 100).toFixed(1);
             return `${percent}%`;
           },
           fontWeight: 'bold',
