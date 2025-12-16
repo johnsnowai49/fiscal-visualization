@@ -147,7 +147,10 @@ const App: React.FC = () => {
       <footer className="mt-12 text-center text-slate-400 text-sm py-4 border-t border-slate-200">
         <p>
           © 2025 Fiscal-Visualization-Taiwan
-          資料來源：<a href="https://www.dgbas.gov.tw/cp.aspx?n=3623&s=1208#Anchor_11333" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mt-2 max-w-2xl">行政院主計總處</a>
+          <span className="mx-2">|</span>
+          資料來源：<a href="https://www.dgbas.gov.tw/cp.aspx?n=3623&s=1208#Anchor_11333" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">行政院主計總處</a>
+          <span className="mx-2">|</span>
+          Contact: <a href="mailto:johnsnowai49@gmail.com" className="hover:text-slate-600 transition-colors">johnsnowai49@gmail.com</a>
         </p>
       </footer>
     </div>
