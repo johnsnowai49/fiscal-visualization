@@ -17,7 +17,7 @@ TARGET_YEARS = range(97, 115) # 97 to 114
 # Map: Keyword -> (Type, Standard Name)
 CATEGORY_MAP = {
     # Revenue
-    "稅課收入": ("revenue", "稅課收入"),
+    "稅課": ("revenue", "稅課收入"),
     "營業盈餘": ("revenue", "營業盈餘及事業收入"),
     "規費": ("revenue", "規費及罰款收入"),
     "財產收入": ("revenue", "財產收入"),

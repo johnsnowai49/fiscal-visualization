@@ -5,6 +5,10 @@
     "expenditure": 1685856453,
     "revenue_categories": [
       {
+        "name": "稅課收入",
+        "amount": 1203400000
+      },
+      {
         "name": "營業盈餘及事業收入",
         "amount": 244195329
       },
@@ -65,6 +69,10 @@
     "revenue": 1673231316,
     "expenditure": 1809667004,
     "revenue_categories": [
+      {
+        "name": "稅課收入",
+        "amount": 1267135000
+      },
       {
         "name": "營業盈餘及事業收入",
         "amount": 251285983

@@ -1,0 +1,7844 @@
+[
+  {
+    "year": 2008,
+    "basic_fund": {
+      "total": {
+        "revenue": 1593367204,
+        "expenditure": 1685856453
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 0
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 4344311385,
+        "expenditure": 4190738513
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 355770426,
+          "expenditure": 221501473
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 39935207,
+          "expenditure": 38203666
+        },
+        {
+          "name": "台灣國際造船股份有限公司",
+          "type": "business",
+          "revenue": 29846512,
+          "expenditure": 28446907
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 822330590,
+          "expenditure": 817111735
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 443843939,
+          "expenditure": 488655276
+        },
+        {
+          "name": "漢翔航空工業股份有限公司",
+          "type": "business",
+          "revenue": 13953351,
+          "expenditure": 13638171
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 26689348,
+          "expenditure": 26646566
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 4387895,
+          "expenditure": 4387895
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 663232,
+          "expenditure": 610745
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 64457140,
+          "expenditure": 57857140
+        },
+        {
+          "name": "臺灣郵政股份有限公司",
+          "type": "business",
+          "revenue": 371767034,
+          "expenditure": 362213527
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 24346800,
+          "expenditure": 35246800
+        },
+        {
+          "name": "交通部基隆港務局",
+          "type": "business",
+          "revenue": 6415279,
+          "expenditure": 5886750
+        },
+        {
+          "name": "交通部臺中港務局",
+          "type": "business",
+          "revenue": 4784246,
+          "expenditure": 3518838
+        },
+        {
+          "name": "交通部高雄港務局",
+          "type": "business",
+          "revenue": 10088723,
+          "expenditure": 7066967
+        },
+        {
+          "name": "交通部花蓮港務局",
+          "type": "business",
+          "revenue": 971503,
+          "expenditure": 855074
+        },
+        {
+          "name": "榮民工程股份有限公司",
+          "type": "business",
+          "revenue": 15519655,
+          "expenditure": 15475233
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 231477741,
+          "expenditure": 231477741
+        },
+        {
+          "name": "中央健康保險局",
+          "type": "business",
+          "revenue": 426948994,
+          "expenditure": 426947337
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 12631231,
+          "expenditure": 835082
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 16101737,
+          "expenditure": 13670706
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 46816013,
+          "expenditure": 46816013
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 49684785,
+          "expenditure": 48692722
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 12737330,
+          "expenditure": 15808967
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 448112,
+          "expenditure": 10708
+        },
+        {
+          "name": "國立大學校院校務基金(54所學校綜計)",
+          "type": "business",
+          "revenue": 60532394,
+          "expenditure": 60489031
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 18277406,
+          "expenditure": 17290600
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 6462416,
+          "expenditure": 6387287
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1260544,
+          "expenditure": 1253730
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1822247,
+          "expenditure": 1536460
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 7417495,
+          "expenditure": 7406675
+        },
+        {
+          "name": "法務部監所作業基金",
+          "type": "business",
+          "revenue": 606278,
+          "expenditure": 556650
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 7418706,
+          "expenditure": 7580719
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 4763901,
+          "expenditure": 4596376
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 60432844,
+          "expenditure": 37844497
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 3902900,
+          "expenditure": 4111029
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 37855278,
+          "expenditure": 37432939
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 10733793,
+          "expenditure": 8367043
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 191255,
+          "expenditure": 175289
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 25242731,
+          "expenditure": 24636013
+        },
+        {
+          "name": "管制藥品管理局製藥工廠作業基金",
+          "type": "business",
+          "revenue": 445566,
+          "expenditure": 314125
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 158058,
+          "expenditure": 114149
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1017909,
+          "expenditure": 1016149
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 28847999,
+          "expenditure": 30289193
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 3279433,
+          "expenditure": 1521869
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 16169524,
+          "expenditure": 12990979
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2434892,
+          "expenditure": 2746963
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 302632,
+          "expenditure": 291229
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 280870,
+          "expenditure": 263153
+        },
+        {
+          "name": "警察消防海巡空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 202628,
+          "expenditure": 36162
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 697830,
+          "expenditure": 691140
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 14727413,
+          "expenditure": 12950258
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 11082266,
+          "expenditure": 1112186
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 6608993,
+          "expenditure": 10092815
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 72725,
+          "expenditure": 41836
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 22902925,
+          "expenditure": 39022933
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 11175685,
+          "expenditure": 11340381
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 1674032,
+          "expenditure": 2657437
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 4348215,
+          "expenditure": 4329082
+        },
+        {
+          "name": "中華發展基金",
+          "type": "business",
+          "revenue": 37293,
+          "expenditure": 73396
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 326199,
+          "expenditure": 312573
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 928055,
+          "expenditure": 928043
+        },
+        {
+          "name": "行政院金融重建基金",
+          "type": "business",
+          "revenue": 50542173,
+          "expenditure": 50414721
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 500042,
+          "expenditure": 497350
+        }
+      ]
+    }
+  },
+  {
+    "year": 2009,
+    "basic_fund": {
+      "total": {
+        "revenue": 1673231316,
+        "expenditure": 1809667004
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 255278763
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 4268616616,
+        "expenditure": 4159544459
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 340055234,
+          "expenditure": 216906096
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 39169396,
+          "expenditure": 35912788
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 724677979,
+          "expenditure": 718065996
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 492751850,
+          "expenditure": 531004351
+        },
+        {
+          "name": "漢翔航空工業股份有限公司",
+          "type": "business",
+          "revenue": 16247697,
+          "expenditure": 15817528
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 26392578,
+          "expenditure": 26295461
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 3376069,
+          "expenditure": 2930878
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 4615759,
+          "expenditure": 4615759
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 194633566,
+          "expenditure": 188804312
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 63229123,
+          "expenditure": 57426824
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 878852,
+          "expenditure": 822508
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 65082268,
+          "expenditure": 58530870
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 300755166,
+          "expenditure": 290686548
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 24735606,
+          "expenditure": 35300206
+        },
+        {
+          "name": "交通部基隆港務局",
+          "type": "business",
+          "revenue": 5852563,
+          "expenditure": 5317209
+        },
+        {
+          "name": "交通部臺中港務局",
+          "type": "business",
+          "revenue": 5071310,
+          "expenditure": 3609291
+        },
+        {
+          "name": "交通部高雄港務局",
+          "type": "business",
+          "revenue": 9244167,
+          "expenditure": 6079805
+        },
+        {
+          "name": "交通部花蓮港務局",
+          "type": "business",
+          "revenue": 962194,
+          "expenditure": 836777
+        },
+        {
+          "name": "榮民工程股份有限公司",
+          "type": "business",
+          "revenue": 12252002,
+          "expenditure": 12226635
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 254211541,
+          "expenditure": 254211541
+        },
+        {
+          "name": "中央健康保險局",
+          "type": "business",
+          "revenue": 441155270,
+          "expenditure": 473184586
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 7227285,
+          "expenditure": 882371
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 12648922,
+          "expenditure": 11546128
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 67566572,
+          "expenditure": 67566572
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 619,
+          "expenditure": 4456
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 46743167,
+          "expenditure": 45706826
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 14135494,
+          "expenditure": 19151670
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 518069,
+          "expenditure": 11297
+        },
+        {
+          "name": "國立大學校院校務基金(52所學校綜計)",
+          "type": "business",
+          "revenue": 67071365,
+          "expenditure": 67007549
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 19150453,
+          "expenditure": 18001203
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 6610369,
+          "expenditure": 6522895
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1307625,
+          "expenditure": 1286379
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1606546,
+          "expenditure": 1591971
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 17535138,
+          "expenditure": 17520634
+        },
+        {
+          "name": "法務部監所作業基金",
+          "type": "business",
+          "revenue": 663155,
+          "expenditure": 619698
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 6787444,
+          "expenditure": 8356491
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 5474500,
+          "expenditure": 5075988
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 54828366,
+          "expenditure": 36550940
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 4082002,
+          "expenditure": 4248019
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 39773948,
+          "expenditure": 39386943
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 11398161,
+          "expenditure": 8989616
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 254775,
+          "expenditure": 233951
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 26754026,
+          "expenditure": 26015079
+        },
+        {
+          "name": "管制藥品管理局製藥工廠作業基金",
+          "type": "business",
+          "revenue": 475934,
+          "expenditure": 341701
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 205604,
+          "expenditure": 142768
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 823736,
+          "expenditure": 780936
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 29651829,
+          "expenditure": 31424038
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 3323683,
+          "expenditure": 1519977
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 1443316,
+          "expenditure": 11462521
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2110162,
+          "expenditure": 2420162
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 303638,
+          "expenditure": 286112
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 915077,
+          "expenditure": 745435
+        },
+        {
+          "name": "警察消防海巡空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 105742,
+          "expenditure": 35699
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 575506,
+          "expenditure": 554107
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 12452862,
+          "expenditure": 11059752
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 12708172,
+          "expenditure": 1719366
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 1002250,
+          "expenditure": 974961
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 6530895,
+          "expenditure": 11744598
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 73950,
+          "expenditure": 62880
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 26982247,
+          "expenditure": 42527159
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 10792271,
+          "expenditure": 10825137
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 2095562,
+          "expenditure": 2967623
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 4627876,
+          "expenditure": 5221075
+        },
+        {
+          "name": "中華發展基金",
+          "type": "business",
+          "revenue": 47700,
+          "expenditure": 73706
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 353680,
+          "expenditure": 314713
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 978773,
+          "expenditure": 978747
+        },
+        {
+          "name": "行政院金融重建基金",
+          "type": "business",
+          "revenue": 32559144,
+          "expenditure": 18564357
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 641192,
+          "expenditure": 617714
+        }
+      ]
+    }
+  },
+  {
+    "year": 2010,
+    "basic_fund": {
+      "total": {
+        "revenue": 1547986445,
+        "expenditure": 1714937403
+      },
+      "extra": {
+        "revenue": 18720,
+        "expenditure": 264639223
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 4645615123,
+        "expenditure": 4515636210
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 279968666,
+          "expenditure": 156838327
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 40032968,
+          "expenditure": 36368944
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 896087471,
+          "expenditure": 883649288
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 505852657,
+          "expenditure": 532681986
+        },
+        {
+          "name": "漢翔航空工業股份有限公司",
+          "type": "business",
+          "revenue": 18121096,
+          "expenditure": 17500000
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 26282990,
+          "expenditure": 26481409
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 2036060,
+          "expenditure": 1650228
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 10505515,
+          "expenditure": 10505515
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 229318600,
+          "expenditure": 222523153
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 56993669,
+          "expenditure": 51192939
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 863945,
+          "expenditure": 779907
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 65070253,
+          "expenditure": 57664478
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 404514894,
+          "expenditure": 397092176
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 24243820,
+          "expenditure": 34140529
+        },
+        {
+          "name": "交通部基隆港務局",
+          "type": "business",
+          "revenue": 5388590,
+          "expenditure": 4908401
+        },
+        {
+          "name": "交通部臺中港務局",
+          "type": "business",
+          "revenue": 4870185,
+          "expenditure": 3550760
+        },
+        {
+          "name": "交通部高雄港務局",
+          "type": "business",
+          "revenue": 9122641,
+          "expenditure": 6113275
+        },
+        {
+          "name": "交通部花蓮港務局",
+          "type": "business",
+          "revenue": 894432,
+          "expenditure": 813547
+        },
+        {
+          "name": "國際機場園區股份有限公司",
+          "type": "business",
+          "revenue": 1851393,
+          "expenditure": 1409751
+        },
+        {
+          "name": "榮民工程股份有限公司",
+          "type": "business",
+          "revenue": 7027559,
+          "expenditure": 7603417
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 257080851,
+          "expenditure": 257080851
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 4120427,
+          "expenditure": 1462995
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 11978843,
+          "expenditure": 12289563
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 66325608,
+          "expenditure": 66325608
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 313,
+          "expenditure": 2484
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 53561390,
+          "expenditure": 51206863
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 13339561,
+          "expenditure": 21748209
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 253208,
+          "expenditure": 66826
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 25062,
+          "expenditure": 46223
+        },
+        {
+          "name": "國立大學校院校務基金(53所學校綜計)",
+          "type": "business",
+          "revenue": 95367203,
+          "expenditure": 97157683
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 20193699,
+          "expenditure": 19070368
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 6993974,
+          "expenditure": 6884126
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1466491,
+          "expenditure": 1418317
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1811195,
+          "expenditure": 2108084
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 35307927,
+          "expenditure": 35306927
+        },
+        {
+          "name": "法務部監所作業基金",
+          "type": "business",
+          "revenue": 628210,
+          "expenditure": 697564
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 7215628,
+          "expenditure": 6873286
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 7059884,
+          "expenditure": 6131422
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 56372677,
+          "expenditure": 38410734
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 3684453,
+          "expenditure": 3239709
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 41606678,
+          "expenditure": 41043296
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 10353642,
+          "expenditure": 9104145
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 234055,
+          "expenditure": 216811
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 27871057,
+          "expenditure": 27245781
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 484414,
+          "expenditure": 322628
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 453912732,
+          "expenditure": 486358929
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 212269,
+          "expenditure": 146720
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 929545,
+          "expenditure": 903005
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 564526,
+          "expenditure": 563906
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 31231424,
+          "expenditure": 32955424
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 1295540,
+          "expenditure": 1200224
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 22800754,
+          "expenditure": 9635337
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2591800,
+          "expenditure": 2790800
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 304530,
+          "expenditure": 293675
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 878776,
+          "expenditure": 807070
+        },
+        {
+          "name": "警察消防海巡空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 103908,
+          "expenditure": 35621
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 682063,
+          "expenditure": 646580
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 12202624,
+          "expenditure": 13922349
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 11411385,
+          "expenditure": 1807856
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 1000893,
+          "expenditure": 976100
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 5247380,
+          "expenditure": 11581978
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 73050,
+          "expenditure": 64596
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 24962884,
+          "expenditure": 39753765
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 12661782,
+          "expenditure": 14474113
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 8778312,
+          "expenditure": 9042204
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 4396091,
+          "expenditure": 5343505
+        },
+        {
+          "name": "中華發展基金",
+          "type": "business",
+          "revenue": 32100,
+          "expenditure": 61186
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 887392,
+          "expenditure": 1006840
+        },
+        {
+          "name": "行政院金融重建基金",
+          "type": "business",
+          "revenue": 10085393,
+          "expenditure": 736210
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 722145,
+          "expenditure": 674876
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 348102,
+          "expenditure": 337724
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 3205125,
+          "expenditure": 1554913
+        }
+      ]
+    }
+  },
+  {
+    "year": 2011,
+    "basic_fund": {
+      "total": {
+        "revenue": 1627246853,
+        "expenditure": 1769844184
+      },
+      "extra": {
+        "revenue": 10000,
+        "expenditure": 203266357
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 4891660473,
+        "expenditure": 4790276289
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 330942704,
+          "expenditure": 207794991
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 41013750,
+          "expenditure": 36849726
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 919144478,
+          "expenditure": 908998954
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 524872297,
+          "expenditure": 572459894
+        },
+        {
+          "name": "漢翔航空工業股份有限公司",
+          "type": "business",
+          "revenue": 19526002,
+          "expenditure": 18605946
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 26450525,
+          "expenditure": 26829507
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 2037963,
+          "expenditure": 1652012
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 246611202,
+          "expenditure": 243057202
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 56867439,
+          "expenditure": 49960336
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 862075,
+          "expenditure": 779075
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 64826388,
+          "expenditure": 56937777
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 428074420,
+          "expenditure": 420093728
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 22880771,
+          "expenditure": 32618169
+        },
+        {
+          "name": "交通部基隆港務局",
+          "type": "business",
+          "revenue": 5106841,
+          "expenditure": 4592793
+        },
+        {
+          "name": "交通部臺中港務局",
+          "type": "business",
+          "revenue": 4842547,
+          "expenditure": 3537291
+        },
+        {
+          "name": "交通部高雄港務局",
+          "type": "business",
+          "revenue": 9096006,
+          "expenditure": 6089881
+        },
+        {
+          "name": "交通部花蓮港務局",
+          "type": "business",
+          "revenue": 958487,
+          "expenditure": 869066
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 11529175,
+          "expenditure": 10008578
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 273138896,
+          "expenditure": 273138896
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 19422918,
+          "expenditure": 19422918
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 9921171,
+          "expenditure": 469462
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 9517246,
+          "expenditure": 13910505
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 62569901,
+          "expenditure": 62569901
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 718,
+          "expenditure": 9423
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 48579012,
+          "expenditure": 46017248
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 20931272,
+          "expenditure": 25853694
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 198178,
+          "expenditure": 12713
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 26290,
+          "expenditure": 86849
+        },
+        {
+          "name": "國立大學校院校務基金(53所學校綜計)",
+          "type": "business",
+          "revenue": 97200825,
+          "expenditure": 102172010
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 22070988,
+          "expenditure": 20071674
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 7471121,
+          "expenditure": 7346257
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1566970,
+          "expenditure": 1538643
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 2012131,
+          "expenditure": 2363876
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 34819872,
+          "expenditure": 38087915
+        },
+        {
+          "name": "法務部監所作業基金",
+          "type": "business",
+          "revenue": 666028,
+          "expenditure": 758010
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 6947176,
+          "expenditure": 6620966
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 7379511,
+          "expenditure": 8260407
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 50730539,
+          "expenditure": 33848517
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 3781528,
+          "expenditure": 3086789
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 43048747,
+          "expenditure": 42521928
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 11090140,
+          "expenditure": 10521551
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 237618,
+          "expenditure": 209815
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 28745463,
+          "expenditure": 28012074
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 474503,
+          "expenditure": 345154
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 497420528,
+          "expenditure": 497288694
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 355325,
+          "expenditure": 219915
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1097270,
+          "expenditure": 1040663
+        },
+        {
+          "name": "28.",
+          "type": "business",
+          "revenue": 717041,
+          "expenditure": 714912
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 31799895,
+          "expenditure": 38501534
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 94680,
+          "expenditure": 1268950
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 2387235,
+          "expenditure": 9397364
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2532389,
+          "expenditure": 2926377
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 306250,
+          "expenditure": 296642
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 881301,
+          "expenditure": 811507
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 103986,
+          "expenditure": 28284
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 942893,
+          "expenditure": 896092
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 13645225,
+          "expenditure": 14318149
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 11032014,
+          "expenditure": 1625841
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 607508,
+          "expenditure": 915291
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 4889154,
+          "expenditure": 9548901
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 96756,
+          "expenditure": 68711
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 25615449,
+          "expenditure": 39238354
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 12563031,
+          "expenditure": 16221926
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 8369350,
+          "expenditure": 8675793
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 5340678,
+          "expenditure": 5271812
+        },
+        {
+          "name": "中華發展基金",
+          "type": "business",
+          "revenue": 28910,
+          "expenditure": 60218
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 7980527,
+          "expenditure": 7971907
+        },
+        {
+          "name": "行政院金融重建基金",
+          "type": "business",
+          "revenue": 3295165,
+          "expenditure": 2359486
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 971201,
+          "expenditure": 940026
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 350620,
+          "expenditure": 335816
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 3626224,
+          "expenditure": 1835996
+        }
+      ]
+    }
+  },
+  {
+    "year": 2012,
+    "basic_fund": {
+      "total": {
+        "revenue": 1729431644,
+        "expenditure": 1938637325
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 21833032
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5260534284,
+        "expenditure": 5134576283
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 345114367,
+          "expenditure": 221943093
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 38803494,
+          "expenditure": 35557726
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 994646217,
+          "expenditure": 983716532
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 559254657,
+          "expenditure": 619505679
+        },
+        {
+          "name": "漢翔航空工業股份有限公司",
+          "type": "business",
+          "revenue": 20420174,
+          "expenditure": 19473966
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 26865149,
+          "expenditure": 27433147
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 1701546,
+          "expenditure": 1383510
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 254984746,
+          "expenditure": 248003819
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 49508782,
+          "expenditure": 42505317
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 965560,
+          "expenditure": 882560
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 79609180,
+          "expenditure": 71743552
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 484718227,
+          "expenditure": 475911658
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 23787022,
+          "expenditure": 33491335
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 15630491,
+          "expenditure": 11640692
+        },
+        {
+          "name": "交通部基隆港務局",
+          "type": "business",
+          "revenue": 1053657,
+          "expenditure": 1203673
+        },
+        {
+          "name": "交通部臺中港務局",
+          "type": "business",
+          "revenue": 912624,
+          "expenditure": 941958
+        },
+        {
+          "name": "交通部高雄港務局",
+          "type": "business",
+          "revenue": 1972831,
+          "expenditure": 1291238
+        },
+        {
+          "name": "交通部花蓮港務局",
+          "type": "business",
+          "revenue": 163581,
+          "expenditure": 259397
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 12478993,
+          "expenditure": 10809566
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 300315761,
+          "expenditure": 300315761
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 23540227,
+          "expenditure": 23540227
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 6558191,
+          "expenditure": 587299
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 2092182,
+          "expenditure": 11010408
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 61827148,
+          "expenditure": 61827148
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 14932718,
+          "expenditure": 11564323
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 49204350,
+          "expenditure": 47049382
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 13212469,
+          "expenditure": 18070076
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 176087,
+          "expenditure": 17005
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 76355,
+          "expenditure": 37594
+        },
+        {
+          "name": "國立大學校院校務基金(53所學校綜計)",
+          "type": "business",
+          "revenue": 106637978,
+          "expenditure": 111774871
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 26005357,
+          "expenditure": 24121933
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 8114406,
+          "expenditure": 8008205
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1756578,
+          "expenditure": 1718466
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 2374878,
+          "expenditure": 2629592
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 36547522,
+          "expenditure": 40031812
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 758467,
+          "expenditure": 876001
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 6953493,
+          "expenditure": 6361769
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 6655129,
+          "expenditure": 6480511
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 53820421,
+          "expenditure": 34395997
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2211472,
+          "expenditure": 1243088
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 44143241,
+          "expenditure": 43641622
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 12071473,
+          "expenditure": 11152878
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 231742,
+          "expenditure": 206518
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 26212949,
+          "expenditure": 25585023
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 472622,
+          "expenditure": 343297
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 522484454,
+          "expenditure": 510814304
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 357104,
+          "expenditure": 233444
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 821559,
+          "expenditure": 745286
+        },
+        {
+          "name": "28.",
+          "type": "business",
+          "revenue": 721682,
+          "expenditure": 716585
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 34641061,
+          "expenditure": 35491061
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 85608,
+          "expenditure": 1101502
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 3922663,
+          "expenditure": 9174272
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 4000375,
+          "expenditure": 507362
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2628702,
+          "expenditure": 3024806
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 305338,
+          "expenditure": 265840
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 1012658,
+          "expenditure": 911607
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 103738,
+          "expenditure": 24790
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 918098,
+          "expenditure": 1258620
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 14392173,
+          "expenditure": 13909712
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 10703650,
+          "expenditure": 1423746
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 165495,
+          "expenditure": 635343
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 5101068,
+          "expenditure": 14471940
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 96796,
+          "expenditure": 79616
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 40465883,
+          "expenditure": 42059824
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 12310442,
+          "expenditure": 16265789
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 8659826,
+          "expenditure": 9776983
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 6276485,
+          "expenditure": 5972545
+        },
+        {
+          "name": "中華發展基金",
+          "type": "business",
+          "revenue": 44190,
+          "expenditure": 57012
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 8377058,
+          "expenditure": 8577913
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 814472,
+          "expenditure": 733893
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 362358,
+          "expenditure": 336788
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 4217172,
+          "expenditure": 1637790
+        }
+      ]
+    }
+  },
+  {
+    "year": 2013,
+    "basic_fund": {
+      "total": {
+        "revenue": 1733259058,
+        "expenditure": 1907567387
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 8540800
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5513933238,
+        "expenditure": 5357063589
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 330523865,
+          "expenditure": 207348865
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 41696459,
+          "expenditure": 39192856
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 1223480926,
+          "expenditure": 1205902848
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 668860881,
+          "expenditure": 691883089
+        },
+        {
+          "name": "漢翔航空工業股份有限公司",
+          "type": "business",
+          "revenue": 21065252,
+          "expenditure": 19980478
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 26991549,
+          "expenditure": 27685278
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 1743622,
+          "expenditure": 1427483
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 283150636,
+          "expenditure": 275968824
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 46842991,
+          "expenditure": 39729857
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 1012598,
+          "expenditure": 935408
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 78483235,
+          "expenditure": 70549132
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 294328569,
+          "expenditure": 285387138
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 22633907,
+          "expenditure": 29006909
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 18899487,
+          "expenditure": 13860592
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 12989855,
+          "expenditure": 10645151
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 332221927,
+          "expenditure": 332221927
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 24177679,
+          "expenditure": 24177679
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 6772655,
+          "expenditure": 549865
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 5796569,
+          "expenditure": 12262603
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 71298239,
+          "expenditure": 71298239
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 1700,
+          "expenditure": 587646
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 47455271,
+          "expenditure": 45799788
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 15547737,
+          "expenditure": 23705694
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 186508,
+          "expenditure": 16709
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 77168,
+          "expenditure": 38307
+        },
+        {
+          "name": "國立大學校院校務基金(52所學校綜計)",
+          "type": "business",
+          "revenue": 107965487,
+          "expenditure": 113764637
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 27256010,
+          "expenditure": 25079817
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 8507286,
+          "expenditure": 8399318
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1800071,
+          "expenditure": 1753374
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1574434,
+          "expenditure": 2026521
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 33266627,
+          "expenditure": 37218351
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 844138,
+          "expenditure": 951457
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 8000236,
+          "expenditure": 7610197
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 5965610,
+          "expenditure": 6720558
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 55075951,
+          "expenditure": 38493094
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2114772,
+          "expenditure": 1189036
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 45284594,
+          "expenditure": 45027921
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 13042681,
+          "expenditure": 11616946
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 230121,
+          "expenditure": 204897
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 27030406,
+          "expenditure": 26405482
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 508618,
+          "expenditure": 356045
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 537524597,
+          "expenditure": 536876207
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 660850,
+          "expenditure": 657002
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 537768,
+          "expenditure": 372926
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 732690,
+          "expenditure": 714125
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 799546,
+          "expenditure": 788945
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 35971570,
+          "expenditure": 36871570
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 78912,
+          "expenditure": 1100932
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 241865,
+          "expenditure": 9684362
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 2500850,
+          "expenditure": 2506927
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2574825,
+          "expenditure": 2976607
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 275700,
+          "expenditure": 407675
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 1202744,
+          "expenditure": 1077476
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 103933,
+          "expenditure": 21208
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 895153,
+          "expenditure": 1319561
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 4520296,
+          "expenditure": 2187305
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 15263628,
+          "expenditure": 17452005
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 10903478,
+          "expenditure": 1049749
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 152125,
+          "expenditure": 594210
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8642650,
+          "expenditure": 7450201
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 163086,
+          "expenditure": 122190
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 45487056,
+          "expenditure": 38726230
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 12843891,
+          "expenditure": 16329966
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 8311894,
+          "expenditure": 11344510
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 6521701,
+          "expenditure": 6724860
+        },
+        {
+          "name": "中華發展基金",
+          "type": "business",
+          "revenue": 24219,
+          "expenditure": 54318
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 8611067,
+          "expenditure": 8387563
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 575221,
+          "expenditure": 541045
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 366575,
+          "expenditure": 351508
+        }
+      ]
+    }
+  },
+  {
+    "year": 2014,
+    "basic_fund": {
+      "total": {
+        "revenue": 1707156731,
+        "expenditure": 1916227714
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 0
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5750488983,
+        "expenditure": 5547963882
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 321100829,
+          "expenditure": 197925567
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 40167277,
+          "expenditure": 37768040
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 1285081531,
+          "expenditure": 1267843526
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 666588591,
+          "expenditure": 664998355
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 27489909,
+          "expenditure": 28165669
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 1745451,
+          "expenditure": 1367444
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 290088984,
+          "expenditure": 283556185
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 53391535,
+          "expenditure": 45790822
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 1009359,
+          "expenditure": 925601
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 82612632,
+          "expenditure": 74406643
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 347392611,
+          "expenditure": 338194522
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 23287691,
+          "expenditure": 29498143
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 20044488,
+          "expenditure": 15031618
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 14081002,
+          "expenditure": 11038190
+        },
+        {
+          "name": "勞工保險局",
+          "type": "business",
+          "revenue": 354396687,
+          "expenditure": 354396687
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 24426226,
+          "expenditure": 24426226
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 25132482,
+          "expenditure": 582173
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 2181489,
+          "expenditure": 8570429
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 772466,
+          "expenditure": 1024570
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 45997785,
+          "expenditure": 44324850
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 8501746,
+          "expenditure": 14135310
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 150373,
+          "expenditure": 16611
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 76933,
+          "expenditure": 32983
+        },
+        {
+          "name": "國立大學校院校務基金(52所學校綜計)",
+          "type": "business",
+          "revenue": 103157750,
+          "expenditure": 109134669
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 28356398,
+          "expenditure": 26263676
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 8926011,
+          "expenditure": 8818043
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 1896368,
+          "expenditure": 1849423
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1535170,
+          "expenditure": 1907062
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 33276741,
+          "expenditure": 37460258
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 926738,
+          "expenditure": 991390
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 8666669,
+          "expenditure": 8284463
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 6778596,
+          "expenditure": 7458067
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 53860446,
+          "expenditure": 39837161
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2486632,
+          "expenditure": 1331081
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 46450891,
+          "expenditure": 46030307
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 13139122,
+          "expenditure": 11700591
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 241091,
+          "expenditure": 213404
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 27623710,
+          "expenditure": 26938847
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 505188,
+          "expenditure": 352591
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 555622283,
+          "expenditure": 555619595
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 78803025,
+          "expenditure": 78803025
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 681038,
+          "expenditure": 674815
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 624026,
+          "expenditure": 443612
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 830625,
+          "expenditure": 799034
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 716342,
+          "expenditure": 714182
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 3162524,
+          "expenditure": 3108722
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 34363619,
+          "expenditure": 36913619
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 74685,
+          "expenditure": 1100827
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 7254550,
+          "expenditure": 8818443
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 2301700,
+          "expenditure": 3066131
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 335700,
+          "expenditure": 454088
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 1720204,
+          "expenditure": 1461192
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 105378,
+          "expenditure": 20271
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 894366,
+          "expenditure": 1332630
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 1421110,
+          "expenditure": 2226590
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 15401495,
+          "expenditure": 16310611
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 10367106,
+          "expenditure": 1177475
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 12388,
+          "expenditure": 451481
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8014499,
+          "expenditure": 8081665
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 163429,
+          "expenditure": 123034
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 48321991,
+          "expenditure": 38591589
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 14259745,
+          "expenditure": 16493115
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 8924883,
+          "expenditure": 15094143
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2533348,
+          "expenditure": 3117438
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 6606945,
+          "expenditure": 7297097
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 8617584,
+          "expenditure": 8213722
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 495943,
+          "expenditure": 464523
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 369318,
+          "expenditure": 713526
+        }
+      ]
+    }
+  },
+  {
+    "year": 2015,
+    "basic_fund": {
+      "total": {
+        "revenue": 1776702733,
+        "expenditure": 1934636035
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 9326000
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5277096837,
+        "expenditure": 5014739995
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 347380263,
+          "expenditure": 197056014
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 39892833,
+          "expenditure": 37101815
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 862545971,
+          "expenditure": 849445212
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 623358669,
+          "expenditure": 608954075
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 28488343,
+          "expenditure": 29214895
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 1827634,
+          "expenditure": 1459427
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 289413738,
+          "expenditure": 285088258
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 52264810,
+          "expenditure": 45630370
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 1008035,
+          "expenditure": 922089
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 82757637,
+          "expenditure": 73992561
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 282624747,
+          "expenditure": 274410502
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 25170567,
+          "expenditure": 30203254
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 20911772,
+          "expenditure": 15519011
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 14927569,
+          "expenditure": 11728739
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 8600363,
+          "expenditure": 8600363
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 32228597,
+          "expenditure": 1043529
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 3597662,
+          "expenditure": 9293677
+        },
+        {
+          "name": "中央都市更新基金",
+          "type": "business",
+          "revenue": 685058,
+          "expenditure": 947099
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 28388668,
+          "expenditure": 27274006
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 11132909,
+          "expenditure": 15302732
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 151773,
+          "expenditure": 12653
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 80614,
+          "expenditure": 33218
+        },
+        {
+          "name": "國立大學校院校務基金(51所學校綜計)",
+          "type": "business",
+          "revenue": 108107829,
+          "expenditure": 114268947
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 29741736,
+          "expenditure": 28021368
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 9772211,
+          "expenditure": 9659472
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 2022425,
+          "expenditure": 1982878
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1562441,
+          "expenditure": 1893967
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 34237226,
+          "expenditure": 38246604
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 986108,
+          "expenditure": 1040764
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 8633283,
+          "expenditure": 8387300
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 7283471,
+          "expenditure": 7935684
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 54729090,
+          "expenditure": 39029276
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 1996779,
+          "expenditure": 1243659
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 48280588,
+          "expenditure": 47865094
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 13800512,
+          "expenditure": 11266879
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 243785,
+          "expenditure": 217738
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 369339056,
+          "expenditure": 369339056
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 28420648,
+          "expenditure": 27657521
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 502969,
+          "expenditure": 348323
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 571509741,
+          "expenditure": 571539448
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 86972621,
+          "expenditure": 86972621
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 842659,
+          "expenditure": 817932
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 809766,
+          "expenditure": 430706
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 878021,
+          "expenditure": 794748
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 711838,
+          "expenditure": 708148
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 7678133,
+          "expenditure": 7625617
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 39081684,
+          "expenditure": 42870552
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 59201,
+          "expenditure": 1100705
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 7281360,
+          "expenditure": 8501556
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 276000,
+          "expenditure": 1023108
+        },
+        {
+          "name": "外籍配偶照顧輔導基金",
+          "type": "business",
+          "revenue": 4800,
+          "expenditure": 279979
+        },
+        {
+          "name": "研發替代役基金",
+          "type": "business",
+          "revenue": 1590080,
+          "expenditure": 1527328
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 104055,
+          "expenditure": 19046
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 784124,
+          "expenditure": 1516989
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 1487250,
+          "expenditure": 1961922
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 18236380,
+          "expenditure": 19617565
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 10806443,
+          "expenditure": 3244876
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 11256,
+          "expenditure": 312399
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8183358,
+          "expenditure": 8866016
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 163930,
+          "expenditure": 118783
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 49814915,
+          "expenditure": 38232015
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 16260965,
+          "expenditure": 16577594
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 10132573,
+          "expenditure": 16267041
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2690436,
+          "expenditure": 3197024
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 6490339,
+          "expenditure": 7268779
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 25349666,
+          "expenditure": 24912520
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 460019,
+          "expenditure": 395216
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 368383,
+          "expenditure": 634104
+        }
+      ]
+    }
+  },
+  {
+    "year": 2016,
+    "basic_fund": {
+      "total": {
+        "revenue": 1822377773,
+        "expenditure": 1975866301
+      },
+      "extra": {
+        "revenue": 4129000,
+        "expenditure": 14098800
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 4991281336,
+        "expenditure": 4739058144
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 362306484,
+          "expenditure": 211962469
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 38298750,
+          "expenditure": 35120939
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 582388459,
+          "expenditure": 576272698
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 564326760,
+          "expenditure": 542999489
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 29380450,
+          "expenditure": 29767934
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 2019091,
+          "expenditure": 1598627
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 275816581,
+          "expenditure": 269934404
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 53607310,
+          "expenditure": 45987309
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 992419,
+          "expenditure": 904678
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 81982116,
+          "expenditure": 73075693
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 321551737,
+          "expenditure": 312993749
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 26314088,
+          "expenditure": 31080450
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 21281203,
+          "expenditure": 15728519
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 18171135,
+          "expenditure": 13331028
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 9098738,
+          "expenditure": 9098738
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 20217059,
+          "expenditure": 1106433
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 2758667,
+          "expenditure": 8852867
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 28763275,
+          "expenditure": 27733149
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 6044254,
+          "expenditure": 6969690
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 150711,
+          "expenditure": 12100
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 82154,
+          "expenditure": 31326
+        },
+        {
+          "name": "國立大學校院校務基金(51所學校綜計)",
+          "type": "business",
+          "revenue": 109559759,
+          "expenditure": 115807843
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 32037182,
+          "expenditure": 30280421
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 10615186,
+          "expenditure": 10488390
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 2141235,
+          "expenditure": 2108176
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1706567,
+          "expenditure": 2150361
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 35127452,
+          "expenditure": 39014934
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1063020,
+          "expenditure": 1076828
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 9915953,
+          "expenditure": 9277280
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 7380601,
+          "expenditure": 8215630
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 59511593,
+          "expenditure": 40640852
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2282820,
+          "expenditure": 1265679
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 50378732,
+          "expenditure": 49720299
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 14752231,
+          "expenditure": 11697339
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 432316,
+          "expenditure": 386485
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 384123306,
+          "expenditure": 384123306
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 29155822,
+          "expenditure": 28328183
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 596893,
+          "expenditure": 431324
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 600034645,
+          "expenditure": 600050496
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 92940948,
+          "expenditure": 92940948
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 1189486,
+          "expenditure": 1146290
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 1183854,
+          "expenditure": 616451
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1567036,
+          "expenditure": 2122043
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 657454,
+          "expenditure": 647146
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 7302328,
+          "expenditure": 7774817
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 37223199,
+          "expenditure": 38369199
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 49736,
+          "expenditure": 800701
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 7661314,
+          "expenditure": 8465263
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 1212200,
+          "expenditure": 2023148
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 302400,
+          "expenditure": 279000
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 1815583,
+          "expenditure": 1661173
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 104085,
+          "expenditure": 18241
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 800440,
+          "expenditure": 1427236
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 1808000,
+          "expenditure": 2394127
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 19723828,
+          "expenditure": 20960286
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 10849941,
+          "expenditure": 2957117
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 245534,
+          "expenditure": 395929
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8611928,
+          "expenditure": 11828519
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 590882,
+          "expenditure": 108963
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 44758750,
+          "expenditure": 39396650
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 15257995,
+          "expenditure": 16363558
+        },
+        {
+          "name": "健康照護基金",
+          "type": "business",
+          "revenue": 9817567,
+          "expenditure": 13910622
+        },
+        {
+          "name": "社會福利基金",
+          "type": "business",
+          "revenue": 2992837,
+          "expenditure": 3167979
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 6846590,
+          "expenditure": 7823994
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 26862031,
+          "expenditure": 26184497
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 458186,
+          "expenditure": 393620
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 364976,
+          "expenditure": 390300
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 12000,
+          "expenditure": 10000
+        }
+      ]
+    }
+  },
+  {
+    "year": 2017,
+    "basic_fund": {
+      "total": {
+        "revenue": 1841451404,
+        "expenditure": 1973995947
+      },
+      "extra": {
+        "revenue": 15724000,
+        "expenditure": 31802570
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5161433334,
+        "expenditure": 4898240593
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 362779011,
+          "expenditure": 212425022
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 37010084,
+          "expenditure": 33667619
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 747040096,
+          "expenditure": 738793425
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 566611302,
+          "expenditure": 545016366
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 29311242,
+          "expenditure": 29713270
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 2111929,
+          "expenditure": 1639618
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 308913877,
+          "expenditure": 303038121
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 53092793,
+          "expenditure": 45120217
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 963845,
+          "expenditure": 873740
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 78817577,
+          "expenditure": 69949064
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 286584099,
+          "expenditure": 277470897
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 26817484,
+          "expenditure": 30219624
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 21238366,
+          "expenditure": 15587738
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 19878154,
+          "expenditure": 14146742
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 9380779,
+          "expenditure": 9380779
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 12419120,
+          "expenditure": 1071840
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 3842302,
+          "expenditure": 8482660
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 28348818,
+          "expenditure": 26769909
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 2959684,
+          "expenditure": 4791896
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 136500,
+          "expenditure": 9317
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 102234,
+          "expenditure": 46696
+        },
+        {
+          "name": "國立大學校院校務基金(51所學校綜計)",
+          "type": "business",
+          "revenue": 110704888,
+          "expenditure": 116847565
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 33864662,
+          "expenditure": 31805396
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 11648885,
+          "expenditure": 11522089
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 2844070,
+          "expenditure": 2836570
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1849061,
+          "expenditure": 2277763
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 30414572,
+          "expenditure": 34003401
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1066204,
+          "expenditure": 1111785
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 14402975,
+          "expenditure": 14644797
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 7094223,
+          "expenditure": 8206677
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 66222697,
+          "expenditure": 41585460
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2229604,
+          "expenditure": 1361828
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 53558875,
+          "expenditure": 52420393
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 15387106,
+          "expenditure": 11935892
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 448405,
+          "expenditure": 389988
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 418534527,
+          "expenditure": 418534527
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 30337990,
+          "expenditure": 29426462
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 630194,
+          "expenditure": 464123
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 610814207,
+          "expenditure": 610814207
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 99161920,
+          "expenditure": 99161920
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 1244449,
+          "expenditure": 1205826
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 1178105,
+          "expenditure": 668578
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1854267,
+          "expenditure": 2976634
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 624124,
+          "expenditure": 613616
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 5040084,
+          "expenditure": 5083006
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 42281428,
+          "expenditure": 45175833
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 34953,
+          "expenditure": 800704
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 8235962,
+          "expenditure": 8493789
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 1147953,
+          "expenditure": 1550990
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 303200,
+          "expenditure": 315958
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 1648863,
+          "expenditure": 1506655
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 2384,
+          "expenditure": 19371
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 127345,
+          "expenditure": 126757
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 745283,
+          "expenditure": 1168972
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 2880000,
+          "expenditure": 2676800
+        },
+        {
+          "name": "大專校院轉型及退場基金",
+          "type": "business",
+          "revenue": 2500000,
+          "expenditure": 200000
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 20982378,
+          "expenditure": 23286910
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 10127972,
+          "expenditure": 2175401
+        },
+        {
+          "name": "地方產業發展基金",
+          "type": "business",
+          "revenue": 178369,
+          "expenditure": 292701
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8642037,
+          "expenditure": 9667634
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 166716,
+          "expenditure": 123640
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 45350453,
+          "expenditure": 40156998
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 20025585,
+          "expenditure": 16464695
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 24537482,
+          "expenditure": 24931569
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 7185347,
+          "expenditure": 10186750
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 25811866,
+          "expenditure": 24995569
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 397939,
+          "expenditure": 355169
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 368827,
+          "expenditure": 346737
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 59554,
+          "expenditure": 22190
+        }
+      ]
+    }
+  },
+  {
+    "year": 2018,
+    "basic_fund": {
+      "total": {
+        "revenue": 1919376256,
+        "expenditure": 1966862309
+      },
+      "extra": {
+        "revenue": 4313000,
+        "expenditure": 105686277
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5361792023,
+        "expenditure": 5105640193
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 364183807,
+          "expenditure": 213807912
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 35922182,
+          "expenditure": 33270637
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 847426956,
+          "expenditure": 833832105
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 604783078,
+          "expenditure": 594889034
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 29836136,
+          "expenditure": 30179513
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 2428675,
+          "expenditure": 1877873
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 314661128,
+          "expenditure": 308648554
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 52711351,
+          "expenditure": 44496419
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 954176,
+          "expenditure": 862212
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 81869679,
+          "expenditure": 74982874
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 286501459,
+          "expenditure": 277708813
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 28363397,
+          "expenditure": 31209104
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 21099034,
+          "expenditure": 15318765
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 21001784,
+          "expenditure": 14860568
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 9699928,
+          "expenditure": 9699928
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 14418203,
+          "expenditure": 1002711
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 3770184,
+          "expenditure": 11225125
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 28783153,
+          "expenditure": 26624742
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 1784097,
+          "expenditure": 2151436
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 93363,
+          "expenditure": 8776
+        },
+        {
+          "name": "國有財產開發基金",
+          "type": "business",
+          "revenue": 101704,
+          "expenditure": 22137
+        },
+        {
+          "name": "國立大學校院校務基金(50所學校綜計)",
+          "type": "business",
+          "revenue": 115127612,
+          "expenditure": 121193380
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 36139518,
+          "expenditure": 33642741
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 12103086,
+          "expenditure": 11991686
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 2865635,
+          "expenditure": 2856345
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1984121,
+          "expenditure": 2312821
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 29405650,
+          "expenditure": 32918421
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1077196,
+          "expenditure": 1105743
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 12337331,
+          "expenditure": 12743625
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 8011691,
+          "expenditure": 8488874
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 69548685,
+          "expenditure": 39191678
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2272499,
+          "expenditure": 1543755
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 56657430,
+          "expenditure": 55034123
+        },
+        {
+          "name": "科學工業園區管理局作業基金",
+          "type": "business",
+          "revenue": 15827907,
+          "expenditure": 12244991
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 458622,
+          "expenditure": 419426
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 428736134,
+          "expenditure": 428736134
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 31789448,
+          "expenditure": 30762726
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 748592,
+          "expenditure": 567557
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 642920046,
+          "expenditure": 642920046
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 102286709,
+          "expenditure": 102286709
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 1129260,
+          "expenditure": 1107147
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 765243,
+          "expenditure": 570465
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1735508,
+          "expenditure": 2844507
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 643608,
+          "expenditure": 629909
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4597863,
+          "expenditure": 4741947
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 34455943,
+          "expenditure": 40625229
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 25802,
+          "expenditure": 800448
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 7885004,
+          "expenditure": 8521803
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 1044200,
+          "expenditure": 1008162
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 302010,
+          "expenditure": 313180
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 1328995,
+          "expenditure": 1221737
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 2522,
+          "expenditure": 19221
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 120168,
+          "expenditure": 120168
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 788134,
+          "expenditure": 1270301
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 3373932,
+          "expenditure": 4252260
+        },
+        {
+          "name": "大專校院轉型及退場基金",
+          "type": "business",
+          "revenue": 817200,
+          "expenditure": 109377
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 24170616,
+          "expenditure": 28015521
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 9016685,
+          "expenditure": 2240672
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8588557,
+          "expenditure": 7985683
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 118045,
+          "expenditure": 116206
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 52209417,
+          "expenditure": 41609742
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 20695898,
+          "expenditure": 15882547
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 45159676,
+          "expenditure": 52982404
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 9469014,
+          "expenditure": 14363409
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 24631692,
+          "expenditure": 23738060
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 466192,
+          "expenditure": 422685
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 371149,
+          "expenditure": 354244
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 46694,
+          "expenditure": 19658
+        }
+      ]
+    }
+  },
+  {
+    "year": 2019,
+    "basic_fund": {
+      "total": {
+        "revenue": 1992562681,
+        "expenditure": 1997977761
+      },
+      "extra": {
+        "revenue": 8784000,
+        "expenditure": 113527322
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5579328198,
+        "expenditure": 5322075232
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 375138289,
+          "expenditure": 224739466
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 35338167,
+          "expenditure": 32598543
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 845884364,
+          "expenditure": 829712842
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 626368590,
+          "expenditure": 623333863
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 30978389,
+          "expenditure": 31053475
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 2514676,
+          "expenditure": 1912175
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 340823409,
+          "expenditure": 334371813
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 53548661,
+          "expenditure": 45690724
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 916130,
+          "expenditure": 832148
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 78765288,
+          "expenditure": 72112874
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 282255045,
+          "expenditure": 273170458
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 30230017,
+          "expenditure": 32346534
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 21057792,
+          "expenditure": 15514736
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 21735575,
+          "expenditure": 15810268
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 10141037,
+          "expenditure": 10141037
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 16383616,
+          "expenditure": 862438
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 2727972,
+          "expenditure": 12512905
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 31410002,
+          "expenditure": 30295233
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 1427218,
+          "expenditure": 1843094
+        },
+        {
+          "name": "地方建設基金",
+          "type": "business",
+          "revenue": 71741,
+          "expenditure": 8989
+        },
+        {
+          "name": "國立大學校院校務基金(48所學校綜計)",
+          "type": "business",
+          "revenue": 121221683,
+          "expenditure": 126916461
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 37347775,
+          "expenditure": 34625548
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 13050786,
+          "expenditure": 12938833
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 3007245,
+          "expenditure": 3004275
+        },
+        {
+          "name": "國立社教機構作業基金",
+          "type": "business",
+          "revenue": 1976130,
+          "expenditure": 2499923
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 29715389,
+          "expenditure": 33340227
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1090524,
+          "expenditure": 1096971
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 14566769,
+          "expenditure": 14953533
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 8275831,
+          "expenditure": 9438359
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 63428334,
+          "expenditure": 38591435
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2319107,
+          "expenditure": 1785926
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 60269942,
+          "expenditure": 58428050
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 16791714,
+          "expenditure": 14327900
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 467724,
+          "expenditure": 425470
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 499879473,
+          "expenditure": 499879473
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 33599900,
+          "expenditure": 32494337
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 844900,
+          "expenditure": 649272
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 669590368,
+          "expenditure": 669590368
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 107127844,
+          "expenditure": 107127844
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 768242,
+          "expenditure": 740113
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 850000,
+          "expenditure": 636031
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1788379,
+          "expenditure": 3155081
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 624632,
+          "expenditure": 604841
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4044826,
+          "expenditure": 4143261
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 36664597,
+          "expenditure": 40518274
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 7216,
+          "expenditure": 900448
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 8357526,
+          "expenditure": 8784170
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 997500,
+          "expenditure": 1507162
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 1214,
+          "expenditure": 321103
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 707193,
+          "expenditure": 684270
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 2803,
+          "expenditure": 16462
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 97393,
+          "expenditure": 97393
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 800186,
+          "expenditure": 1029761
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 3459440,
+          "expenditure": 4939422
+        },
+        {
+          "name": "大專校院轉型及退場基金",
+          "type": "business",
+          "revenue": 764161,
+          "expenditure": 109230
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 361101,
+          "expenditure": 361101
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 21354498,
+          "expenditure": 26943354
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 24996826,
+          "expenditure": 2992751
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8725526,
+          "expenditure": 8178631
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 116654,
+          "expenditure": 106680
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 53397391,
+          "expenditure": 40881085
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 22259934,
+          "expenditure": 16971742
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 47893128,
+          "expenditure": 52208229
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 8916067,
+          "expenditure": 14557697
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 24884387,
+          "expenditure": 24013403
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 408639,
+          "expenditure": 492510
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 362334,
+          "expenditure": 300879
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 46694,
+          "expenditure": 18786
+        }
+      ]
+    }
+  },
+  {
+    "year": 2020,
+    "basic_fund": {
+      "total": {
+        "revenue": 2107027829,
+        "expenditure": 2077568744
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 263229988
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5472190960,
+        "expenditure": 5210337316
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 389259829,
+          "expenditure": 238848367
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 33508589,
+          "expenditure": 30670037
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 650537977,
+          "expenditure": 639183617
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 646706698,
+          "expenditure": 644643452
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 31367721,
+          "expenditure": 31635547
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 3126548,
+          "expenditure": 2492404
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 334742630,
+          "expenditure": 328356906
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 56423765,
+          "expenditure": 48579935
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 834978,
+          "expenditure": 765641
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 74338247,
+          "expenditure": 67958423
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 275118427,
+          "expenditure": 266181645
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 30036035,
+          "expenditure": 32794691
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 21013276,
+          "expenditure": 15443276
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 22855211,
+          "expenditure": 16601153
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 10570851,
+          "expenditure": 10570851
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 16500952,
+          "expenditure": 1824677
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 627175,
+          "expenditure": 9106993
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 35426952,
+          "expenditure": 34238758
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 1685454,
+          "expenditure": 9731147
+        },
+        {
+          "name": "國立大學校院校務基金(48所學校綜計)",
+          "type": "business",
+          "revenue": 126665743,
+          "expenditure": 131309418
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 39682582,
+          "expenditure": 36941616
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 13574827,
+          "expenditure": 13476884
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 3089895,
+          "expenditure": 3087148
+        },
+        {
+          "name": "教育部所屬機構作業基金",
+          "type": "business",
+          "revenue": 1989547,
+          "expenditure": 2475301
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 29983446,
+          "expenditure": 33767918
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1026090,
+          "expenditure": 1058994
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 8954931,
+          "expenditure": 10059629
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 7676020,
+          "expenditure": 9053862
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 64625008,
+          "expenditure": 38369429
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2493135,
+          "expenditure": 1571637
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 64112606,
+          "expenditure": 62142123
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 17629502,
+          "expenditure": 14534039
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 464108,
+          "expenditure": 573842
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 524652015,
+          "expenditure": 524652015
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 35739693,
+          "expenditure": 34510168
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 871844,
+          "expenditure": 701268
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 699001568,
+          "expenditure": 699001568
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 109844940,
+          "expenditure": 109844940
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 729265,
+          "expenditure": 715970
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 769791,
+          "expenditure": 611784
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1804636,
+          "expenditure": 3154050
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 616642,
+          "expenditure": 601464
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4102941,
+          "expenditure": 4307954
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 37036277,
+          "expenditure": 42295087
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 7140,
+          "expenditure": 900443
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 8777796,
+          "expenditure": 9098631
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 940000,
+          "expenditure": 1258162
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 502033,
+          "expenditure": 347665
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 484681,
+          "expenditure": 483841
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 2813,
+          "expenditure": 18354
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 91549,
+          "expenditure": 137011
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 823253,
+          "expenditure": 1067212
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 3962750,
+          "expenditure": 6171056
+        },
+        {
+          "name": "大專校院轉型及退場基金",
+          "type": "business",
+          "revenue": 2190,
+          "expenditure": 90690
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 471255,
+          "expenditure": 471255
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 22537232,
+          "expenditure": 28315650
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 26543616,
+          "expenditure": 3513711
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8837798,
+          "expenditure": 8203510
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 116780,
+          "expenditure": 98905
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 63457310,
+          "expenditure": 42637084
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 23494574,
+          "expenditure": 17574963
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 48591104,
+          "expenditure": 57380577
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 8735622,
+          "expenditure": 10956942
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 26341746,
+          "expenditure": 25483530
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 640145,
+          "expenditure": 616091
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 358541,
+          "expenditure": 351008
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 48234,
+          "expenditure": 48569
+        }
+      ]
+    }
+  },
+  {
+    "year": 2021,
+    "basic_fund": {
+      "total": {
+        "revenue": 2053518101,
+        "expenditure": 2135896877
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 293006827
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5631364337,
+        "expenditure": 5352131868
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 309237599,
+          "expenditure": 168112668
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 34452700,
+          "expenditure": 30004276
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 817775653,
+          "expenditure": 808460696
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 631362912,
+          "expenditure": 626947813
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 31681039,
+          "expenditure": 32108826
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 3330950,
+          "expenditure": 2687488
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 332935326,
+          "expenditure": 325849564
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 59703691,
+          "expenditure": 51580007
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 815768,
+          "expenditure": 767042
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 71496701,
+          "expenditure": 65861810
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 272052414,
+          "expenditure": 262964868
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 30166066,
+          "expenditure": 33586050
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 21108692,
+          "expenditure": 15420603
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 16102004,
+          "expenditure": 14975566
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 11004992,
+          "expenditure": 11004992
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 20068938,
+          "expenditure": 2477210
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 5273495,
+          "expenditure": 10880283
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 39299737,
+          "expenditure": 38098321
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 1528138,
+          "expenditure": 6117181
+        },
+        {
+          "name": "國立大學校院校務基金(48所學校綜計)",
+          "type": "business",
+          "revenue": 130658536,
+          "expenditure": 134915191
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 42740075,
+          "expenditure": 39879091
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 14099086,
+          "expenditure": 13999236
+        },
+        {
+          "name": "國立陽明大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 3160528,
+          "expenditure": 3157369
+        },
+        {
+          "name": "教育部所屬機構作業基金",
+          "type": "business",
+          "revenue": 1908208,
+          "expenditure": 2491799
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 30441252,
+          "expenditure": 34378678
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1086570,
+          "expenditure": 1178678
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 10240855,
+          "expenditure": 11693777
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 8919296,
+          "expenditure": 10118571
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 63015809,
+          "expenditure": 37758260
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2707032,
+          "expenditure": 1781957
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 66775381,
+          "expenditure": 64457266
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 18107684,
+          "expenditure": 14860910
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 448487,
+          "expenditure": 553565
+        },
+        {
+          "name": "農田水利事業作業基金",
+          "type": "business",
+          "revenue": 10406116,
+          "expenditure": 15353995
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 533964580,
+          "expenditure": 533964580
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 37725770,
+          "expenditure": 36444798
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 912496,
+          "expenditure": 723969
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 737532587,
+          "expenditure": 737532587
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 114713148,
+          "expenditure": 114713148
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 808556,
+          "expenditure": 798301
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 428151,
+          "expenditure": 331771
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1776109,
+          "expenditure": 3096486
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 606080,
+          "expenditure": 592861
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 3726445,
+          "expenditure": 3738036
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 37008070,
+          "expenditure": 38536070
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 6894,
+          "expenditure": 895808
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 8990374,
+          "expenditure": 8764989
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 25588147,
+          "expenditure": 2738620
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 500996,
+          "expenditure": 364392
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 489397,
+          "expenditure": 479586
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 1947,
+          "expenditure": 23457
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 91549,
+          "expenditure": 203647
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 807285,
+          "expenditure": 969105
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 3863100,
+          "expenditure": 6692629
+        },
+        {
+          "name": "大專校院轉型及退場基金",
+          "type": "business",
+          "revenue": 2190,
+          "expenditure": 69130
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 424621,
+          "expenditure": 522099
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 14109140,
+          "expenditure": 15275129
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 26398256,
+          "expenditure": 4342365
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8824131,
+          "expenditure": 8177769
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 115701,
+          "expenditure": 103921
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 37733867,
+          "expenditure": 43430326
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 26722525,
+          "expenditure": 31914729
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 56036072,
+          "expenditure": 67904466
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 9265144,
+          "expenditure": 10226282
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 27318729,
+          "expenditure": 26294896
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 327951,
+          "expenditure": 525862
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 342741,
+          "expenditure": 337200
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 48782,
+          "expenditure": 49015
+        }
+      ]
+    }
+  },
+  {
+    "year": 2022,
+    "basic_fund": {
+      "total": {
+        "revenue": 2267025455,
+        "expenditure": 2251064897
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 281245251
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 5629496270,
+        "expenditure": 5379961408
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 293940346,
+          "expenditure": 140515282
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 33746818,
+          "expenditure": 29102078
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 808762218,
+          "expenditure": 800549483
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 661550163,
+          "expenditure": 654704701
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 32803495,
+          "expenditure": 32966274
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 3144000,
+          "expenditure": 2447256
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 295163433,
+          "expenditure": 287177239
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 54741139,
+          "expenditure": 46554555
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 794666,
+          "expenditure": 748305
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 68025030,
+          "expenditure": 62179478
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 212909485,
+          "expenditure": 204304815
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 30582826,
+          "expenditure": 34171746
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 22097258,
+          "expenditure": 16368741
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 8456037,
+          "expenditure": 14712040
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 11254381,
+          "expenditure": 11254381
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 22707265,
+          "expenditure": 3779101
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 5341651,
+          "expenditure": 11318788
+        },
+        {
+          "name": "實施平均地權基金",
+          "type": "business",
+          "revenue": 49546,
+          "expenditure": 14947
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 39100888,
+          "expenditure": 37837171
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 1408877,
+          "expenditure": 2323054
+        },
+        {
+          "name": "國立大學校院校務基金(47所學校綜計)",
+          "type": "business",
+          "revenue": 131672287,
+          "expenditure": 135524028
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 47526713,
+          "expenditure": 44876277
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 14137658,
+          "expenditure": 14045953
+        },
+        {
+          "name": "國立陽明交通大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 3296491,
+          "expenditure": 3294331
+        },
+        {
+          "name": "教育部所屬機構作業基金",
+          "type": "business",
+          "revenue": 2062577,
+          "expenditure": 2628526
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 32288473,
+          "expenditure": 36340863
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1247233,
+          "expenditure": 1318285
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 9229023,
+          "expenditure": 10749829
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 11887549,
+          "expenditure": 10968883
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 65080683,
+          "expenditure": 38411415
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2746409,
+          "expenditure": 1951578
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 69103255,
+          "expenditure": 66577789
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 19389258,
+          "expenditure": 14638564
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 465062,
+          "expenditure": 583936
+        },
+        {
+          "name": "農田水利事業作業基金",
+          "type": "business",
+          "revenue": 8947272,
+          "expenditure": 12855820
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 570248464,
+          "expenditure": 570248464
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 38373884,
+          "expenditure": 37099390
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 962470,
+          "expenditure": 685049
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 772862451,
+          "expenditure": 772862451
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 120756212,
+          "expenditure": 120756212
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 793485,
+          "expenditure": 806922
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 365286,
+          "expenditure": 314159
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1862637,
+          "expenditure": 3172101
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 594270,
+          "expenditure": 582648
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4135471,
+          "expenditure": 4171463
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 42398277,
+          "expenditure": 42358277
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 6824,
+          "expenditure": 901420
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 9143888,
+          "expenditure": 8519734
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 6000,
+          "expenditure": 2446448
+        },
+        {
+          "name": "促進轉型正義基金",
+          "type": "business",
+          "revenue": 955000,
+          "expenditure": 5000
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 501145,
+          "expenditure": 371951
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 415664,
+          "expenditure": 414081
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 1952,
+          "expenditure": 18019
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 9481405,
+          "expenditure": 294459
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 798385,
+          "expenditure": 826375
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 4034100,
+          "expenditure": 6888925
+        },
+        {
+          "name": "大專校院轉型及退場基金",
+          "type": "business",
+          "revenue": 1690,
+          "expenditure": 59670
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 424633,
+          "expenditure": 611920
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 13822967,
+          "expenditure": 14482184
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 26270471,
+          "expenditure": 4597958
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 8958065,
+          "expenditure": 8756825
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 115838,
+          "expenditure": 103933
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 43296959,
+          "expenditure": 51538259
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 27212391,
+          "expenditure": 31703353
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 87109680,
+          "expenditure": 87443940
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 11334251,
+          "expenditure": 12629716
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 27696850,
+          "expenditure": 26560466
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 221637,
+          "expenditure": 533036
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 308652,
+          "expenditure": 303890
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 48081,
+          "expenditure": 50739
+        }
+      ]
+    }
+  },
+  {
+    "year": 2023,
+    "basic_fund": {
+      "total": {
+        "revenue": 2579588822,
+        "expenditure": 2689097857
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 212595406
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 6466032788,
+        "expenditure": 6507217944
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 354729569,
+          "expenditure": 194174463
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 34630039,
+          "expenditure": 29440265
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 1231384991,
+          "expenditure": 1231206386
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 752732508,
+          "expenditure": 1031182018
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 33344733,
+          "expenditure": 34069388
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 3168179,
+          "expenditure": 2403616
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 309942649,
+          "expenditure": 300782884
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 55868848,
+          "expenditure": 46904065
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 755660,
+          "expenditure": 712962
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 68162746,
+          "expenditure": 62619710
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 224291683,
+          "expenditure": 215356610
+        },
+        {
+          "name": "交通部臺灣鐵路管理局",
+          "type": "business",
+          "revenue": 30644515,
+          "expenditure": 35317291
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 26195003,
+          "expenditure": 17414933
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 9927335,
+          "expenditure": 15411559
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 12185925,
+          "expenditure": 12185925
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 32617898,
+          "expenditure": 5018130
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 36139556,
+          "expenditure": 36877841
+        },
+        {
+          "name": "實施平均地權基金",
+          "type": "business",
+          "revenue": 45023,
+          "expenditure": 20018
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 40365734,
+          "expenditure": 38953825
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 682654,
+          "expenditure": 477574
+        },
+        {
+          "name": "國立大學校院校務基金(47所學校綜計)",
+          "type": "business",
+          "revenue": 135873294,
+          "expenditure": 140021998
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 50202567,
+          "expenditure": 47745690
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 15252568,
+          "expenditure": 15142610
+        },
+        {
+          "name": "國立陽明交通大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 3502874,
+          "expenditure": 3499324
+        },
+        {
+          "name": "教育部所屬機構作業基金",
+          "type": "business",
+          "revenue": 2138524,
+          "expenditure": 2667476
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 32771225,
+          "expenditure": 36884579
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1177983,
+          "expenditure": 1273879
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 9865796,
+          "expenditure": 9421341
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 9515988,
+          "expenditure": 10675193
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 54275602,
+          "expenditure": 38169942
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 3044184,
+          "expenditure": 1956764
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 73004337,
+          "expenditure": 70655787
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 20772089,
+          "expenditure": 16215223
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 521228,
+          "expenditure": 622893
+        },
+        {
+          "name": "農田水利事業作業基金",
+          "type": "business",
+          "revenue": 9338150,
+          "expenditure": 12950011
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 594645725,
+          "expenditure": 594645725
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 40610234,
+          "expenditure": 39162963
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 896028,
+          "expenditure": 647010
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 782172034,
+          "expenditure": 782172034
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 122769730,
+          "expenditure": 122769730
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 806344,
+          "expenditure": 951982
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 345845,
+          "expenditure": 289484
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 1794858,
+          "expenditure": 3105277
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 636900,
+          "expenditure": 572200
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4326360,
+          "expenditure": 4294502
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 40769512,
+          "expenditure": 40759512
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 849760,
+          "expenditure": 902520
+        },
+        {
+          "name": "行政院公營事業民營化基金",
+          "type": "business",
+          "revenue": 9132606,
+          "expenditure": 9263376
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 6000,
+          "expenditure": 2806469
+        },
+        {
+          "name": "促進轉型正義基金",
+          "type": "business",
+          "revenue": 63829,
+          "expenditure": 97269
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 401647,
+          "expenditure": 420820
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 415264,
+          "expenditure": 413283
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 2760,
+          "expenditure": 17887
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 10030010,
+          "expenditure": 516019
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 816760,
+          "expenditure": 776229
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 4554778,
+          "expenditure": 6821902
+        },
+        {
+          "name": "私立高級中等以上學校退場基金",
+          "type": "business",
+          "revenue": 22,
+          "expenditure": 76415
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 567055,
+          "expenditure": 711918
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 22057197,
+          "expenditure": 21635426
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 26318907,
+          "expenditure": 6695587
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 9782835,
+          "expenditure": 10085235
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 116949,
+          "expenditure": 94464
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 42902022,
+          "expenditure": 60031527
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 27529867,
+          "expenditure": 35272655
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 104885847,
+          "expenditure": 106063822
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 11927041,
+          "expenditure": 11260315
+        },
+        {
+          "name": "文化發展基金",
+          "type": "business",
+          "revenue": 250000,
+          "expenditure": 229100
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 29219318,
+          "expenditure": 28136022
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 408622,
+          "expenditure": 482748
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 297167,
+          "expenditure": 289533
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 48311,
+          "expenditure": 76744
+        }
+      ]
+    }
+  },
+  {
+    "year": 2024,
+    "basic_fund": {
+      "total": {
+        "revenue": 2725453566,
+        "expenditure": 2851855874
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 263746664
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 6811303163,
+        "expenditure": 6734080768
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 412511865,
+          "expenditure": 236906403
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 35399878,
+          "expenditure": 30449870
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 1225455616,
+          "expenditure": 1222395736
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 818603506,
+          "expenditure": 982079754
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 33427973,
+          "expenditure": 35694593
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 4265404,
+          "expenditure": 3419864
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 323704743,
+          "expenditure": 313520719
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 74254684,
+          "expenditure": 64523295
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 698882,
+          "expenditure": 665101
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 64254546,
+          "expenditure": 59443263
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 235298949,
+          "expenditure": 225773823
+        },
+        {
+          "name": "國營臺灣鐵路股份有限公司",
+          "type": "business",
+          "revenue": 34471779,
+          "expenditure": 41942047
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 25365626,
+          "expenditure": 17688620
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 18264485,
+          "expenditure": 15649296
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 12903358,
+          "expenditure": 12903358
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 28971530,
+          "expenditure": 4970662
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 24996918,
+          "expenditure": 40551624
+        },
+        {
+          "name": "實施平均地權基金",
+          "type": "business",
+          "revenue": 46201,
+          "expenditure": 11700
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 39258495,
+          "expenditure": 37967730
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 654349,
+          "expenditure": 560134
+        },
+        {
+          "name": "國防醫學院軍事教育基金",
+          "type": "business",
+          "revenue": 705892,
+          "expenditure": 739167
+        },
+        {
+          "name": "國立大學校院校務基金(47所學校綜計)",
+          "type": "business",
+          "revenue": 142986860,
+          "expenditure": 147553944
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 52784839,
+          "expenditure": 50915048
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 16313937,
+          "expenditure": 16211100
+        },
+        {
+          "name": "國立陽明交通大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 3881665,
+          "expenditure": 3874726
+        },
+        {
+          "name": "教育部所屬機構作業基金",
+          "type": "business",
+          "revenue": 2192325,
+          "expenditure": 2704701
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 35277826,
+          "expenditure": 39424990
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1186880,
+          "expenditure": 1290290
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 8327018,
+          "expenditure": 7658680
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 9134098,
+          "expenditure": 11002796
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 64298803,
+          "expenditure": 44103429
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 3284402,
+          "expenditure": 2015498
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 79377323,
+          "expenditure": 76087943
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 23547493,
+          "expenditure": 18441652
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 536770,
+          "expenditure": 643008
+        },
+        {
+          "name": "農田水利事業作業基金",
+          "type": "business",
+          "revenue": 10028404,
+          "expenditure": 12503140
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 699230514,
+          "expenditure": 699230514
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 43612586,
+          "expenditure": 42067344
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 921943,
+          "expenditure": 665455
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 817107053,
+          "expenditure": 817107053
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 122850973,
+          "expenditure": 122850973
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 842078,
+          "expenditure": 964160
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 377063,
+          "expenditure": 336775
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 2850242,
+          "expenditure": 3091874
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 627993,
+          "expenditure": 578665
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4183617,
+          "expenditure": 4153457
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 44487928,
+          "expenditure": 47487928
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 867322,
+          "expenditure": 900599
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 6000,
+          "expenditure": 2706291
+        },
+        {
+          "name": "促進轉型正義基金",
+          "type": "business",
+          "revenue": 69181,
+          "expenditure": 78748
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 403300,
+          "expenditure": 423886
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 419455,
+          "expenditure": 433600
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 4564,
+          "expenditure": 15313
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 10147472,
+          "expenditure": 669474
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 859832,
+          "expenditure": 745103
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 5922627,
+          "expenditure": 7031509
+        },
+        {
+          "name": "私立高級中等以上學校退場基金",
+          "type": "business",
+          "revenue": 192218,
+          "expenditure": 101347
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 662291,
+          "expenditure": 678556
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 25433620,
+          "expenditure": 22524414
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 26771732,
+          "expenditure": 6434317
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 9705589,
+          "expenditure": 9686945
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 120592,
+          "expenditure": 101289
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 40362137,
+          "expenditure": 55156366
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 28487410,
+          "expenditure": 28166533
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 105056597,
+          "expenditure": 112106977
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 9791309,
+          "expenditure": 9535578
+        },
+        {
+          "name": "文化發展基金",
+          "type": "business",
+          "revenue": 80731,
+          "expenditure": 54053
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 30405178,
+          "expenditure": 29247092
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 439156,
+          "expenditure": 508059
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 286840,
+          "expenditure": 281641
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 53973,
+          "expenditure": 85005
+        }
+      ]
+    }
+  },
+  {
+    "year": 2025,
+    "basic_fund": {
+      "total": {
+        "revenue": 3164804347,
+        "expenditure": 2924966563
+      },
+      "extra": {
+        "revenue": 0,
+        "expenditure": 199821558
+      }
+    },
+    "special_fund": {
+      "total": {
+        "revenue": 7259479378,
+        "expenditure": 6984710117
+      },
+      "details": [
+        {
+          "name": "中央銀行",
+          "type": "business",
+          "revenue": 426177796,
+          "expenditure": 250857794
+        },
+        {
+          "name": "台灣糖業股份有限公司",
+          "type": "business",
+          "revenue": 36442834,
+          "expenditure": 30797059
+        },
+        {
+          "name": "台灣中油股份有限公司",
+          "type": "business",
+          "revenue": 1212114854,
+          "expenditure": 1205765162
+        },
+        {
+          "name": "台灣電力股份有限公司",
+          "type": "business",
+          "revenue": 1004785293,
+          "expenditure": 997048560
+        },
+        {
+          "name": "台灣自來水股份有限公司",
+          "type": "business",
+          "revenue": 32895647,
+          "expenditure": 38829192
+        },
+        {
+          "name": "中國輸出入銀行",
+          "type": "business",
+          "revenue": 5874181,
+          "expenditure": 4764698
+        },
+        {
+          "name": "臺灣金融控股股份有限公司",
+          "type": "business",
+          "revenue": 344705058,
+          "expenditure": 333218588
+        },
+        {
+          "name": "臺灣土地銀行股份有限公司",
+          "type": "business",
+          "revenue": 79893199,
+          "expenditure": 69379438
+        },
+        {
+          "name": "財政部印刷廠",
+          "type": "business",
+          "revenue": 692310,
+          "expenditure": 670247
+        },
+        {
+          "name": "臺灣菸酒股份有限公司",
+          "type": "business",
+          "revenue": 60316244,
+          "expenditure": 55539696
+        },
+        {
+          "name": "中華郵政股份有限公司",
+          "type": "business",
+          "revenue": 247474110,
+          "expenditure": 243952029
+        },
+        {
+          "name": "國營臺灣鐵路股份有限公司",
+          "type": "business",
+          "revenue": 36185646,
+          "expenditure": 44875346
+        },
+        {
+          "name": "臺灣港務股份有限公司",
+          "type": "business",
+          "revenue": 25439111,
+          "expenditure": 18088347
+        },
+        {
+          "name": "桃園國際機場股份有限公司",
+          "type": "business",
+          "revenue": 24214847,
+          "expenditure": 18198273
+        },
+        {
+          "name": "中央存款保險股份有限公司",
+          "type": "business",
+          "revenue": 13568858,
+          "expenditure": 13568858
+        },
+        {
+          "name": "行政院國家發展基金",
+          "type": "business",
+          "revenue": 30467280,
+          "expenditure": 5879282
+        },
+        {
+          "name": "營建建設基金",
+          "type": "business",
+          "revenue": 70931725,
+          "expenditure": 67812012
+        },
+        {
+          "name": "實施平均地權基金",
+          "type": "business",
+          "revenue": 49122,
+          "expenditure": 13988
+        },
+        {
+          "name": "國軍生產及服務作業基金",
+          "type": "business",
+          "revenue": 41390263,
+          "expenditure": 40002249
+        },
+        {
+          "name": "國軍老舊眷村改建基金",
+          "type": "business",
+          "revenue": 639722,
+          "expenditure": 467494
+        },
+        {
+          "name": "國防醫學院軍事教育基金",
+          "type": "business",
+          "revenue": 782944,
+          "expenditure": 863189
+        },
+        {
+          "name": "國立大學校院校務基金(47所學校綜計)",
+          "type": "business",
+          "revenue": 151349826,
+          "expenditure": 155354288
+        },
+        {
+          "name": "國立臺灣大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 57736124,
+          "expenditure": 56315437
+        },
+        {
+          "name": "國立成功大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 16947050,
+          "expenditure": 16831828
+        },
+        {
+          "name": "國立陽明交通大學附設醫院作業基金",
+          "type": "business",
+          "revenue": 4121207,
+          "expenditure": 4073136
+        },
+        {
+          "name": "教育部所屬機構作業基金",
+          "type": "business",
+          "revenue": 2331768,
+          "expenditure": 2836163
+        },
+        {
+          "name": "國立高級中等學校校務基金",
+          "type": "business",
+          "revenue": 36883527,
+          "expenditure": 40894014
+        },
+        {
+          "name": "法務部矯正機關作業基金",
+          "type": "business",
+          "revenue": 1152581,
+          "expenditure": 1261544
+        },
+        {
+          "name": "經濟作業基金",
+          "type": "business",
+          "revenue": 8700663,
+          "expenditure": 7645331
+        },
+        {
+          "name": "水資源作業基金",
+          "type": "business",
+          "revenue": 9593541,
+          "expenditure": 11431959
+        },
+        {
+          "name": "交通作業基金",
+          "type": "business",
+          "revenue": 75903637,
+          "expenditure": 46035376
+        },
+        {
+          "name": "國軍退除役官兵安置基金",
+          "type": "business",
+          "revenue": 2942162,
+          "expenditure": 2087720
+        },
+        {
+          "name": "榮民醫療作業基金",
+          "type": "business",
+          "revenue": 84791989,
+          "expenditure": 81549011
+        },
+        {
+          "name": "科學園區管理局作業基金",
+          "type": "business",
+          "revenue": 24621538,
+          "expenditure": 19758123
+        },
+        {
+          "name": "農業作業基金",
+          "type": "business",
+          "revenue": 550432,
+          "expenditure": 666049
+        },
+        {
+          "name": "農田水利事業作業基金",
+          "type": "business",
+          "revenue": 10829915,
+          "expenditure": 12866120
+        },
+        {
+          "name": "勞工保險局作業基金",
+          "type": "business",
+          "revenue": 743573822,
+          "expenditure": 743573822
+        },
+        {
+          "name": "醫療藥品基金",
+          "type": "business",
+          "revenue": 47168146,
+          "expenditure": 45243740
+        },
+        {
+          "name": "管制藥品製藥工廠作業基金",
+          "type": "business",
+          "revenue": 972858,
+          "expenditure": 722739
+        },
+        {
+          "name": "全民健康保險基金",
+          "type": "business",
+          "revenue": 871105876,
+          "expenditure": 871105876
+        },
+        {
+          "name": "國民年金保險基金",
+          "type": "business",
+          "revenue": 131774545,
+          "expenditure": 131774545
+        },
+        {
+          "name": "國立文化機構作業基金",
+          "type": "business",
+          "revenue": 945204,
+          "expenditure": 1080856
+        },
+        {
+          "name": "故宮文物藝術發展基金",
+          "type": "business",
+          "revenue": 457629,
+          "expenditure": 410999
+        },
+        {
+          "name": "原住民族綜合發展基金",
+          "type": "business",
+          "revenue": 3625683,
+          "expenditure": 3846694
+        },
+        {
+          "name": "考選業務基金",
+          "type": "business",
+          "revenue": 600678,
+          "expenditure": 589563
+        },
+        {
+          "name": "中央研究院科學研究基金",
+          "type": "business",
+          "revenue": 4325753,
+          "expenditure": 4324913
+        },
+        {
+          "name": "行政院國家科學技術發展基金",
+          "type": "business",
+          "revenue": 49513880,
+          "expenditure": 49513880
+        },
+        {
+          "name": "離島建設基金",
+          "type": "business",
+          "revenue": 901469,
+          "expenditure": 903599
+        },
+        {
+          "name": "花東地區永續發展基金",
+          "type": "business",
+          "revenue": 6000,
+          "expenditure": 2881444
+        },
+        {
+          "name": "促進轉型正義基金",
+          "type": "business",
+          "revenue": 70380,
+          "expenditure": 153675
+        },
+        {
+          "name": "新住民發展基金",
+          "type": "business",
+          "revenue": 404210,
+          "expenditure": 390387
+        },
+        {
+          "name": "研發及產業訓儲替代役基金",
+          "type": "business",
+          "revenue": 316162,
+          "expenditure": 365415
+        },
+        {
+          "name": "警察消防海巡移民空勤人員及協勤民力安全基金",
+          "type": "business",
+          "revenue": 5275,
+          "expenditure": 14290
+        },
+        {
+          "name": "國土永續發展基金",
+          "type": "business",
+          "revenue": 10151974,
+          "expenditure": 921995
+        },
+        {
+          "name": "學產基金",
+          "type": "business",
+          "revenue": 884472,
+          "expenditure": 783165
+        },
+        {
+          "name": "運動發展基金",
+          "type": "business",
+          "revenue": 6925000,
+          "expenditure": 8375793
+        },
+        {
+          "name": "私立高級中等以上學校退場基金",
+          "type": "business",
+          "revenue": 350000,
+          "expenditure": 61367
+        },
+        {
+          "name": "毒品防制基金",
+          "type": "business",
+          "revenue": 662243,
+          "expenditure": 683806
+        },
+        {
+          "name": "經濟特別收入基金",
+          "type": "business",
+          "revenue": 31525062,
+          "expenditure": 29347937
+        },
+        {
+          "name": "核能發電後端營運基金",
+          "type": "business",
+          "revenue": 42381857,
+          "expenditure": 7990649
+        },
+        {
+          "name": "航港建設基金",
+          "type": "business",
+          "revenue": 9587730,
+          "expenditure": 10811289
+        },
+        {
+          "name": "核子事故緊急應變基金",
+          "type": "business",
+          "revenue": 121922,
+          "expenditure": 98577
+        },
+        {
+          "name": "農業特別收入基金",
+          "type": "business",
+          "revenue": 46445091,
+          "expenditure": 61161676
+        },
+        {
+          "name": "就業安定基金",
+          "type": "business",
+          "revenue": 29801820,
+          "expenditure": 27336826
+        },
+        {
+          "name": "衛生福利特別收入基金",
+          "type": "business",
+          "revenue": 99010782,
+          "expenditure": 115246641
+        },
+        {
+          "name": "環境保護基金",
+          "type": "business",
+          "revenue": 9261985,
+          "expenditure": 8394372
+        },
+        {
+          "name": "文化發展基金",
+          "type": "business",
+          "revenue": 305619,
+          "expenditure": 151692
+        },
+        {
+          "name": "金融監督管理基金",
+          "type": "business",
+          "revenue": 3969219,
+          "expenditure": 2890538
+        },
+        {
+          "name": "海洋污染防治基金",
+          "type": "business",
+          "revenue": 340880,
+          "expenditure": 240590
+        },
+        {
+          "name": "通訊傳播監督管理基金",
+          "type": "business",
+          "revenue": 444004,
+          "expenditure": 510993
+        },
+        {
+          "name": "有線廣播電視事業發展基金",
+          "type": "business",
+          "revenue": 275824,
+          "expenditure": 273637
+        },
+        {
+          "name": "反托拉斯基金",
+          "type": "business",
+          "revenue": 54700,
+          "expenditure": 68023
+        }
+      ]
+    }
+  }
+]
