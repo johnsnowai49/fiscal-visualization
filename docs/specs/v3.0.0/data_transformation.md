@@ -151,7 +151,12 @@ json format
 Hierarchical data representing sources of income.
 - terget xlsx: C歲入來源別預算表
 
-json format
+- **Level 1 (Top)**: `款` (Kuan) - e.g., "General Administration"
+- **Level 2**: `項` (Xiang) - e.g., "National Security Bureau"
+- **Level 3**: `目` (Mu) - e.g., "Admin Management"
+- **Level 4 (Leaf)**: `節` (Jie) - e.g., "Personnel Expenses"
+
+json format(obsolete)
 ```json
 [
     {
@@ -164,9 +169,59 @@ json format
 ]
 ```
 
+json format
+```json
+
+[
+    {
+        "year": 2025,
+        "amount": 3164804347, //合計
+        "Kuan": [
+          {
+            "id":"0100000000", //Kuan number
+            "name":"稅課收入",
+            "amount":10000000,
+            "parent_id": null, //must be empty for Kuan
+          }
+        ],
+        "Xiang": [
+          {
+            "id":"10117010000", //Xiang number
+            "name":"財政部",
+            "amount":10000000,
+            "parent_id":"0100000000", //Kuan number
+          }
+        ],
+        "Mu": [
+          {
+            "id":"10117010100", //Mu number
+            "name":"所得稅",
+            "amount":10000000,
+            "parent_id":"10117010000", //Xiang number
+          }
+        ],
+        "Jie": [
+          {
+            "id":"10117010101", //Jie number
+            "name":"營利事業所得稅",
+            "amount":10000000,
+            "parent_id":"10117010000", //Mu number
+          }
+        ]
+    },
+]
+```
+
+
+
+
 ### 4.4 Expenditure by Function (`expenditure_by_function.json`)
 Hierarchical spending by functional category (Education, Defense, etc.).
 - terget xlsx: C歲出政事別預算表
+- **Level 1 (Top)**: `款` (Kuan) - e.g., "General Administration"
+- **Level 2**: `項` (Xiang) - e.g., "National Security Bureau"
+- **Level 3**: `目` (Mu) - e.g., "Admin Management"
+- **Level 4 (Leaf)**: `節` (Jie) - e.g., "Personnel Expenses"
 
 json format
 ```json
@@ -180,6 +235,55 @@ json format
     },
 ]
 ```
+
+json format(obsolete)
+```json
+
+[
+    {
+        "year": 2025,
+        "amount": 3164804347, //合計
+        "usual_amount": 3164804347, //一般政務支出
+        "Kuan": [
+          {
+            "id":"3100000000", //Kuan number
+            "name":"國務支出",
+            "amount":10000000,
+            "parent_id": null, //must be empty for Kuan
+          }
+        ],
+        "Xiang": [
+          {
+            "id":"3102010000", //Xiang number
+            "name":"總統府",
+            "amount":10000000,
+            "parent_id":"3100000000", //Kuan number
+          }
+        ],
+        "Mu": [
+          {
+            "id":"13102010100", //Mu number
+            "name":"一般行政",
+            "amount":10000000,
+            "parent_id":"3102010000", //Xiang number
+          },
+          {
+            "id":"3102010200", //Mu number
+            "name":"國務機要",
+            "amount":10000000,
+            "parent_id":"3102010000", //Xiang number
+          }
+        ],
+        "Jie": [
+          {
+            "id":"xxxx", //Jie number
+            "name":"醫療作業基金",
+            "amount":10000000,
+            "parent_id":"xxx", //Mu number
+          }
+        ]
+    },
+]
 
 ## 5. Year Conversion
 - All input files use **Republic of China (ROC) Calendar** (e.g., Year 114).

@@ -45,6 +45,14 @@ export interface FundYearData {
 }
 
 // Detail Data (budget_detail.json) - Unchanged for now as it wasn't mentioned to change
+export interface FlatBudgetItem {
+  id: string;
+  year: number;
+  name: string[];
+  amount: number;
+  hierarchy: number[];
+}
+
 export interface BudgetDetailNode {
   name: string;
   value: number;

@@ -34,24 +34,27 @@ def clean_number(val):
 
 def find_header_row(df, keywords, max_scan=20):
     """
-    Find the index of the first row containing at least 2 of the keywords.
-    Scans the first `max_scan` rows.
+    Find the index of the row with the MOST keyword matches.
+    Scans the first `max_scan` rows using CLEANED values to handle spaces.
+    e.g. "名 稱" -> "名稱".
     """
-    for i, row in df.head(max_scan).iterrows():
-        row_str = " ".join([str(x) for x in row.values])
-        matches = sum(1 for k in keywords if k in row_str)
-        if matches >= 1: # Lower threshold to 1 if keywords are distinct enough
-             # But usually for reliability we want more?
-             # For Summary: "歲入", "歲出", "比較" -> distinct enough.
-             if matches >= 2:
-                 return i
+    best_row = None
+    max_matches = 0
+    threshold = 2
     
-    # Fallback: scan strict match in cleaned values
     for i, row in df.head(max_scan).iterrows():
+        # Use cleaned values for robust matching
         cleaned_vals = [clean_str(x) for x in row.values]
         row_clean = "".join(cleaned_vals)
+        
         matches = sum(1 for k in keywords if k in row_clean)
-        if matches >= 2:
-            return i
+        
+        # Strictly greater to prefer earlier rows in case of ties?
+        # Or >= to prefer later? Usually header is lower down if duplicate.
+        # But here Row 3 vs Row 4. We want Row 4 (5 matches) over Row 3 (4 matches).
+        if matches >= threshold and matches >= max_matches:
+            max_matches = matches
+            best_row = i
             
-    return None
+    return best_row
+

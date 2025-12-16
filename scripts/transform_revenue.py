@@ -180,7 +180,17 @@ def process_year(year):
             # Name Resolution
             # If explicit name exists, prioritize it.
             # If not, use the name extracted from code column.
-            final_name_str = explicit_name
+            final_name_str = ""
+            
+            if explicit_name:
+                 # Check for combined ID+Name (e.g. "0101000000 稅課收入")
+                 # Often seen in newer formats
+                 match_combined = re.match(r"^(\d+)\s*(.+)$", explicit_name)
+                 if match_combined:
+                     final_name_str = match_combined.group(2).strip()
+                 else:
+                     final_name_str = explicit_name
+            
             if not final_name_str and name_parts:
                 final_name_str = name_parts[0] # The one from the current level
             

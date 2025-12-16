@@ -137,9 +137,27 @@ def process_year(year):
                 if j_n: name_parts.append(j_n)
 
             # Name Resolution
-            final_name_str = explicit_name
+            # Logic: 
+            # 1. explicit_name (from Name column)
+            # 2. name_parts (from K/X/M/J columns if they had names attached)
+            
+            final_name_str = ""
+            
+            # Handle "3200000000 國務支出" case in explicit_name
+            if explicit_name:
+                # If name starts with digits and has text, strip digits
+                # Check if it looks like the full ID (approx 8-10 digits)
+                match_combined = re.match(r"^(\d+)\s*(.+)$", explicit_name)
+                if match_combined:
+                     # Check if digit part length is significant (likely an ID, e.g. > 4 chars)
+                     # Or generally, just assume the text part is the name
+                     final_name_str = match_combined.group(2).strip()
+                else:
+                     final_name_str = explicit_name
+            
             if not final_name_str and name_parts:
                 final_name_str = name_parts[0] 
+
             
             amt = 0
             if amt_col != -1 and amt_col < len(row):
