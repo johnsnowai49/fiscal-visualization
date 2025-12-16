@@ -10,6 +10,46 @@ import BudgetDetailDashboard from './components/BudgetDetailDashboard'; // Lazy 
 const App: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState<number>(2025);
   const [view, setView] = useState<'overview' | 'detail'>('overview');
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  // Keyboard Control
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Only trigger if not typing in an input (rough check)
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      if (e.key === 'ArrowLeft') {
+        setSelectedYear(y => Math.max(y - 1, OVERVIEW_DATA[0].year));
+        setIsPlaying(false);
+      } else if (e.key === 'ArrowRight') {
+        setSelectedYear(y => Math.min(y + 1, OVERVIEW_DATA[OVERVIEW_DATA.length - 1].year));
+        setIsPlaying(false);
+      } else if (e.code === 'Space') {
+        e.preventDefault(); // Prevent scroll
+        setIsPlaying(p => !p);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Auto Play
+  React.useEffect(() => {
+    let interval: any;
+    if (isPlaying) {
+      interval = setInterval(() => {
+        setSelectedYear(prev => {
+          const max = OVERVIEW_DATA[OVERVIEW_DATA.length - 1].year;
+          if (prev >= max) {
+            setIsPlaying(false);
+            return prev;
+          }
+          return prev + 1;
+        });
+      }, 500);
+    }
+    return () => clearInterval(interval);
+  }, [isPlaying]);
 
   const currentOverview = useMemo(() => {
     return OVERVIEW_DATA.find(d => d.year === selectedYear) || OVERVIEW_DATA[OVERVIEW_DATA.length - 1];
@@ -27,27 +67,56 @@ const App: React.FC = () => {
         {/* Global Controls */}
         <div className="sticky top-0 z-10 bg-slate-50/95 backdrop-blur py-4 mb-6 border-b border-slate-200">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className={`flex items-center gap-4 ${view === 'detail' ? 'opacity-50 pointer-events-none' : ''}`}>
+            <div className={`bg-slate-200 p-1 rounded-lg flex items-center`}>
+              <button
+                onClick={() => setView('overview')}
+                className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all ${view === 'overview' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                Overview
+              </button>
               <button
                 onClick={() => setView('detail')}
-                className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors shadow-sm"
+                className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all ${view === 'detail' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
               >
-                Explorer &rarr;
+                Detail
               </button>
             </div>
 
-            <div className="flex items-center bg-white border border-slate-200 rounded-lg p-2 shadow-sm">
-              <span className="text-xs font-bold text-slate-400 px-2">{OVERVIEW_DATA[0].year}</span>
-              <input
-                type="range"
-                min={OVERVIEW_DATA[0].year}
-                max={OVERVIEW_DATA[OVERVIEW_DATA.length - 1].year}
-                value={selectedYear}
-                onChange={(e) => setSelectedYear(parseInt(e.target.value))}
-                className="w-32 md:w-64 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
-              />
-              <span className="text-xs font-bold text-slate-400 px-2">{OVERVIEW_DATA[OVERVIEW_DATA.length - 1].year}</span>
-              <span className="ml-2 bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-0.5 rounded">
+            <div className="flex items-center bg-white border border-slate-200 rounded-lg p-2 shadow-sm gap-4">
+              {/* Controls */}
+              <div className="flex items-center gap-2 border-r border-slate-200 pr-4">
+                <button
+                  onClick={() => setIsPlaying(!isPlaying)}
+                  className={`w-8 h-8 flex items-center justify-center rounded-full transition-all ${isPlaying ? 'bg-red-100 text-red-600' : 'bg-green-100 text-green-600 hover:bg-green-200'}`}
+                  title={isPlaying ? "Pause (Space)" : "Auto Play (Space)"}
+                >
+                  {isPlaying ? (
+                    <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" /></svg>
+                  ) : (
+                    <svg className="w-4 h-4 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                  )}
+                </button>
+                <div className="hidden md:flex items-center text-xs text-slate-400 gap-1" title="Use Keyboard Arrows">
+                  <span className="border border-slate-300 rounded px-1 min-w-[20px] text-center">←</span>
+                  <span className="border border-slate-300 rounded px-1 min-w-[20px] text-center">→</span>
+                </div>
+              </div>
+
+              {/* Slider */}
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-bold text-slate-400">{OVERVIEW_DATA[0].year}</span>
+                <input
+                  type="range"
+                  min={OVERVIEW_DATA[0].year}
+                  max={OVERVIEW_DATA[OVERVIEW_DATA.length - 1].year}
+                  value={selectedYear}
+                  onChange={(e) => { setSelectedYear(parseInt(e.target.value)); setIsPlaying(false); }}
+                  className="w-32 md:w-64 h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                />
+                <span className="text-xs font-bold text-slate-400">{OVERVIEW_DATA[OVERVIEW_DATA.length - 1].year}</span>
+              </div>
+
+              <span className="ml-2 bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded">
                 Year {selectedYear}
               </span>
             </div>
@@ -59,7 +128,7 @@ const App: React.FC = () => {
       {view === 'overview' ? (
         <div className="flex flex-col gap-6">
           <section>
-            <OverviewChart />
+            <OverviewChart selectedYear={selectedYear} />
           </section>
 
           <section className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -68,7 +137,7 @@ const App: React.FC = () => {
           </section>
 
           <section>
-            {currentFunds && <FundsPanel data={currentFunds} allData={FUNDS_DATA} />}
+            {currentFunds && <FundsPanel data={currentFunds} allData={FUNDS_DATA} year={selectedYear} />}
           </section>
         </div>
       ) : (

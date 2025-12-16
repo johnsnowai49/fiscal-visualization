@@ -5,65 +5,59 @@ import { FundYearData } from '../types';
 interface Props {
   data: FundYearData;
   allData: FundYearData[];
+  year: number;
 }
 
-const FundsPanel: React.FC<Props> = ({ data, allData }) => {
-  // 1. Ranking Chart (Bar) - Top 10 Special Funds
+const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
+  const [metric, setMetric] = React.useState<'income' | 'expense'>('income');
+
+  // 1. Ranking Chart (Horizontal Bar) - Top 10 Special Funds
   const barOption = useMemo(() => {
-    // Sort by Income descending and take top 10 from Special Funds details
+    // Sort by selected metric descending and take top 10
     const topFunds = [...data.special_fund.details]
-      .sort((a, b) => b.revenue - a.revenue)
-      .slice(0, 10);
+      .sort((a, b) => metric === 'income' ? b.revenue - a.revenue : b.expenditure - a.expenditure)
+      .slice(0, 10)
+      .reverse(); // Reverse for display order
 
     return {
       tooltip: {
         trigger: 'axis',
         axisPointer: { type: 'shadow' }
       },
-      legend: {
-        bottom: 0,
-        data: ['Income', 'Expense']
-      },
       grid: {
         left: '3%',
         right: '4%',
-        bottom: '25%',
+        bottom: '10%',
         containLabel: true
       },
       xAxis: {
+        type: 'value',
+        name: 'NT$ (Billions)',
+        splitLine: { lineStyle: { type: 'dashed' } }
+      },
+      yAxis: {
         type: 'category',
         data: topFunds.map(f => f.name),
-        axisTick: { alignWithLabel: true },
+        axisTick: { show: false },
+        axisLine: { show: false },
         axisLabel: {
-          interval: 0,
-          rotate: 30,
           formatter: (value: string) => {
             return value.length > 8 ? value.substring(0, 8) + '...' : value;
           }
         }
       },
-      yAxis: {
-        type: 'value',
-        name: 'NT$ (Billions)',
-        splitLine: { lineStyle: { type: 'dashed' } }
-      },
       series: [
         {
-          name: 'Income',
+          name: metric === 'income' ? 'Income' : 'Expense',
           type: 'bar',
-          data: topFunds.map(f => f.revenue),
-          itemStyle: { color: '#10b981' },
-          barGap: 0
-        },
-        {
-          name: 'Expense',
-          type: 'bar',
-          data: topFunds.map(f => f.expenditure),
-          itemStyle: { color: '#ef4444' }
+          data: topFunds.map(f => metric === 'income' ? f.revenue : f.expenditure),
+          itemStyle: { color: metric === 'income' ? '#8b5cf6' : '#f59e0b' },
+          barGap: 0,
+          label: { show: true, position: 'right', formatter: '{@score}' }
         }
       ]
     };
-  }, [data]);
+  }, [data, metric]);
 
   // 2. Trend Chart (Line) - All Years (Basic + Special)
   const lineOption = useMemo(() => {
@@ -94,7 +88,14 @@ const FundsPanel: React.FC<Props> = ({ data, allData }) => {
           smooth: true,
           data: chartData.map(d => d.revenue),
           itemStyle: { color: '#3b82f6' },
-          areaStyle: { opacity: 0.1 }
+          areaStyle: { opacity: 0.1 },
+          markLine: {
+            symbol: 'none',
+            label: { show: false },
+            lineStyle: { color: '#64748b', type: 'dashed', width: 2 },
+            data: [{ xAxis: String(year) }],
+            animation: false
+          }
         },
         {
           name: 'Total Expenditure',
@@ -106,7 +107,7 @@ const FundsPanel: React.FC<Props> = ({ data, allData }) => {
         }
       ]
     };
-  }, [allData]);
+  }, [allData, year]);
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
@@ -124,7 +125,23 @@ const FundsPanel: React.FC<Props> = ({ data, allData }) => {
 
         {/* Ranking */}
         <div>
-          <h3 className="text-sm font-semibold text-slate-600 mb-4">Top 10 Special Funds ({data.year})</h3>
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-sm font-semibold text-slate-600">Top 10 Special Funds ({data.year})</h3>
+            <div className="flex bg-slate-100 p-1 rounded-md">
+              <button
+                onClick={() => setMetric('income')}
+                className={`px-3 py-0.5 text-xs font-medium rounded transition-all ${metric === 'income' ? 'bg-white text-violet-600 shadow-sm' : 'text-slate-500'}`}
+              >
+                Income
+              </button>
+              <button
+                onClick={() => setMetric('expense')}
+                className={`px-3 py-0.5 text-xs font-medium rounded transition-all ${metric === 'expense' ? 'bg-white text-amber-600 shadow-sm' : 'text-slate-500'}`}
+              >
+                Expense
+              </button>
+            </div>
+          </div>
           <ReactECharts option={barOption} style={{ height: '300px', width: '100%' }} />
         </div>
       </div>

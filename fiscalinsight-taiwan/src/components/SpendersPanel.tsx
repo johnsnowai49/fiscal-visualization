@@ -19,8 +19,17 @@ const SpendersPanel: React.FC<Props> = ({ data, total, year }) => {
   // Sort for Ranking Bar Chart
   const rankedAgencies = [...agencies].sort((a, b) => a.value - b.value); // Ascending for bar chart y-axis
 
+  // Donut Data: Top 5 + Others
+  const donutData = useMemo(() => {
+    const sorted = [...agencies].sort((a, b) => b.value - a.value);
+    if (sorted.length <= 5) return sorted;
+    const top5 = sorted.slice(0, 5);
+    const others = sorted.slice(5).reduce((acc, curr) => acc + curr.value, 0);
+    return [...top5, { name: 'Others', fullName: 'Others', value: others }];
+  }, [agencies]);
+
   const donutOption = useMemo(() => ({
-    color: ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6'],
+    color: ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#cbd5e1'],
     tooltip: { trigger: 'item', formatter: '{b}: <br/>NT${c}B ({d}%)' },
     legend: { bottom: 0, itemWidth: 10, itemHeight: 10, textStyle: { fontSize: 10 } },
     series: [
@@ -33,14 +42,14 @@ const SpendersPanel: React.FC<Props> = ({ data, total, year }) => {
         itemStyle: { borderRadius: 5, borderColor: '#fff', borderWidth: 2 },
         label: { show: false },
         labelLine: { show: false },
-        data: agencies.map(a => ({ value: a.value, name: a.name }))
+        data: donutData.map(a => ({ value: a.value, name: a.name }))
       }
     ]
-  }), [agencies]);
+  }), [donutData]);
 
   const barOption = useMemo(() => ({
     tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
-    grid: { top: '5%', left: '3%', right: '15%', bottom: '5%', containLabel: true },
+    grid: { top: '5%', left: '3%', right: '20%', bottom: '5%', containLabel: true },
     xAxis: { type: 'value', splitLine: { show: false } },
     yAxis: {
       type: 'category',

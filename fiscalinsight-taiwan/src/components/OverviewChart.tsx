@@ -2,7 +2,11 @@ import React, { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
 import { OVERVIEW_DATA } from '../data';
 
-const OverviewChart: React.FC = () => {
+interface Props {
+  selectedYear: number;
+}
+
+const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
   const chartData = useMemo(() => {
     return OVERVIEW_DATA.map((d, i) => {
       const prev = OVERVIEW_DATA[i - 1];
@@ -94,6 +98,13 @@ const OverviewChart: React.FC = () => {
               ],
             },
           },
+          markLine: {
+            symbol: 'none',
+            label: { show: false },
+            lineStyle: { color: '#64748b', type: 'dashed', width: 2 },
+            data: [{ xAxis: String(selectedYear) }],
+            animation: false
+          }
         },
         {
           name: 'Total Expenditure',
@@ -116,7 +127,7 @@ const OverviewChart: React.FC = () => {
         },
       ],
     };
-  }, [chartData]);
+  }, [chartData, selectedYear]);
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
