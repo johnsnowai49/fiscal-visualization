@@ -1,6 +1,6 @@
 import { OverviewData, FundYearData, BudgetDetailData } from './types';
-import rawOverview from './data/billion/overview.json';
-import rawFunds from './data/billion/funds.json';
+import rawOverview from './data/json/summary.json';
+import rawFunds from './data/json/funds.json';
 import rawDetails from './data/billion/budget_detail.json';
 
 export const OVERVIEW_DATA: OverviewData[] = rawOverview as OverviewData[];

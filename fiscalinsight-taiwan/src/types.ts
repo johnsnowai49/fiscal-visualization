@@ -1,33 +1,50 @@
+// Basic types
 export type Period = string;
 
 export interface CategoryItem {
   name: string;
-  abbr: string;
-  amount: number; // Can be raw int or billion float
+  amount: number;
 }
 
-export interface OverviewSection {
-  total: number; // Can be raw int or billion float
-  breakdown: Record<string, CategoryItem>;
-}
-
+// Overview Data (summary.json)
 export interface OverviewData {
   year: number;
-  revenue: OverviewSection;
-  expenditure: OverviewSection;
+  revenue: number;
+  expenditure: number;
+  revenue_categories: CategoryItem[];
+  expenditure_categories: CategoryItem[];
 }
 
-export interface FundItem {
+// Funds Data (funds.json)
+export interface FundTotal {
+  revenue: number;
+  expenditure: number;
+}
+
+export interface BasicFund {
+  total: FundTotal;
+  extra: FundTotal;
+}
+
+export interface SpecialFundDetail {
   name: string;
-  income: number;
-  expense: number;
+  type: string;
+  revenue: number;
+  expenditure: number;
+}
+
+export interface SpecialFund {
+  total: FundTotal;
+  details: SpecialFundDetail[];
 }
 
 export interface FundYearData {
   year: number;
-  items: FundItem[];
+  basic_fund: BasicFund;
+  special_fund: SpecialFund;
 }
 
+// Detail Data (budget_detail.json) - Unchanged for now as it wasn't mentioned to change
 export interface BudgetDetailNode {
   name: string;
   value: number;

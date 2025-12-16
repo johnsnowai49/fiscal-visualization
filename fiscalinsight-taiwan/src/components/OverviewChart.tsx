@@ -6,13 +6,13 @@ const OverviewChart: React.FC = () => {
   const chartData = useMemo(() => {
     return OVERVIEW_DATA.map((d, i) => {
       const prev = OVERVIEW_DATA[i - 1];
-      const revGrowth = prev ? ((d.revenue.total - prev.revenue.total) / prev.revenue.total) * 100 : 0;
-      const expGrowth = prev ? ((d.expenditure.total - prev.expenditure.total) / prev.expenditure.total) * 100 : 0;
+      const revGrowth = prev ? ((d.revenue - prev.revenue) / prev.revenue) * 100 : 0;
+      const expGrowth = prev ? ((d.expenditure - prev.expenditure) / prev.expenditure) * 100 : 0;
 
       return {
         ...d,
-        totalRevenue: d.revenue.total,
-        totalExpenditure: d.expenditure.total,
+        totalRevenue: d.revenue,
+        totalExpenditure: d.expenditure,
         revGrowth: revGrowth.toFixed(1),
         expGrowth: expGrowth.toFixed(1)
       };

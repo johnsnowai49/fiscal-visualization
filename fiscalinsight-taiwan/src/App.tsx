@@ -63,12 +63,12 @@ const App: React.FC = () => {
           </section>
 
           <section className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <SpendersPanel data={currentOverview.expenditure} year={selectedYear} />
-            <EarnersPanel data={currentOverview.revenue} year={selectedYear} />
+            <SpendersPanel data={currentOverview.expenditure_categories} total={currentOverview.expenditure} year={selectedYear} />
+            <EarnersPanel data={currentOverview.revenue_categories} total={currentOverview.revenue} year={selectedYear} />
           </section>
 
           <section>
-            {currentFunds && <FundsPanel data={currentFunds} />}
+            {currentFunds && <FundsPanel data={currentFunds} allData={FUNDS_DATA} />}
           </section>
         </div>
       ) : (

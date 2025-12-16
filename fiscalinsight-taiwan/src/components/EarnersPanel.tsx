@@ -1,17 +1,16 @@
 import React, { useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
-import { OverviewSection, CategoryItem } from '../types';
+import { CategoryItem } from '../types';
 
 interface Props {
-  data: OverviewSection;
+  data: CategoryItem[];
+  total: number;
   year: number;
 }
 
-const EarnersPanel: React.FC<Props> = ({ data, year }) => {
-  const total = data.total;
-
-  const sources = Object.values(data.breakdown).map((item: CategoryItem) => ({
-    name: item.abbr || item.name, // Use Abbr if available for charts
+const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
+  const sources = data.map((item: CategoryItem) => ({
+    name: item.name,
     fullName: item.name,
     value: item.amount
   }));
