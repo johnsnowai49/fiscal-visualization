@@ -1,4 +1,4 @@
-# Taiwan Fiscal Trend Analysis Platform (2008-2025)
+# fiscal-visualization
 
 ## Overview
 This platform visualizes **16 years of Taiwan's Central Government Budget data** (ROC 97-114 / AD 2008-2025). It aims to provide clear insights into revenue sources, expenditure trends, and special funds performance through an interactive web dashboard.
@@ -33,17 +33,28 @@ python src/scripts/etl_budget.py
 3.  **`summary_all.csv`**: High-level YoY comparison.
 
 ## Web Application (Frontend)
-*Status: In Development (T-00001-002)*
+*Directory: `fiscalinsight-taiwan/`*
 
-The frontend is built with **Next.js** and **D3.js**.
+The frontend is a modern, interactive dashboard built with:
+*   **React** (Vite)
+*   **TypeScript**
+*   **ECharts** (for high-performance data visualization)
+*   **Tailwind CSS**
+
+### Features
+*   **Total Overview**: Revenue vs Expenditure trends (YoY).
+*   **Interactive Panels**: Drill down into Spenders (Agencies), Earners (Sources), and Funds.
+*   **Budget Detail Explorer**: Hierarchical view of budget items.
+*   **Fully Localized**: Traditional Chinese UI for local accessibility.
 
 ### Setup
-*(Instructions to be added after initialization)*
 ```bash
-# Example
-# cd web-app
-# npm run dev
+cd fiscalinsight-taiwan
+npm install
+npm run dev
 ```
+
+For more details, please refer to the [Frontend README](fiscalinsight-taiwan/README.md).
 
 ## Directory Structure
 *   `agile/`: Project management and task tracking.
