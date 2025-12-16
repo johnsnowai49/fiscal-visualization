@@ -1,17 +1,16 @@
 import pandas as pd
-import os
+import sys
 
-files = [
-    "docs/tw-finance/110/110c歲出機關別預算表.xls",
-    "docs/tw-finance/110/110c歲入來源別預算表.xls"
-]
-
-for f in files:
-    print(f"\n--- Inspecting {f} ---")
+def inspect(filepath):
+    print(f"Inspecting: {filepath}")
     try:
-        # Read header only
-        df_head = pd.read_excel(f, nrows=10, header=None)
-        print("First 10 rows (raw):")
-        print(df_head.to_string())
+        df = pd.read_excel(filepath, header=None, nrows=20)
+        print(df.to_string())
     except Exception as e:
-        print(e)
+        print(f"Error: {e}")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        inspect(sys.argv[1])
+    else:
+        print("Usage: python debug_excel.py <filepath>")

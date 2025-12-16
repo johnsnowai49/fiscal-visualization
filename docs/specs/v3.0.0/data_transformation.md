@@ -160,11 +160,9 @@ json format
         "name": ["稅課收入"], //may have multiple name ,
         "amount": 10000000,
         "hierarchy": [1,0,0,0], //款	項	目	節
-        "description": ""
     },
 ]
 ```
-
 
 ### 4.4 Expenditure by Function (`expenditure_by_function.json`)
 Hierarchical spending by functional category (Education, Defense, etc.).
@@ -179,11 +177,9 @@ json format
         "name": ["總統府"], //may have multiple name ,
         "amount": 10000000,
         "hierarchy": [1,1,0,0], //款	項	目	節
-        "description": ""
     },
 ]
 ```
-
 
 ## 5. Year Conversion
 - All input files use **Republic of China (ROC) Calendar** (e.g., Year 114).
