@@ -3,7 +3,7 @@ import ReactECharts from 'echarts-for-react';
 import { BudgetDetailData, BudgetDetailNode } from '../types';
 
 // Lazy load data
-const loadData = () => import('../src/data/billion/budget_detail.json').then(m => m.default as BudgetDetailData[]);
+const loadData = () => import('../data/billion/budget_detail.json').then(m => m.default as BudgetDetailData[]);
 
 interface Props {
     year: number;
