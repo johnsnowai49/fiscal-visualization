@@ -55,7 +55,7 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
       },
       series: [
         {
-          name: metric === 'income' ? 'Income' : 'Expense',
+          name: metric === 'income' ? '基金收入' : '基金支出',
           type: 'bar',
           data: topFunds.map(f => (metric === 'income' ? f.revenue : f.expenditure) * 1000),
           itemStyle: { color: metric === 'income' ? '#8b5cf6' : '#f59e0b' },
@@ -88,7 +88,7 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
           return html;
         }
       },
-      legend: { top: 0, data: ['Total Revenue', 'Total Expenditure'] },
+      legend: { top: 0, data: ['基金收入總額', '基金支出總額'] },
       grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
       xAxis: {
         type: 'category',
@@ -98,7 +98,7 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
       yAxis: { type: 'value', name: 'NT$', axisLabel: { formatter: fmtCompact } },
       series: [
         {
-          name: 'Total Revenue',
+          name: '基金收入總額',
           type: 'line',
           smooth: true,
           data: chartData.map(d => d.revenue * 1000),
@@ -113,7 +113,7 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
           }
         },
         {
-          name: 'Total Expenditure',
+          name: '基金支出總額',
           type: 'line',
           smooth: true,
           data: chartData.map(d => d.expenditure * 1000),
@@ -127,33 +127,33 @@ const FundsPanel: React.FC<Props> = ({ data, allData, year }) => {
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
       <div className="mb-6">
-        <h2 className="text-lg font-bold text-slate-800">4. Funds Overview</h2>
-        <p className="text-sm text-slate-500">Analysis of Basic & Special Funds</p>
+        <h2 className="text-lg font-bold text-slate-800">4. 基金總覽</h2>
+        <p className="text-sm text-slate-500">普通基金與特種基金分析</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Trend */}
         <div>
-          <h3 className="text-sm font-semibold text-slate-600 mb-4">Overall Trend (Revenue vs Expense)</h3>
+          <h3 className="text-sm font-semibold text-slate-600 mb-4">歷年基金數據 (基金收入 vs 基金支出)</h3>
           <ReactECharts option={lineOption} style={{ height: '300px', width: '100%' }} />
         </div>
 
         {/* Ranking */}
         <div>
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-sm font-semibold text-slate-600">Top 10 Special Funds ({data.year})</h3>
+            <h3 className="text-sm font-semibold text-slate-600">前十大特種基金 ({data.year})</h3>
             <div className="flex bg-slate-100 p-1 rounded-md">
               <button
                 onClick={() => setMetric('income')}
                 className={`px-3 py-0.5 text-xs font-medium rounded transition-all ${metric === 'income' ? 'bg-white text-violet-600 shadow-sm' : 'text-slate-500'}`}
               >
-                Income
+                基金收入
               </button>
               <button
                 onClick={() => setMetric('expense')}
                 className={`px-3 py-0.5 text-xs font-medium rounded transition-all ${metric === 'expense' ? 'bg-white text-amber-600 shadow-sm' : 'text-slate-500'}`}
               >
-                Expense
+                基金支出
               </button>
             </div>
           </div>

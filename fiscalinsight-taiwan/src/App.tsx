@@ -60,8 +60,8 @@ const App: React.FC = () => {
   }, [selectedYear]);
 
   return (
-    <div className="min-h-screen bg-slate-50 p-4 md:p-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-slate-50 p-4 max-w-[1500px] mx-auto">
+      <div className="">
         <DashboardHeader />
 
         {/* Global Controls */}
@@ -88,7 +88,7 @@ const App: React.FC = () => {
                 <button
                   onClick={() => setIsPlaying(!isPlaying)}
                   className={`w-8 h-8 flex items-center justify-center rounded-full transition-all ${isPlaying ? 'bg-red-100 text-red-600' : 'bg-green-100 text-green-600 hover:bg-green-200'}`}
-                  title={isPlaying ? "Pause (Space)" : "Auto Play (Space)"}
+                  title={isPlaying ? "暫停 (空白鍵)" : "自動播放 (空白鍵)"}
                 >
                   {isPlaying ? (
                     <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" /></svg>
@@ -96,7 +96,7 @@ const App: React.FC = () => {
                     <svg className="w-4 h-4 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
                   )}
                 </button>
-                <div className="hidden md:flex items-center text-xs text-slate-400 gap-1" title="Use Keyboard Arrows">
+                <div className="hidden md:flex items-center text-xs text-slate-400 gap-1" title="使用鍵盤左右鍵">
                   <span className="border border-slate-300 rounded px-1 min-w-[20px] text-center">←</span>
                   <span className="border border-slate-300 rounded px-1 min-w-[20px] text-center">→</span>
                 </div>
@@ -117,7 +117,7 @@ const App: React.FC = () => {
               </div>
 
               <span className="ml-2 bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded">
-                Year {selectedYear}
+                {selectedYear} 年度
               </span>
             </div>
           </div>
@@ -145,7 +145,10 @@ const App: React.FC = () => {
       )}
 
       <footer className="mt-12 text-center text-slate-400 text-sm py-4 border-t border-slate-200">
-        <p>© 2025 FiscalInsight Taiwan (Real Data Edition)</p>
+        <p>
+          © 2025 Fiscal-Visualization-Taiwan
+          資料來源：<a href="https://www.dgbas.gov.tw/cp.aspx?n=3623&s=1208#Anchor_11333" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mt-2 max-w-2xl">行政院主計總處</a>
+        </p>
       </footer>
     </div>
   );

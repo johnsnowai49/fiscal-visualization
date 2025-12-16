@@ -33,10 +33,10 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
         formatter: (params: any) => {
           const index = params[0].dataIndex;
           const item = chartData[index];
-          let html = `<div class="font-bold mb-2 text-slate-700">Fiscal Year ${item.year}</div>`;
+          let html = `<div class="font-bold mb-2 text-slate-700">${item.year} 年度</div>`;
 
           params.forEach((p: any) => {
-            const growth = p.seriesName === 'Total Revenue' ? item.revGrowth : item.expGrowth;
+            const growth = p.seriesName === '歲入總額' ? item.revGrowth : item.expGrowth;
             const colorClass = parseFloat(growth) >= 0 ? 'text-green-600' : 'text-red-600';
             const sign = parseFloat(growth) >= 0 ? '+' : '';
 
@@ -57,7 +57,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
         }
       },
       legend: {
-        data: ['Total Revenue', 'Total Expenditure'],
+        data: ['歲入總額', '歲出總額'],
         bottom: 0,
         icon: 'circle'
       },
@@ -81,7 +81,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
       },
       series: [
         {
-          name: 'Total Revenue',
+          name: '歲入總額',
           type: 'line',
           smooth: true,
           showSymbol: false,
@@ -107,7 +107,7 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
           }
         },
         {
-          name: 'Total Expenditure',
+          name: '歲出總額',
           type: 'line',
           smooth: true,
           showSymbol: false,
@@ -131,11 +131,10 @@ const OverviewChart: React.FC<Props> = ({ selectedYear }) => {
 
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-      <h2 className="text-lg font-bold text-slate-800 mb-1">1. Overview</h2>
-      <p className="text-sm text-slate-500 mb-4">Total Revenue vs Expenditure Trends (YoY Change)</p>
+      <h2 className="text-lg font-bold text-slate-800 mb-1">1. 總覽</h2>
+      <p className="text-sm text-slate-500 mb-4">總體收入支出</p>
       <ReactECharts option={option} style={{ height: '350px', width: '100%' }} />
     </div>
   );
 };
-
 export default OverviewChart;

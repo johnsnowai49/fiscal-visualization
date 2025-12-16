@@ -79,7 +79,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
     const getNode = (rootNodes: BudgetDetailNode[], targetPath: string[]): BudgetDetailNode | null => {
         if (targetPath.length === 0) {
             return {
-                name: 'Total',
+                name: '總計',
                 value: currentYearData?.amount || 0,
                 children: rootNodes
             };
@@ -221,7 +221,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
         setShowAll(false);
     };
 
-    if (loading) return <div className="p-12 text-center text-slate-500">Loading detailed budget data...</div>;
+    if (loading) return <div className="p-12 text-center text-slate-500">正在載入詳細預算資料...</div>;
 
     return (
         <div className="space-y-6">
@@ -237,7 +237,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
                                 className={`hover:underline ${path.length === 0 ? 'font-bold text-blue-600' : 'text-slate-500'}`}
                                 onClick={() => { setPath([]); setShowAll(false); }}
                             >
-                                Total
+                                總計
                             </button>
                             {path.map((p, i) => (
                                 <React.Fragment key={i}>
@@ -255,7 +255,6 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
 
                     <div className="flex items-center justify-between md:justify-end gap-6">
                         <div className="text-right">
-                            <div className="text-sm text-slate-500">{type === 'revenue' ? 'Revenue' : 'Expenditure'}</div>
                             <div className="text-xl font-bold text-slate-800 font-mono">
                                 {fmt(currentViewNode?.value || 0)}
                             </div>
@@ -270,16 +269,16 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
                             onClick={() => { setType('revenue'); setPath([]); setShowAll(false); }}
                             className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all ${type === 'revenue' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
                         >
-                            Revenue
+                            收入
                         </button>
                         <button
                             onClick={() => { setType('expenditure'); setPath([]); setShowAll(false); }}
                             className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all ${type === 'expenditure' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
                         >
-                            Expenditure
+                            支出
                         </button>
                     </div>
-                    <div className="text-sm font-semibold text-slate-400">Fiscal Year {year}</div>
+                    <div className="text-sm font-semibold text-slate-400">{year} 年度</div>
                 </div>
             </div>
 
@@ -289,7 +288,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
 
                 {/* History - Full Width */}
                 <div className="lg:col-span-3 bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-                    <h3 className="font-bold text-slate-700 mb-4">Historical Trend: {path[path.length - 1] || `Total ${type === 'revenue' ? 'Revenue' : 'Expenditure'}`}</h3>
+                    <h3 className="font-bold text-slate-700 mb-4">歷年數據: {path[path.length - 1] || `總${type === 'revenue' ? '收入' : '支出'}`}</h3>
                     <div className="h-[300px]">
                         <ReactECharts option={lineOption} style={{ height: '100%', width: '100%' }} />
                     </div>
@@ -297,7 +296,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
 
                 {/* Breakdown - Donut */}
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-                    <h3 className="font-bold text-slate-700 mb-4">Composition ({year})</h3>
+                    <h3 className="font-bold text-slate-700 mb-4">組成結構 ({year})</h3>
                     <div className="h-[300px]">
                         {sortedChildren.length > 0 ? (
                             <ReactECharts
@@ -308,7 +307,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
                                 }}
                             />
                         ) : (
-                            <div className="flex items-center justify-center h-full text-slate-400">No breakdown available</div>
+                            <div className="flex items-center justify-center h-full text-slate-400">無細項資料</div>
                         )}
                     </div>
                 </div>
@@ -316,13 +315,13 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
                 {/* Ranking - Bar */}
                 <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow-sm border border-slate-200">
                     <div className="flex items-center justify-between mb-4">
-                        <h3 className="font-bold text-slate-700">Top Items ({year})</h3>
+                        <h3 className="font-bold text-slate-700">前幾大項目 ({year})</h3>
                         {sortedChildren.length > 5 && (
                             <button
                                 onClick={() => setShowAll(!showAll)}
                                 className="text-xs font-semibold text-blue-600 hover:text-blue-800 bg-blue-50 px-2 py-1 rounded transition-colors"
                             >
-                                {showAll ? 'Show Less' : 'Show More'}
+                                {showAll ? '顯示較少' : '顯示更多'}
                             </button>
                         )}
                     </div>
@@ -336,7 +335,7 @@ const BudgetDetailDashboard: React.FC<Props> = ({ year, onBack }) => {
                                 }}
                             />
                         ) : (
-                            <div className="flex items-center justify-center h-full text-slate-400">No items available</div>
+                            <div className="flex items-center justify-center h-full text-slate-400">無資料</div>
                         )}
                     </div>
                 </div>

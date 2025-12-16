@@ -24,7 +24,7 @@ const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
         if (sorted.length <= 5) return sorted;
         const top5 = sorted.slice(0, 5);
         const others = sorted.slice(5).reduce((acc, curr) => acc + curr.value, 0);
-        return [...top5, { name: 'Others', fullName: 'Others', value: others }];
+        return [...top5, { name: '其他', fullName: '其他', value: others }];
     }, [sources]);
 
     const donutOption = useMemo(() => ({
@@ -84,21 +84,21 @@ const EarnersPanel: React.FC<Props> = ({ data, total, year }) => {
 
     return (
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-            <div className="mb-4">
-                <h2 className="text-lg font-bold text-slate-800">3. Earners</h2>
-                <p className="text-sm text-slate-500">Revenue Sources Breakdown (Year {year})</p>
+            <div className="mb-4 ">
+                <h2 className="text-lg font-bold text-slate-800">3. 收入</h2>
+                <p className="text-sm text-slate-500">各收入來源比例 (年度 {year})</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Composition */}
                 <div className="h-64">
-                    <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">Composition</h3>
+                    <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">收入結構</h3>
                     <ReactECharts option={donutOption} style={{ height: '100%', width: '100%' }} />
                 </div>
 
                 {/* Ranking */}
                 <div className="h-64">
-                    <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">Top Earners Ranking</h3>
+                    <h3 className="text-xs font-semibold text-center text-slate-400 uppercase tracking-wider mb-2">收入排行</h3>
                     <ReactECharts option={barOption} style={{ height: '100%', width: '100%' }} />
                 </div>
             </div>
