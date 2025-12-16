@@ -20,7 +20,6 @@ Since filenames vary across years (especially Year 99), the script primarily ide
 | `summary.json` | `歲入歲出簡明比較` OR (`歲入合計` AND `歲出合計`) | `C歲入歲出簡明比較分析表` |
 | `funds.json` | `基金別預算` | `C基金別預算分析表` |
 | `revenue_by_source.json` | `歲入來源別` OR (`來源` AND `科目`) | `C歲入來源別預算表` |
-| `expenditure_by_agency.json` | `歲出機關別` OR (`機關` AND `科目`) | `C歲出機關別預算表` |
 | `expenditure_by_function.json`| `歲出政事別` OR (`政事` AND `科目`) | `C歲出政事別預算表` |
 
 ### 3.2 Hierarchy Parsing (For Revenue & Expenditure)
@@ -40,14 +39,49 @@ The main budget tables (Agency, Function, Source) follow a hierarchical column s
 
 ### 4.1 Summary (`summary.json`)
 High-level comparison of specific aggregated categories.
+- terget xlsx: C歲入歲出簡明比較分析表
+
+xlsx hierarchical data structure:
+```
+一、歲入合計 // sum of revenue, 5 categories at most in whole years
+　　1.稅課收入
+　　2.營業盈餘及事業收入
+　　3.規費及罰款收入
+　　4.財產收入
+　　5.其他收入
+二、歲出合計 // sum of expenditure, 9 categories at most in whole years
+　　1.一般政務支出
+　　2.國防支出
+　　3.教育科學文化支出
+　　4.經濟發展支出
+　　5.社會福利支出
+　　6.社區發展及環境保護支出
+　　7.退休撫卹支出
+　　8.債務支出
+　　9.補助及其他支出
+三、歲入歲出餘絀 // profit
+```
 
 ```json
 [
   {
     "year": 2025,
-    "type": "revenue", // or "expenditure"
-    "category": "Tax Revenue",
-    "amount": 2500000000
+    "revenue": 123123,
+    "expenditure": 2342342,
+    "revenue_categories": [
+      {
+        "name": "稅課收入",   
+        "amount": 2500000000
+      },
+      ...
+    ],
+    "expenditure_categories": [
+      {
+        "name": "國防支出",
+        "amount": 2500000000
+      },
+      ...
+    ]  
   },
   ...
 ]
@@ -55,68 +89,101 @@ High-level comparison of specific aggregated categories.
 
 ### 4.2 Funds (`funds.json`)
 List of special funds and their financial status.
+- terget xlsx: C基金別預算分析表
 
+xlsx hierarchical data structure:
+```
+  一、普通基金 // basic
+    (一)總預算部分 // total
+    (二)特別預算部分 // extra
+  二、特種基金 // special
+    (一)營業部分 // business
+      中央銀行
+    (二)非營業部分－作業基金 // operation
+      行政院國家發展基金
+    (三)非營業部分－債務基金 // debt
+      中央政府債務基金
+    (四)非營業部分－特別收入基金 // special income
+      中央研究院科學研究基金
+    (五)非營業部分－資本計畫基金 // capital plan
+      xxx研究基金
+```
+
+json format
 ```json
 [
-  {
-    "year": 2025,
-    "fund_name": "National Development Fund",
-    "income": 5000000,
-    "expense": 3000000,
-    "surplus": 2000000
-  },
-  ...
+    {
+        "year": 2025,
+        "basic_fund": {
+          "total": {
+            "revenue": 10000000,
+            "expenditure": 20000000,
+          },
+          "extra": {
+            "revenue": 10000000,
+            "expenditure": 20000000,
+          }
+        },
+        "special_fund": {
+          "total": {
+            "revenue": 10000000,
+            "expenditure": 20000000,
+          },
+          "details": [
+            {
+              "name": "中央銀行",
+              "amount": 10000000,
+              "type": "business"
+            },
+            {
+              "name": "行政院國家發展基金",
+              "amount": 10000000,
+              "type": "operation"
+            },
+            ...
+          ]
+        }
+    },
 ]
 ```
 
 ### 4.3 Revenue by Source (`revenue_by_source.json`)
 Hierarchical data representing sources of income.
+- terget xlsx: C歲入來源別預算表
 
+json format
 ```json
 [
-  {
-    "year": 2025,
-    "top_category": "Tax Revenue", // from 款
-    "sub_category": "Income Tax",  // from 項
-    "detail_item": "Individual Income Tax", // from 目
-    "amount": 10000000
-  },
-  ...
+    {
+        "id": "0100000000",
+        "year": 2025,
+        "name": ["稅課收入"], //may have multiple name ,
+        "amount": 10000000,
+        "hierarchy": [1,0,0,0], //款	項	目	節
+        "description": ""
+    },
 ]
 ```
 
-### 4.4 Expenditure by Agency (`expenditure_by_agency.json`)
-Hierarchical spending by government agency.
 
-```json
-[
-  {
-    "year": 2025,
-    "agency_top": "Office of the President", // from 款
-    "agency_sub": "Academia Sinica", // from 項
-    "program": "General Administration", // from 目
-    "account": "Personnel", // from 節 (Optional, may be null if aggregate)
-    "amount": 5000000
-  },
-  ...
-]
-```
-
-### 4.5 Expenditure by Function (`expenditure_by_function.json`)
+### 4.4 Expenditure by Function (`expenditure_by_function.json`)
 Hierarchical spending by functional category (Education, Defense, etc.).
+- terget xlsx: C歲出政事別預算表
 
+json format
 ```json
 [
-  {
-    "year": 2025,
-    "function_top": "Education Science and Culture", // from 款
-    "function_sub": "Education", // from 項
-    "program": "National Education", // from 目
-    "amount": 8000000
-  },
-  ...
+    {
+        "id": "0100000000", //Functional id
+        "year": 2025,
+        "name": ["總統府"], //may have multiple name ,
+        "amount": 10000000,
+        "hierarchy": [1,1,0,0], //款	項	目	節
+        "description": ""
+    },
 ]
 ```
+
 
 ## 5. Year Conversion
 - All input files use **Republic of China (ROC) Calendar** (e.g., Year 114).
