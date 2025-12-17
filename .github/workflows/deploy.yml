@@ -2,10 +2,25 @@ name: Deploy React App
 
 on:
   push:
-    branches: [main] # Triggered when you push to main
+    branches: [main] # Triggers the script when you push to the main branch
+
+# Set permissions for the GITHUB_TOKEN to allow deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Ensure only one deployment runs at a time to prevent conflicts
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
+    # This environment block fixes the "Missing environment" error in your screenshot
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,14 +42,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Point to your Vite output directory
+          # Pointing to the dist folder inside your subfolder
           path: ./fiscalinsight-taiwan/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
