@@ -1,0 +1,40 @@
+name: Deploy React App
+
+on:
+  push:
+    branches: [main] # Triggered when you push to main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: fiscalinsight-taiwan/package-lock.json
+
+      - name: Install and Build
+        run: |
+          cd fiscalinsight-taiwan
+          npm install
+          npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Point to your Vite output directory
+          path: ./fiscalinsight-taiwan/dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
